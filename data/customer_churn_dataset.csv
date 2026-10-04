@@ -1,0 +1,3011 @@
+CustomerID,Age,Gender,SubscriptionType,MonthlyCharges,TenureMonths,SupportTickets,PaymentMethod,SatisfactionScore,UsageHoursPerWeek,Churn
+CUST00001,39,Female,Standard,31.8,10,3,Bank Transfer,3.0,29.2,1
+CUST00002,24,Male,Basic,14.16,19,3,PayPal,6.0,9.0,1
+CUST00003,37,Male,Premium,86.66,0,4,Credit Card,5.0,10.3,1
+CUST00004,27,Male,Standard,37.95,25,1,PayPal,5.0,10.2,0
+CUST00005,36,Female,Basic,16.57,28,3,Credit Card,6.0,6.7,1
+CUST00006,18,Female,Premium,63.53,3,0,Bank Transfer,5.0,8.8,1
+CUST00007,25,Female,Standard,46.55,6,1,PayPal,5.0,1.3,0
+CUST00008,59,Male,Standard,40.54,6,0,Credit Card,7.0,2.7,1
+CUST00009,50,Female,Basic,15.17,72,2,,5.0,7.1,0
+CUST00010,57,Male,Standard,48.3,5,2,Bank Transfer,6.0,5.7,0
+CUST00011,58,Male,Basic,15.53,71,1,Credit Card,5.0,3.1,1
+CUST00012,48,Male,Premium,88.57,6,1,Bank Transfer,3.0,8.8,1
+CUST00013,34,Female,Standard,37.38,9,1,Bank Transfer,8.0,15.3,0
+CUST00014,26,Female,Premium,100.82,16,1,PayPal,10.0,5.0,0
+CUST00015,54,Female,Basic,27.07,35,1,Credit Card,8.0,11.5,0
+CUST00016,40,Female,Basic,11.62,32,0,PayPal,7.0,7.2,1
+CUST00017,72,Male,Standard,54.59,15,2,,5.0,17.1,1
+CUST00018,35,Female,Basic,27.02,14,1,Credit Card,,2.4,1
+CUST00019,65,Male,Premium,117.89,1,1,Credit Card,8.0,3.5,1
+CUST00020,37,Female,Standard,54.83,13,2,Credit Card,1.0,6.9,1
+CUST00021,57,Male,Standard,46.56,13,1,Debit Card,5.0,4.2,1
+CUST00022,62,Female,Basic,11.4,36,3,PayPal,8.0,20.8,1
+CUST00023,26,Female,Premium,64.46,7,2,Debit Card,3.0,2.6,0
+CUST00024,33,Female,Premium,71.79,9,0,PayPal,7.0,6.7,1
+CUST00025,26,Female,Standard,43.4,27,1,Credit Card,7.0,33.3,1
+CUST00026,24,Male,Basic,29.1,5,5,Credit Card,3.0,2.4,1
+CUST00027,48,Male,Standard,35.25,26,0,Credit Card,6.0,9.5,0
+CUST00028,37,Female,Basic,20.77,1,3,Bank Transfer,5.0,7.3,1
+CUST00029,40,Female,Basic,29.95,14,4,PayPal,7.0,12.8,0
+CUST00030,47,Male,Standard,30.4,0,4,Debit Card,7.0,11.9,0
+CUST00031,18,Female,Standard,31.4,57,4,Bank Transfer,7.0,11.3,0
+CUST00032,56,Male,Premium,76.18,36,1,Credit Card,6.0,17.9,0
+CUST00033,35,Female,Basic,14.49,20,3,Credit Card,7.0,17.6,0
+CUST00034,46,Male,Basic,19.96,12,3,Credit Card,3.0,,1
+CUST00035,48,Male,Standard,42.6,56,1,E-Wallet,6.0,5.4,0
+CUST00036,57,Female,Basic,21.66,6,2,PayPal,4.0,14.8,0
+CUST00037,38,Female,Basic,12.93,11,2,PayPal,8.0,10.6,1
+CUST00038,18,Female,Standard,50.57,1,2,Credit Card,8.0,12.1,1
+CUST00039,40,Female,Basic,14.28,11,2,Credit Card,7.0,9.6,0
+CUST00040,42,Female,Standard,43.55,21,3,PayPal,10.0,6.3,0
+CUST00041,26,Male,Basic,10.66,18,2,Debit Card,5.0,14.3,1
+CUST00042,41,Female,Premium,107.86,44,4,E-Wallet,5.0,4.8,1
+CUST00043,35,Female,Standard,48.8,58,3,Bank Transfer,5.0,33.8,0
+CUST00044,22,Female,Basic,14.17,26,1,Debit Card,2.0,31.6,1
+CUST00045,48,Female,Premium,96.1,4,2,PayPal,3.0,38.9,1
+CUST00046,32,Male,Premium,86.21,16,2,E-Wallet,7.0,,0
+CUST00047,34,Female,Basic,26.52,72,0,Debit Card,3.0,7.0,0
+CUST00048,33,Female,Basic,29.66,72,1,PayPal,4.0,24.3,0
+CUST00049,56,Male,Standard,33.73,24,3,E-Wallet,6.0,9.8,1
+CUST00050,39,Female,Basic,19.79,9,2,Credit Card,5.0,17.1,1
+CUST00051,41,Male,Basic,15.15,7,0,Bank Transfer,8.0,17.0,0
+CUST00052,34,Female,Basic,24.98,4,3,Credit Card,6.0,4.9,1
+CUST00053,46,Female,Standard,31.02,1,5,PayPal,4.0,14.0,1
+CUST00054,57,Male,Standard,46.33,21,5,Bank Transfer,8.0,16.5,1
+CUST00055,48,Female,Standard,55.7,24,1,PayPal,,8.9,0
+CUST00056,48,Male,Standard,41.67,15,3,Debit Card,3.0,2.6,0
+CUST00057,47,Female,Standard,55.13,58,0,PayPal,7.0,24.6,0
+CUST00058,22,Female,Standard,34.4,43,1,Credit Card,4.0,33.3,0
+CUST00059,28,Male,Basic,28.36,37,5,Credit Card,4.0,10.2,1
+CUST00060,37,Male,Basic,25.82,30,2,Credit Card,10.0,7.5,0
+CUST00061,30,Male,Standard,41.72,22,4,PayPal,6.0,2.2,1
+CUST00062,26,Male,Standard,33.91,3,3,Debit Card,6.0,10.7,0
+CUST00063,18,Male,Standard,45.6,8,2,Credit Card,6.0,6.6,0
+CUST00064,22,Male,Standard,50.1,25,1,Bank Transfer,8.0,2.2,0
+CUST00065,36,Male,Standard,33.86,20,3,Debit Card,4.0,18.1,1
+CUST00066,39,Male,Standard,57.99,10,4,Debit Card,5.0,14.6,0
+CUST00067,29,Male,Standard,52.87,0,1,Debit Card,7.0,5.9,1
+CUST00068,41,Male,Basic,29.02,8,2,Credit Card,3.0,29.1,1
+CUST00069,34,Female,Basic,15.97,37,3,PayPal,8.0,9.2,1
+CUST00070,54,Female,Basic,18.66,12,2,Debit Card,2.0,10.4,1
+CUST00071,37,Male,Basic,14.79,8,1,Credit Card,5.0,8.2,0
+CUST00072,49,Female,Basic,15.47,43,3,E-Wallet,2.0,19.9,1
+CUST00073,42,Male,Premium,68.71,32,2,Bank Transfer,4.0,14.2,0
+CUST00074,21,Female,Basic,12.49,13,4,PayPal,9.0,1.3,0
+CUST00075,38,Male,Basic,23.41,2,4,Bank Transfer,8.0,9.7,1
+CUST00076,23,Male,Basic,13.13,18,2,E-Wallet,9.0,16.9,0
+CUST00077,38,Female,Basic,12.66,37,2,Credit Card,3.0,2.2,1
+CUST00078,30,Male,Standard,46.03,10,3,PayPal,4.0,16.8,1
+CUST00079,44,Female,Standard,51.11,4,3,PayPal,7.0,14.4,1
+CUST00080,22,Male,Standard,53.33,35,2,Credit Card,8.0,4.1,0
+CUST00081,40,Male,Standard,47.4,19,1,Credit Card,4.0,8.0,1
+CUST00082,47,Male,Basic,14.02,26,2,Credit Card,5.0,3.0,1
+CUST00083,51,Female,Premium,94.38,16,3,PayPal,4.0,6.0,0
+CUST00084,30,Male,Basic,22.51,19,4,Bank Transfer,10.0,7.9,0
+CUST00085,40,Female,Basic,15.15,1,1,Bank Transfer,5.0,15.4,1
+CUST00086,42,Female,Basic,12.88,40,4,Credit Card,6.0,17.6,0
+CUST00087,60,Female,Standard,57.76,12,3,Credit Card,6.0,11.4,1
+CUST00088,20,Female,Standard,32.87,7,4,Debit Card,8.0,7.6,0
+CUST00089,28,Female,Basic,15.53,6,2,Debit Card,4.0,16.4,1
+CUST00090,75,Female,Standard,36.93,27,2,E-Wallet,9.0,10.4,1
+CUST00091,36,Male,Basic,27.83,10,8,Bank Transfer,3.0,12.4,0
+CUST00092,18,Male,Standard,45.05,18,2,,9.0,18.2,0
+CUST00093,32,Female,Basic,29.12,7,3,Bank Transfer,2.0,15.7,1
+CUST00094,18,Male,Basic,26.55,11,4,E-Wallet,6.0,12.3,1
+CUST00095,43,Female,Basic,25.09,5,3,Debit Card,10.0,14.2,1
+CUST00096,50,Male,Standard,35.29,27,1,Credit Card,8.0,5.9,0
+CUST00097,28,Male,Basic,16.88,43,5,Credit Card,7.0,5.2,1
+CUST00098,33,Male,Basic,26.4,2,4,Debit Card,4.0,33.0,1
+CUST00099,52,Male,Basic,29.66,15,0,,4.0,5.0,0
+CUST00100,18,Female,Premium,112.67,13,3,Credit Card,9.0,18.3,1
+CUST00101,22,Female,Premium,116.89,11,0,E-Wallet,7.0,7.5,1
+CUST00102,37,Male,Standard,49.25,44,2,Credit Card,8.0,15.3,1
+CUST00103,30,Male,Basic,19.65,32,1,E-Wallet,6.0,1.2,0
+CUST00104,36,Female,Premium,90.87,10,1,Bank Transfer,5.0,2.8,1
+CUST00105,23,Male,Standard,43.74,13,3,PayPal,8.0,19.1,0
+CUST00106,42,Female,Standard,34.64,2,1,PayPal,7.0,1.9,0
+CUST00107,38,Female,Basic,16.11,0,8,Credit Card,6.0,6.0,1
+CUST00108,47,Male,Basic,11.8,20,2,PayPal,3.0,25.0,0
+CUST00109,42,Male,Basic,11.76,5,1,Credit Card,8.0,17.6,0
+CUST00110,42,Male,Premium,78.7,8,3,E-Wallet,7.0,7.2,1
+CUST00111,21,Male,Standard,49.97,37,2,Credit Card,5.0,5.0,0
+CUST00112,46,Male,Basic,22.26,8,4,Credit Card,9.0,27.6,1
+CUST00113,35,Female,Basic,21.18,45,2,PayPal,7.0,5.4,0
+CUST00114,37,Male,Standard,52.46,17,3,PayPal,7.0,12.0,0
+CUST00115,53,Female,Basic,18.44,20,3,Debit Card,8.0,23.5,1
+CUST00116,30,Female,Premium,86.52,9,5,PayPal,7.0,13.6,1
+CUST00117,57,Male,Standard,45.53,37,1,Credit Card,7.0,23.6,1
+CUST00118,58,Female,Standard,31.99,0,4,PayPal,6.0,7.0,1
+CUST00119,49,Male,Basic,21.62,34,0,Credit Card,10.0,3.8,0
+CUST00120,27,Female,Standard,52.5,13,2,Credit Card,4.0,15.7,1
+CUST00121,18,Female,Standard,37.9,20,0,Credit Card,8.0,21.8,0
+CUST00122,54,Female,Standard,55.63,65,1,Credit Card,6.0,14.2,1
+CUST00123,41,Female,Basic,15.31,20,2,Credit Card,7.0,4.4,0
+CUST00124,30,Male,Basic,20.25,18,6,Debit Card,9.0,40.0,1
+CUST00125,55,Male,Basic,27.48,8,2,Credit Card,5.0,3.0,1
+CUST00126,28,Male,Standard,52.13,3,1,Credit Card,7.0,11.1,0
+CUST00127,34,Female,Basic,21.51,6,2,Debit Card,7.0,23.5,1
+CUST00128,46,Male,Basic,22.44,46,1,Credit Card,5.0,10.3,0
+CUST00129,25,Female,Basic,12.17,72,1,PayPal,9.0,15.9,0
+CUST00130,38,Male,Standard,50.97,11,2,E-Wallet,8.0,1.8,0
+CUST00131,54,Female,Basic,22.23,5,0,Debit Card,5.0,15.5,0
+CUST00132,42,Female,Premium,65.06,11,1,E-Wallet,8.0,4.2,0
+CUST00133,56,Male,Standard,33.72,54,4,Credit Card,4.0,11.2,0
+CUST00134,54,Male,Basic,29.41,1,2,Credit Card,6.0,2.9,1
+CUST00135,40,Female,Standard,35.33,1,2,PayPal,,16.5,0
+CUST00136,18,Male,Basic,27.91,11,4,Bank Transfer,8.0,14.0,0
+CUST00137,25,Male,Premium,76.54,33,2,Bank Transfer,5.0,11.1,1
+CUST00138,49,Male,Standard,41.87,59,4,Credit Card,8.0,19.4,0
+CUST00139,19,Female,Standard,46.65,28,1,Bank Transfer,7.0,15.1,0
+CUST00140,35,Male,Basic,22.51,9,1,Debit Card,5.0,2.8,1
+CUST00141,44,Male,Standard,44.92,6,2,Credit Card,10.0,19.1,0
+CUST00142,59,Female,Standard,40.44,17,1,Credit Card,4.0,15.2,0
+CUST00143,32,Male,Premium,89.91,10,3,E-Wallet,3.0,5.0,0
+CUST00144,31,Male,Standard,51.01,9,3,Credit Card,8.0,9.9,1
+CUST00145,39,Male,Standard,41.88,51,5,Bank Transfer,1.0,6.7,0
+CUST00146,44,Male,Basic,20.89,5,3,PayPal,9.0,35.9,0
+CUST00147,37,Male,Basic,17.57,41,1,PayPal,6.0,3.7,1
+CUST00148,53,Male,Standard,39.89,17,4,PayPal,3.0,7.0,1
+CUST00149,29,Male,Basic,15.97,5,3,Bank Transfer,4.0,9.4,1
+CUST00150,41,Female,Basic,14.47,13,1,Credit Card,2.0,10.8,0
+CUST00151,45,Male,Premium,105.64,11,6,Credit Card,7.0,7.2,1
+CUST00152,34,Female,Premium,119.02,3,3,PayPal,3.0,10.6,1
+CUST00153,50,Female,Basic,10.57,1,3,Debit Card,7.0,14.2,1
+CUST00154,41,Female,Standard,35.87,9,3,Credit Card,5.0,5.4,1
+CUST00155,50,Female,Basic,29.27,41,1,,5.0,7.2,1
+CUST00156,42,Male,Standard,40.24,11,3,Credit Card,7.0,30.7,0
+CUST00157,44,Female,Basic,17.77,0,0,Credit Card,7.0,19.4,0
+CUST00158,31,Male,Standard,49.88,10,3,Credit Card,9.0,19.0,1
+CUST00159,31,Male,Standard,40.57,1,2,E-Wallet,5.0,,1
+CUST00160,55,Female,Standard,44.77,14,3,Credit Card,6.0,34.1,0
+CUST00161,48,Male,Basic,28.0,0,5,E-Wallet,5.0,9.1,1
+CUST00162,26,Male,Premium,93.88,6,3,E-Wallet,6.0,20.6,0
+CUST00163,42,Male,Basic,23.33,47,4,Credit Card,4.0,11.3,1
+CUST00164,18,Male,Basic,14.33,31,2,PayPal,5.0,1.7,0
+CUST00165,32,Male,Standard,37.83,25,2,PayPal,5.0,7.5,0
+CUST00166,52,Female,Basic,27.82,51,0,PayPal,7.0,19.6,1
+CUST00167,38,Female,Premium,115.04,12,1,Credit Card,6.0,20.0,0
+CUST00168,41,Male,Premium,108.41,1,4,Credit Card,7.0,11.7,1
+CUST00169,18,Female,Basic,12.43,18,2,Credit Card,6.0,3.6,1
+CUST00170,34,Male,Premium,109.1,58,3,PayPal,5.0,21.0,1
+CUST00171,44,Female,Basic,10.37,8,2,E-Wallet,6.0,5.4,1
+CUST00172,46,Female,Standard,47.89,25,3,PayPal,4.0,11.2,0
+CUST00173,52,Female,Basic,23.5,7,1,PayPal,7.0,14.9,1
+CUST00174,37,Male,Premium,85.57,6,3,E-Wallet,5.0,15.9,0
+CUST00175,37,Male,Basic,19.57,35,0,PayPal,6.0,14.5,1
+CUST00176,22,Male,Basic,24.83,21,0,Credit Card,6.0,4.7,0
+CUST00177,37,Female,Basic,27.89,72,2,Bank Transfer,10.0,7.0,0
+CUST00178,23,Male,Premium,71.35,8,3,Debit Card,7.0,4.6,1
+CUST00179,18,Male,Premium,68.3,1,2,Credit Card,6.0,16.8,0
+CUST00180,25,Female,Standard,48.89,56,1,Debit Card,4.0,15.2,0
+CUST00181,59,Female,Premium,73.84,21,2,E-Wallet,8.0,5.3,0
+CUST00182,36,Male,Premium,71.64,38,3,Credit Card,5.0,18.6,0
+CUST00183,42,Male,Standard,36.09,17,1,Debit Card,3.0,18.5,0
+CUST00184,33,Male,Basic,13.93,39,0,Credit Card,6.0,23.0,0
+CUST00185,18,Male,Standard,44.3,13,5,Credit Card,6.0,14.8,0
+CUST00186,52,Female,Standard,58.92,3,6,Credit Card,4.0,15.5,1
+CUST00187,18,Male,Basic,26.55,12,1,PayPal,6.0,7.4,1
+CUST00188,32,Female,Basic,20.86,4,2,Bank Transfer,6.0,8.9,0
+CUST00189,39,Male,Standard,32.42,13,3,Credit Card,6.0,,1
+CUST00190,42,Female,Basic,23.45,1,1,Credit Card,9.0,6.1,0
+CUST00191,30,Female,Premium,87.06,33,1,Credit Card,3.0,4.9,1
+CUST00192,18,Male,Basic,25.56,15,4,Credit Card,10.0,15.6,0
+CUST00193,29,Male,Basic,19.87,17,1,PayPal,6.0,1.4,1
+CUST00194,30,Male,Premium,100.09,8,1,PayPal,7.0,5.8,0
+CUST00195,29,Male,Basic,13.99,11,4,PayPal,6.0,23.6,0
+CUST00196,52,Female,Basic,26.65,56,2,Debit Card,2.0,26.8,1
+CUST00197,24,Male,Standard,53.37,9,3,PayPal,4.0,20.0,1
+CUST00198,43,Female,Premium,82.43,18,2,Credit Card,5.0,10.9,1
+CUST00199,42,Male,Basic,29.26,21,1,Credit Card,8.0,4.9,0
+CUST00200,52,Male,Basic,13.2,39,4,E-Wallet,3.0,2.8,1
+CUST00201,38,Female,Standard,30.59,11,3,Bank Transfer,4.0,7.8,0
+CUST00202,50,Female,Premium,105.78,14,2,E-Wallet,6.0,2.9,1
+CUST00203,37,Female,Standard,48.01,18,2,E-Wallet,7.0,33.2,0
+CUST00204,45,Male,Basic,12.21,4,1,PayPal,7.0,7.5,1
+CUST00205,20,Female,Basic,13.18,38,0,E-Wallet,4.0,8.3,0
+CUST00206,18,Female,Basic,12.61,8,0,Debit Card,2.0,17.8,1
+CUST00207,44,Male,Basic,13.33,0,0,Credit Card,7.0,2.4,0
+CUST00208,45,Female,Standard,43.83,4,2,Credit Card,,8.4,0
+CUST00209,46,Female,Basic,11.01,13,2,Credit Card,5.0,10.2,1
+CUST00210,33,Male,Standard,45.57,10,2,Credit Card,3.0,3.0,1
+CUST00211,59,Female,Standard,48.15,18,1,Debit Card,5.0,4.6,1
+CUST00212,34,Female,Standard,51.81,9,3,PayPal,7.0,6.3,1
+CUST00213,45,Male,Basic,28.91,16,2,Bank Transfer,5.0,20.5,1
+CUST00214,47,Female,Premium,64.94,35,2,PayPal,,26.3,0
+CUST00215,62,Male,Standard,31.04,3,1,Credit Card,8.0,14.2,0
+CUST00216,35,Male,Standard,34.16,31,1,PayPal,6.0,9.6,0
+CUST00217,31,Male,Basic,16.74,10,2,Debit Card,2.0,23.6,1
+CUST00218,20,Male,Basic,20.5,61,6,Credit Card,4.0,18.7,1
+CUST00219,60,Female,Premium,60.25,14,2,Credit Card,5.0,39.9,0
+CUST00220,45,Female,Basic,23.84,2,1,Credit Card,4.0,2.0,1
+CUST00221,45,Female,Basic,29.13,32,3,Credit Card,6.0,10.5,0
+CUST00222,75,Male,Standard,37.48,17,3,Bank Transfer,6.0,6.5,0
+CUST00223,44,Female,Standard,30.25,29,0,Bank Transfer,2.0,2.4,1
+CUST00224,23,Male,Premium,105.18,1,3,PayPal,8.0,10.5,0
+CUST00225,37,Male,Basic,25.39,1,0,Credit Card,6.0,37.3,0
+CUST00226,27,Male,Premium,62.6,2,2,Bank Transfer,7.0,3.9,1
+CUST00227,34,Male,Basic,22.34,5,3,PayPal,8.0,40.0,1
+CUST00228,34,Female,Standard,37.28,16,0,Credit Card,4.0,19.0,1
+CUST00229,32,Female,Standard,48.98,5,2,PayPal,9.0,24.3,0
+CUST00230,21,Male,Basic,24.52,25,5,Debit Card,6.0,24.2,0
+CUST00231,60,Male,Basic,14.44,1,3,Debit Card,9.0,14.3,0
+CUST00232,43,Female,Basic,15.21,2,0,Credit Card,4.0,7.4,1
+CUST00233,37,Male,Premium,96.68,72,0,Debit Card,9.0,2.9,0
+CUST00234,49,Male,Standard,47.46,36,1,Credit Card,4.0,4.0,1
+CUST00235,46,Female,Premium,113.16,7,4,Credit Card,10.0,15.7,1
+CUST00236,43,Male,Premium,90.61,2,4,Credit Card,4.0,7.7,1
+CUST00237,48,Female,Standard,53.98,16,1,E-Wallet,8.0,4.4,1
+CUST00238,41,Female,Standard,51.95,1,0,Credit Card,5.0,12.6,1
+CUST00239,48,Male,Basic,23.3,1,2,Debit Card,8.0,13.7,0
+CUST00240,49,Male,Basic,13.83,11,3,Credit Card,6.0,17.8,1
+CUST00241,42,Male,Premium,76.57,20,1,Bank Transfer,4.0,5.3,1
+CUST00242,37,Male,Standard,46.99,4,3,PayPal,1.0,9.6,1
+CUST00243,59,Female,Basic,11.31,7,1,E-Wallet,10.0,5.4,0
+CUST00244,33,Male,Standard,31.34,66,1,Credit Card,6.0,3.4,0
+CUST00245,45,Male,Standard,31.48,21,3,,1.0,21.5,0
+CUST00246,45,Female,Premium,115.27,59,3,PayPal,7.0,20.5,0
+CUST00247,32,Male,Standard,50.66,23,2,Credit Card,8.0,2.1,0
+CUST00248,29,Male,Basic,26.73,14,1,Bank Transfer,4.0,10.9,0
+CUST00249,35,Female,Basic,29.26,3,3,Bank Transfer,4.0,23.7,1
+CUST00250,33,Male,Basic,24.01,0,2,Debit Card,6.0,18.3,1
+CUST00251,21,Male,Standard,45.45,12,1,E-Wallet,9.0,4.8,0
+CUST00252,31,Male,Premium,88.73,48,1,PayPal,6.0,25.5,0
+CUST00253,43,Female,Standard,52.37,3,2,Credit Card,9.0,23.7,0
+CUST00254,56,Male,Basic,27.35,3,1,Debit Card,8.0,13.3,0
+CUST00255,47,Female,Basic,26.58,26,3,Credit Card,5.0,8.5,1
+CUST00256,18,Male,Standard,44.78,1,0,Bank Transfer,3.0,4.7,1
+CUST00257,48,Female,Premium,106.4,4,4,Credit Card,6.0,10.5,1
+CUST00258,32,Female,Basic,19.52,35,2,Credit Card,7.0,28.1,0
+CUST00259,45,Male,Basic,17.68,3,2,PayPal,6.0,4.9,0
+CUST00260,39,Male,Standard,38.92,32,4,Credit Card,7.0,29.8,0
+CUST00261,37,Male,Basic,11.08,20,3,Credit Card,8.0,,1
+CUST00262,38,Male,Premium,72.06,51,1,PayPal,7.0,10.5,0
+CUST00263,39,Male,Basic,24.59,20,5,Credit Card,5.0,23.9,0
+CUST00264,57,Female,Basic,13.42,1,0,,7.0,10.2,0
+CUST00265,39,Male,Premium,114.06,69,6,Credit Card,10.0,9.0,0
+CUST00266,54,Female,Basic,11.56,2,2,Credit Card,3.0,20.9,1
+CUST00267,52,Male,Basic,11.01,10,0,Credit Card,7.0,10.8,0
+CUST00268,48,Male,Basic,19.61,23,2,Bank Transfer,10.0,10.3,1
+CUST00269,18,Male,Basic,14.44,7,3,E-Wallet,3.0,6.4,1
+CUST00270,54,Male,Basic,12.05,4,3,Credit Card,8.0,8.9,1
+CUST00271,34,Female,Basic,11.19,19,1,E-Wallet,8.0,32.2,0
+CUST00272,49,Male,Basic,20.54,2,3,PayPal,3.0,0.7,1
+CUST00273,27,Male,Basic,15.18,1,6,PayPal,8.0,4.8,1
+CUST00274,24,Female,Standard,46.66,9,1,PayPal,5.0,5.6,1
+CUST00275,65,Female,Standard,34.44,63,2,PayPal,6.0,9.6,0
+CUST00276,27,Male,Basic,10.48,19,0,Bank Transfer,5.0,8.4,0
+CUST00277,54,Female,Basic,10.54,3,0,Debit Card,9.0,12.1,0
+CUST00278,41,Male,Standard,33.37,41,1,Debit Card,6.0,1.3,1
+CUST00279,34,Male,Premium,107.75,1,4,Credit Card,5.0,12.0,1
+CUST00280,39,Male,Premium,86.9,55,1,Credit Card,5.0,32.0,1
+CUST00281,23,Female,Basic,22.47,17,4,PayPal,5.0,10.8,0
+CUST00282,39,Male,Basic,27.49,1,3,Credit Card,4.0,8.7,1
+CUST00283,25,Female,Basic,14.24,24,3,Credit Card,5.0,9.8,1
+CUST00284,34,Male,Basic,27.42,15,1,Credit Card,,7.8,1
+CUST00285,52,Female,Standard,52.36,13,1,Credit Card,7.0,17.7,0
+CUST00286,43,Male,Basic,24.57,14,1,PayPal,9.0,13.5,0
+CUST00287,20,Male,Basic,27.4,11,0,PayPal,7.0,12.8,1
+CUST00288,51,Female,Basic,12.51,9,2,Debit Card,5.0,23.9,1
+CUST00289,39,Male,Standard,46.21,47,3,Credit Card,4.0,17.8,0
+CUST00290,32,Female,Basic,19.66,7,2,Debit Card,7.0,0.7,0
+CUST00291,49,Female,Premium,99.83,28,5,Debit Card,6.0,7.6,1
+CUST00292,37,Female,Basic,14.75,39,1,PayPal,6.0,3.2,0
+CUST00293,24,Male,Premium,67.63,41,2,PayPal,7.0,5.4,1
+CUST00294,64,Female,Basic,29.46,16,6,Debit Card,7.0,6.5,1
+CUST00295,39,Female,Premium,87.93,14,3,Debit Card,7.0,5.3,1
+CUST00296,38,Male,Premium,73.91,9,1,E-Wallet,6.0,18.3,1
+CUST00297,34,Female,Premium,67.71,3,2,Bank Transfer,4.0,16.3,1
+CUST00298,55,Female,Premium,95.61,24,2,Debit Card,5.0,7.6,1
+CUST00299,33,Female,Standard,34.42,20,1,Debit Card,8.0,15.9,0
+CUST00300,19,Female,Standard,35.48,7,4,Credit Card,5.0,14.4,0
+CUST00301,31,Female,Standard,58.55,1,4,E-Wallet,3.0,11.5,1
+CUST00302,57,Female,Basic,10.57,1,0,Credit Card,9.0,9.4,1
+CUST00303,50,Male,Standard,35.59,11,2,Credit Card,4.0,19.7,1
+CUST00304,36,Female,Standard,50.13,12,3,E-Wallet,6.0,10.2,1
+CUST00305,57,Male,Premium,73.0,16,5,PayPal,7.0,12.5,0
+CUST00306,49,Male,Standard,35.45,5,4,Credit Card,6.0,11.9,0
+CUST00307,36,Female,Basic,21.12,32,1,Credit Card,1.0,6.7,1
+CUST00308,37,Male,Standard,50.87,10,2,Credit Card,7.0,6.4,0
+CUST00309,44,Female,Basic,18.6,10,0,PayPal,9.0,8.9,1
+CUST00310,29,Male,Basic,25.62,17,2,Credit Card,8.0,18.1,0
+CUST00311,40,Male,Standard,54.45,18,2,E-Wallet,1.0,9.6,1
+CUST00312,44,Male,Basic,22.45,30,2,E-Wallet,10.0,1.6,1
+CUST00313,18,Female,Basic,21.55,1,1,Debit Card,3.0,13.4,1
+CUST00314,37,Male,Basic,26.32,19,1,PayPal,4.0,7.0,1
+CUST00315,36,Female,Basic,10.29,15,1,Credit Card,8.0,5.2,0
+CUST00316,53,Male,Basic,20.2,44,1,Credit Card,7.0,16.9,0
+CUST00317,18,Male,Basic,12.56,9,2,PayPal,6.0,16.9,1
+CUST00318,35,Male,Standard,36.64,19,2,Credit Card,5.0,11.6,0
+CUST00319,33,Male,Basic,28.97,40,5,Credit Card,9.0,8.4,0
+CUST00320,52,Female,Premium,60.21,41,2,Credit Card,6.0,7.2,0
+CUST00321,39,Male,Premium,78.41,11,3,Credit Card,3.0,3.2,1
+CUST00322,63,Female,Standard,34.62,1,2,Debit Card,9.0,0.7,1
+CUST00323,48,Male,Basic,21.4,14,1,PayPal,6.0,7.6,0
+CUST00324,34,Female,Standard,55.32,14,4,Bank Transfer,8.0,7.8,1
+CUST00325,43,Female,Premium,83.44,43,1,PayPal,7.0,4.9,0
+CUST00326,35,Male,Standard,55.11,16,1,Bank Transfer,10.0,23.8,1
+CUST00327,51,Male,Premium,86.4,11,1,Debit Card,5.0,6.8,1
+CUST00328,22,Female,Standard,57.26,33,2,Bank Transfer,,11.5,0
+CUST00329,29,Male,Standard,55.4,29,2,Debit Card,8.0,13.2,1
+CUST00330,45,Female,Basic,13.57,26,1,Credit Card,5.0,14.6,1
+CUST00331,55,Female,Standard,56.54,0,2,E-Wallet,8.0,6.1,1
+CUST00332,18,Female,Basic,13.84,3,2,Credit Card,1.0,8.2,1
+CUST00333,57,Female,Standard,44.7,8,2,Credit Card,6.0,10.6,0
+CUST00334,38,Female,Premium,71.75,7,2,Credit Card,6.0,6.1,1
+CUST00335,18,Female,Basic,17.72,63,3,,6.0,22.3,1
+CUST00336,18,Male,Standard,59.56,45,1,Debit Card,4.0,40.0,0
+CUST00337,20,Female,Basic,25.29,7,3,Debit Card,8.0,13.0,0
+CUST00338,39,Male,Standard,46.61,1,3,Bank Transfer,5.0,12.9,0
+CUST00339,39,Male,Basic,28.7,46,4,Credit Card,6.0,21.2,0
+CUST00340,48,Female,Premium,81.57,1,3,Debit Card,6.0,18.2,1
+CUST00341,32,Female,Basic,13.45,6,1,Credit Card,7.0,10.3,0
+CUST00342,25,Female,Premium,109.73,9,5,Bank Transfer,9.0,30.6,0
+CUST00343,34,Male,Premium,60.72,1,2,Credit Card,6.0,6.4,1
+CUST00344,40,Male,Standard,54.13,13,1,Credit Card,8.0,17.1,0
+CUST00345,43,Female,Standard,30.65,23,2,Debit Card,6.0,8.2,0
+CUST00346,29,Male,Standard,38.52,12,1,PayPal,5.0,14.1,1
+CUST00347,51,Female,Premium,81.32,15,1,Bank Transfer,6.0,7.5,0
+CUST00348,31,Male,Basic,16.36,29,2,PayPal,5.0,30.0,0
+CUST00349,28,Female,Standard,37.29,33,1,Bank Transfer,7.0,21.9,0
+CUST00350,32,Male,Basic,12.15,0,3,Debit Card,6.0,13.6,1
+CUST00351,53,Male,Standard,30.09,25,4,Credit Card,4.0,18.4,0
+CUST00352,38,Female,Basic,25.48,10,4,Credit Card,6.0,4.9,1
+CUST00353,30,Female,Standard,43.7,44,5,Credit Card,3.0,2.7,1
+CUST00354,52,Female,Standard,34.85,11,1,Credit Card,6.0,6.2,0
+CUST00355,67,Female,Standard,32.46,4,2,Debit Card,6.0,29.4,0
+CUST00356,42,Male,Standard,38.34,12,2,Debit Card,10.0,7.5,0
+CUST00357,56,Female,Standard,40.62,69,3,PayPal,9.0,19.2,0
+CUST00358,53,Male,Standard,43.83,19,1,Debit Card,4.0,8.7,1
+CUST00359,32,Female,Standard,33.02,38,3,PayPal,6.0,9.2,0
+CUST00360,40,Male,Standard,59.39,5,0,PayPal,6.0,7.6,1
+CUST00361,23,Male,Premium,76.11,8,4,Credit Card,5.0,7.2,1
+CUST00362,37,Male,Basic,18.82,15,0,Credit Card,6.0,18.3,1
+CUST00363,31,Female,Basic,24.17,37,3,PayPal,5.0,7.3,0
+CUST00364,34,Female,Basic,16.19,7,2,PayPal,10.0,7.1,1
+CUST00365,30,Male,Standard,32.46,11,3,Credit Card,5.0,,1
+CUST00366,36,Female,Basic,17.52,0,3,Credit Card,7.0,8.2,1
+CUST00367,46,Female,Standard,46.58,5,2,PayPal,1.0,5.3,1
+CUST00368,38,Female,Standard,55.24,59,0,PayPal,8.0,16.9,0
+CUST00369,18,Female,Basic,17.35,19,0,Credit Card,9.0,12.2,1
+CUST00370,30,Male,Premium,113.36,60,2,Debit Card,4.0,6.9,1
+CUST00371,20,Male,Standard,46.37,31,0,Bank Transfer,5.0,5.3,0
+CUST00372,43,Female,Basic,24.34,42,1,,7.0,21.5,0
+CUST00373,46,Male,Basic,10.59,5,1,Bank Transfer,6.0,3.6,0
+CUST00374,43,Female,Basic,27.9,72,1,Credit Card,7.0,15.4,0
+CUST00375,29,Male,Basic,14.26,11,3,Debit Card,5.0,1.6,1
+CUST00376,43,Male,Basic,16.51,20,2,Debit Card,10.0,11.2,1
+CUST00377,33,Female,Premium,91.41,33,1,Credit Card,5.0,11.4,0
+CUST00378,25,Female,Basic,29.19,23,2,E-Wallet,10.0,3.0,0
+CUST00379,49,Female,Basic,16.9,1,1,Debit Card,9.0,,0
+CUST00380,50,Female,Standard,36.61,14,0,E-Wallet,8.0,11.7,0
+CUST00381,52,Male,Standard,58.81,55,1,Credit Card,4.0,3.1,0
+CUST00382,32,Female,Premium,108.5,54,2,Bank Transfer,8.0,24.6,0
+CUST00383,55,Male,Standard,49.89,21,5,E-Wallet,7.0,7.0,1
+CUST00384,33,Male,Standard,42.28,11,1,PayPal,1.0,27.5,1
+CUST00385,48,Female,Basic,18.4,15,1,Credit Card,3.0,23.6,1
+CUST00386,33,Male,Premium,117.03,5,1,PayPal,7.0,9.5,1
+CUST00387,37,Female,Standard,32.06,4,0,Debit Card,6.0,12.0,1
+CUST00388,18,Male,Premium,105.44,31,5,E-Wallet,5.0,20.6,0
+CUST00389,36,Female,Basic,22.01,5,2,Debit Card,8.0,4.2,0
+CUST00390,41,Male,Premium,118.1,17,3,Credit Card,4.0,7.5,1
+CUST00391,34,Male,Standard,46.74,65,0,Credit Card,5.0,27.1,0
+CUST00392,62,Male,Basic,15.6,19,0,PayPal,5.0,19.0,1
+CUST00393,24,Male,Standard,53.39,22,3,E-Wallet,7.0,8.6,1
+CUST00394,32,Female,Standard,59.56,18,1,Credit Card,2.0,12.1,1
+CUST00395,28,Female,Basic,28.14,50,2,PayPal,5.0,6.0,1
+CUST00396,32,Male,Standard,38.83,18,2,E-Wallet,2.0,8.0,0
+CUST00397,53,Female,Premium,80.77,3,2,Credit Card,5.0,15.2,1
+CUST00398,59,Male,Basic,25.09,15,0,Credit Card,8.0,8.0,0
+CUST00399,30,Female,Standard,47.94,5,2,PayPal,8.0,16.9,0
+CUST00400,30,Female,Basic,10.22,14,4,PayPal,4.0,3.2,1
+CUST00401,24,Male,Basic,12.83,4,1,Credit Card,7.0,15.1,0
+CUST00402,56,Female,Premium,65.12,18,3,Bank Transfer,6.0,4.6,0
+CUST00403,54,Male,Standard,35.35,8,1,Debit Card,9.0,9.3,0
+CUST00404,38,Male,Basic,16.09,24,2,E-Wallet,6.0,5.7,1
+CUST00405,21,Male,Premium,118.02,12,1,Bank Transfer,1.0,15.1,1
+CUST00406,23,Female,Premium,100.58,4,1,Bank Transfer,8.0,3.5,0
+CUST00407,42,Male,Basic,11.09,9,2,Debit Card,5.0,17.1,0
+CUST00408,47,Male,Premium,96.43,19,2,Credit Card,5.0,10.3,1
+CUST00409,18,Male,Basic,18.72,5,2,Debit Card,7.0,8.7,0
+CUST00410,35,Male,Premium,105.23,1,3,Credit Card,3.0,6.4,1
+CUST00411,61,Female,Standard,56.51,34,2,PayPal,6.0,7.4,0
+CUST00412,37,Female,Standard,31.95,6,2,Credit Card,7.0,23.3,1
+CUST00413,59,Male,Basic,29.59,16,2,Debit Card,7.0,6.3,0
+CUST00414,48,Male,Premium,63.46,8,1,Credit Card,5.0,23.4,1
+CUST00415,25,Male,Basic,24.64,5,0,Credit Card,8.0,28.5,0
+CUST00416,36,Male,Basic,28.05,37,4,Credit Card,4.0,8.5,0
+CUST00417,38,Female,Basic,25.02,72,6,PayPal,5.0,2.7,1
+CUST00418,27,Male,Standard,34.51,4,4,Bank Transfer,6.0,,1
+CUST00419,27,Male,Basic,14.15,21,0,Credit Card,7.0,19.5,0
+CUST00420,59,Female,Premium,62.46,12,6,Bank Transfer,5.0,23.6,0
+CUST00421,27,Female,Standard,33.92,45,3,Bank Transfer,9.0,9.8,0
+CUST00422,54,Male,Basic,11.21,16,1,Credit Card,7.0,12.9,1
+CUST00423,34,Male,Basic,11.06,2,3,PayPal,6.0,7.3,1
+CUST00424,39,Female,Basic,21.23,45,2,Debit Card,7.0,7.1,1
+CUST00425,47,Male,Standard,32.29,72,0,Credit Card,8.0,12.5,0
+CUST00426,32,Male,Premium,85.49,19,2,Debit Card,7.0,20.8,1
+CUST00427,47,Female,Basic,24.18,3,1,Credit Card,2.0,17.8,1
+CUST00428,18,Female,Premium,60.9,43,3,Bank Transfer,8.0,10.6,0
+CUST00429,45,Female,Basic,22.77,9,3,E-Wallet,6.0,21.9,0
+CUST00430,18,Male,Premium,105.42,5,3,Bank Transfer,8.0,3.5,0
+CUST00431,37,Male,Premium,92.19,21,5,PayPal,5.0,40.0,0
+CUST00432,51,Male,Standard,44.26,59,2,PayPal,2.0,3.9,0
+CUST00433,48,Female,Standard,51.92,30,4,E-Wallet,1.0,10.0,1
+CUST00434,23,Female,Premium,91.77,28,2,Credit Card,4.0,,0
+CUST00435,24,Male,Basic,20.18,2,1,Credit Card,7.0,12.7,0
+CUST00436,31,Female,Basic,26.03,32,2,PayPal,9.0,20.5,1
+CUST00437,42,Male,Basic,26.74,24,1,Credit Card,7.0,5.2,1
+CUST00438,18,Male,Standard,41.04,15,3,Credit Card,4.0,13.3,1
+CUST00439,39,Female,Standard,42.45,14,5,Credit Card,4.0,16.8,1
+CUST00440,44,Male,Standard,54.01,0,6,PayPal,9.0,22.5,1
+CUST00441,36,Male,Premium,92.68,1,3,Credit Card,3.0,8.4,1
+CUST00442,46,Male,Basic,23.73,20,4,Credit Card,10.0,11.5,0
+CUST00443,42,Female,Standard,32.25,48,1,Credit Card,10.0,10.4,0
+CUST00444,32,Male,Basic,11.9,22,2,Debit Card,10.0,16.2,0
+CUST00445,18,Male,Basic,20.63,17,4,Bank Transfer,7.0,16.3,0
+CUST00446,41,Female,Standard,54.57,4,0,Credit Card,5.0,8.2,1
+CUST00447,27,Male,Premium,78.98,22,2,PayPal,7.0,10.3,0
+CUST00448,32,Male,Standard,58.81,0,3,Bank Transfer,8.0,10.8,1
+CUST00449,46,Female,Basic,25.2,42,2,Credit Card,5.0,4.5,0
+CUST00450,58,Female,Standard,53.44,15,2,Bank Transfer,4.0,13.8,0
+CUST00451,39,Female,Basic,26.67,9,6,PayPal,5.0,13.4,1
+CUST00452,47,Male,Premium,75.26,30,3,PayPal,4.0,4.5,0
+CUST00453,21,Female,Standard,39.9,8,2,Credit Card,9.0,14.4,0
+CUST00454,43,Male,Basic,12.36,31,1,Credit Card,,40.0,0
+CUST00455,39,Male,Basic,17.6,11,2,E-Wallet,6.0,5.7,1
+CUST00456,55,Male,Basic,10.71,51,2,Bank Transfer,8.0,4.5,0
+CUST00457,32,Male,Premium,105.08,13,1,E-Wallet,9.0,16.6,0
+CUST00458,36,Male,Standard,54.07,6,3,E-Wallet,6.0,8.1,1
+CUST00459,53,Male,Standard,36.4,17,1,Credit Card,7.0,20.5,1
+CUST00460,38,Male,Standard,44.69,17,4,Bank Transfer,4.0,9.9,1
+CUST00461,25,Male,Standard,50.15,44,1,Debit Card,8.0,6.7,0
+CUST00462,73,Female,Basic,24.84,6,1,Bank Transfer,9.0,9.8,0
+CUST00463,25,Female,Premium,118.16,35,3,Credit Card,2.0,16.3,1
+CUST00464,39,Male,Basic,14.0,11,0,Credit Card,10.0,15.9,0
+CUST00465,44,Female,Standard,37.39,21,2,Bank Transfer,4.0,3.2,1
+CUST00466,43,Female,Standard,55.61,31,2,Bank Transfer,7.0,16.3,0
+CUST00467,37,Female,Standard,32.91,3,2,PayPal,6.0,11.1,0
+CUST00468,37,Male,Premium,107.14,8,4,Credit Card,6.0,11.7,1
+CUST00469,36,Male,Basic,12.66,10,3,Credit Card,6.0,13.8,1
+CUST00470,25,Male,Standard,43.92,2,2,E-Wallet,4.0,4.4,0
+CUST00471,67,Male,Basic,21.83,6,1,Debit Card,7.0,3.1,0
+CUST00472,37,Male,Standard,53.03,3,0,Debit Card,5.0,3.3,1
+CUST00473,47,Female,Basic,12.28,35,2,PayPal,3.0,19.7,0
+CUST00474,35,Male,Basic,26.47,16,1,Debit Card,4.0,19.6,1
+CUST00475,35,Female,Basic,27.0,8,1,PayPal,3.0,1.0,1
+CUST00476,34,Female,Basic,25.86,52,0,Debit Card,5.0,10.2,1
+CUST00477,19,Male,Basic,28.74,4,3,Bank Transfer,7.0,7.1,1
+CUST00478,37,Female,Standard,56.16,7,1,E-Wallet,4.0,4.9,1
+CUST00479,34,Male,Standard,53.03,37,2,E-Wallet,8.0,22.3,0
+CUST00480,55,Female,Basic,21.58,1,1,PayPal,6.0,25.3,1
+CUST00481,24,Female,Basic,26.16,36,5,Debit Card,5.0,12.1,0
+CUST00482,32,Female,Basic,29.5,6,0,PayPal,6.0,6.8,0
+CUST00483,28,Male,Standard,49.11,6,2,Bank Transfer,9.0,7.8,0
+CUST00484,58,Male,Basic,14.84,6,0,PayPal,3.0,4.2,0
+CUST00485,28,Male,Basic,14.95,5,1,PayPal,10.0,7.7,0
+CUST00486,47,Male,Basic,25.91,8,2,PayPal,8.0,5.5,1
+CUST00487,52,Male,Standard,59.67,16,1,PayPal,6.0,24.2,1
+CUST00488,38,Female,Basic,14.2,7,1,PayPal,9.0,2.1,0
+CUST00489,22,Male,Standard,59.09,34,0,Credit Card,5.0,18.2,0
+CUST00490,22,Male,Standard,38.04,5,3,Debit Card,7.0,5.2,0
+CUST00491,51,Female,Standard,42.37,10,3,PayPal,5.0,16.2,1
+CUST00492,23,Male,Standard,57.23,1,2,Credit Card,8.0,9.5,1
+CUST00493,45,Male,Standard,58.84,21,2,Bank Transfer,4.0,18.4,0
+CUST00494,41,Female,Basic,21.33,13,3,PayPal,6.0,3.5,0
+CUST00495,44,Female,Standard,58.49,25,1,Credit Card,7.0,6.6,0
+CUST00496,46,Female,Standard,55.26,2,3,Bank Transfer,8.0,8.2,0
+CUST00497,27,Male,Basic,27.32,1,1,PayPal,4.0,11.0,0
+CUST00498,27,Female,Standard,56.04,28,1,Bank Transfer,8.0,10.9,0
+CUST00499,49,Male,Basic,17.71,8,3,Debit Card,4.0,4.2,1
+CUST00500,31,Male,Standard,30.91,48,1,Bank Transfer,1.0,3.2,0
+CUST00501,18,Male,Standard,34.93,24,4,Debit Card,4.0,8.6,1
+CUST00502,48,Female,Premium,64.46,2,2,PayPal,8.0,10.0,1
+CUST00503,26,Male,Premium,74.53,2,5,Credit Card,6.0,8.2,0
+CUST00504,46,Male,Standard,31.65,23,0,PayPal,5.0,2.1,1
+CUST00505,58,Male,Standard,38.3,26,1,PayPal,6.0,10.3,1
+CUST00506,40,Male,Standard,47.66,22,2,PayPal,6.0,14.3,0
+CUST00507,52,Male,Basic,12.81,21,0,Debit Card,7.0,12.1,0
+CUST00508,41,Male,Premium,78.93,43,1,Bank Transfer,2.0,9.2,1
+CUST00509,60,Male,Standard,36.71,38,1,PayPal,6.0,11.4,0
+CUST00510,26,Female,Basic,11.89,11,3,Credit Card,6.0,5.6,1
+CUST00511,39,Female,Basic,23.51,25,1,E-Wallet,3.0,22.3,1
+CUST00512,48,Female,Premium,113.57,14,1,PayPal,3.0,7.0,1
+CUST00513,37,Female,Basic,24.31,2,0,E-Wallet,5.0,14.6,1
+CUST00514,54,Female,Basic,23.67,44,0,E-Wallet,,9.0,0
+CUST00515,34,Female,Basic,29.65,2,2,E-Wallet,6.0,18.9,1
+CUST00516,66,Male,Basic,24.62,29,3,Bank Transfer,5.0,6.9,0
+CUST00517,67,Female,Basic,10.93,2,4,PayPal,5.0,19.1,1
+CUST00518,43,Male,Standard,36.54,4,3,Credit Card,5.0,24.2,1
+CUST00519,47,Female,Basic,22.74,29,2,Debit Card,7.0,5.3,1
+CUST00520,55,Male,Premium,98.33,6,2,,9.0,17.7,0
+CUST00521,24,Male,Premium,109.95,10,3,Debit Card,1.0,27.8,1
+CUST00522,22,Female,Basic,13.17,15,0,Bank Transfer,7.0,,0
+CUST00523,56,Male,Basic,29.61,69,1,Credit Card,6.0,21.4,0
+CUST00524,43,Male,Standard,45.48,3,1,Debit Card,7.0,24.6,0
+CUST00525,37,Female,Basic,28.4,4,2,Debit Card,9.0,19.5,0
+CUST00526,40,Male,Basic,20.58,13,2,Debit Card,4.0,5.8,0
+CUST00527,18,Male,Premium,71.2,4,3,Credit Card,8.0,14.0,1
+CUST00528,37,Female,Premium,81.05,7,3,Credit Card,3.0,15.2,1
+CUST00529,30,Female,Standard,36.62,1,2,Bank Transfer,6.0,1.8,0
+CUST00530,51,Male,Basic,15.27,3,1,Debit Card,5.0,9.5,0
+CUST00531,52,Male,Standard,56.7,19,3,Credit Card,6.0,11.5,0
+CUST00532,47,Female,Standard,41.31,24,2,Credit Card,4.0,14.5,1
+CUST00533,45,Male,Basic,13.64,8,0,Debit Card,7.0,4.6,1
+CUST00534,20,Male,Standard,40.93,9,2,Credit Card,9.0,8.9,1
+CUST00535,47,Male,Basic,22.34,0,1,PayPal,4.0,12.1,1
+CUST00536,48,Female,Basic,14.01,32,1,Bank Transfer,6.0,7.6,1
+CUST00537,56,Male,Standard,31.52,27,0,Credit Card,8.0,1.8,0
+CUST00538,67,Male,Basic,27.43,46,1,PayPal,5.0,23.0,1
+CUST00539,18,Male,Basic,14.77,25,2,Credit Card,9.0,34.4,0
+CUST00540,34,Male,Premium,116.17,2,2,Credit Card,5.0,13.3,1
+CUST00541,30,Female,Premium,62.82,41,3,Bank Transfer,6.0,13.5,1
+CUST00542,42,Male,Standard,49.52,17,1,Debit Card,4.0,10.0,1
+CUST00543,40,Male,Premium,99.9,49,1,Bank Transfer,6.0,3.3,1
+CUST00544,36,Male,Premium,69.35,11,2,Credit Card,6.0,2.4,0
+CUST00545,53,Female,Basic,23.29,2,1,Credit Card,7.0,21.9,1
+CUST00546,25,Female,Basic,17.74,11,2,Debit Card,5.0,32.0,0
+CUST00547,26,Female,Basic,17.63,18,6,Debit Card,4.0,14.2,0
+CUST00548,26,Male,Basic,27.54,11,2,E-Wallet,7.0,7.5,0
+CUST00549,35,Male,Standard,58.56,10,1,Credit Card,,8.9,1
+CUST00550,24,Male,Basic,13.39,28,3,Bank Transfer,7.0,15.6,0
+CUST00551,39,Male,Standard,50.51,60,1,Bank Transfer,10.0,21.1,0
+CUST00552,37,Female,Basic,13.08,11,2,,7.0,10.2,1
+CUST00553,29,Female,Basic,10.69,49,3,Credit Card,7.0,8.0,0
+CUST00554,51,Male,Premium,68.96,18,1,Debit Card,7.0,4.5,1
+CUST00555,39,Female,Basic,22.68,20,1,,9.0,6.9,1
+CUST00556,53,Female,Basic,24.52,4,0,Bank Transfer,9.0,15.0,0
+CUST00557,37,Male,Basic,20.13,12,1,Debit Card,4.0,12.7,1
+CUST00558,39,Female,Standard,58.54,6,2,E-Wallet,8.0,11.9,1
+CUST00559,32,Male,Standard,52.92,9,4,PayPal,7.0,4.7,0
+CUST00560,39,Male,Standard,34.84,1,1,Debit Card,6.0,8.6,1
+CUST00561,49,Male,Basic,14.15,12,1,PayPal,2.0,17.9,0
+CUST00562,34,Female,Basic,21.91,8,2,Debit Card,3.0,26.4,1
+CUST00563,46,Female,Premium,79.99,10,1,E-Wallet,5.0,17.3,0
+CUST00564,29,Male,Standard,30.02,4,2,Credit Card,3.0,21.1,0
+CUST00565,49,Female,Standard,30.72,0,3,E-Wallet,5.0,1.8,1
+CUST00566,32,Male,Standard,42.23,16,2,Bank Transfer,8.0,23.5,0
+CUST00567,51,Male,Standard,45.7,1,0,Bank Transfer,5.0,14.1,1
+CUST00568,40,Male,Basic,23.06,2,1,Debit Card,6.0,12.0,0
+CUST00569,59,Female,Basic,25.25,8,1,Bank Transfer,4.0,12.9,0
+CUST00570,24,Female,Standard,59.05,14,3,Credit Card,7.0,29.8,1
+CUST00571,20,Male,Basic,26.77,4,0,Bank Transfer,7.0,7.3,1
+CUST00572,31,Female,Premium,81.35,1,5,Credit Card,3.0,12.9,1
+CUST00573,22,Female,Standard,46.03,11,1,Credit Card,4.0,9.4,1
+CUST00574,22,Female,Standard,36.47,45,3,Debit Card,3.0,4.9,0
+CUST00575,48,Male,Premium,118.12,15,4,Credit Card,7.0,2.7,1
+CUST00576,39,Female,Standard,46.05,11,3,Debit Card,6.0,4.8,0
+CUST00577,33,Male,Premium,74.97,3,3,Bank Transfer,6.0,,0
+CUST00578,34,Male,Standard,51.71,17,3,Credit Card,6.0,9.7,1
+CUST00579,32,Male,Premium,89.26,1,2,PayPal,7.0,21.1,0
+CUST00580,61,Female,Basic,29.92,31,2,Credit Card,7.0,4.8,1
+CUST00581,30,Female,Standard,32.23,62,1,Bank Transfer,5.0,5.8,0
+CUST00582,22,Female,Standard,40.05,32,1,Bank Transfer,5.0,29.4,0
+CUST00583,50,Female,Basic,28.83,0,0,Debit Card,6.0,7.5,0
+CUST00584,37,Female,Basic,19.21,14,1,PayPal,6.0,6.5,0
+CUST00585,66,Female,Premium,78.7,34,3,,10.0,6.7,0
+CUST00586,33,Female,Standard,48.14,32,3,Bank Transfer,5.0,11.3,1
+CUST00587,50,Female,Basic,23.28,0,1,Debit Card,7.0,9.8,0
+CUST00588,54,Female,Basic,11.85,16,1,Debit Card,7.0,6.1,1
+CUST00589,33,Female,Basic,15.18,42,0,Bank Transfer,9.0,7.8,0
+CUST00590,30,Male,Basic,16.17,19,0,Credit Card,4.0,18.3,1
+CUST00591,49,Male,Premium,74.74,51,1,Bank Transfer,9.0,12.4,0
+CUST00592,47,Female,Basic,17.65,22,4,Credit Card,6.0,24.8,0
+CUST00593,21,Male,Basic,16.68,27,2,Bank Transfer,10.0,8.5,1
+CUST00594,25,Female,Standard,51.93,9,3,Credit Card,7.0,18.2,0
+CUST00595,18,Female,Basic,21.97,57,1,Credit Card,3.0,18.6,1
+CUST00596,47,Female,Basic,18.57,18,3,E-Wallet,6.0,5.8,1
+CUST00597,36,Female,Standard,35.99,35,3,Bank Transfer,9.0,13.6,0
+CUST00598,37,Male,Standard,42.61,0,1,Bank Transfer,6.0,10.8,1
+CUST00599,18,Male,Premium,70.82,43,3,E-Wallet,6.0,2.0,0
+CUST00600,25,Female,Standard,58.55,7,2,Debit Card,8.0,2.9,1
+CUST00601,33,Female,Standard,35.2,2,2,Credit Card,5.0,11.6,1
+CUST00602,31,Male,Standard,55.75,8,2,Credit Card,6.0,,1
+CUST00603,41,Female,Premium,96.92,10,4,Debit Card,4.0,1.6,1
+CUST00604,47,Male,Standard,54.31,11,3,Credit Card,10.0,10.6,0
+CUST00605,69,Female,Premium,113.3,3,2,E-Wallet,3.0,0.9,1
+CUST00606,39,Female,Standard,54.11,2,1,Credit Card,6.0,4.2,1
+CUST00607,54,Female,Premium,95.35,13,3,Credit Card,7.0,10.5,1
+CUST00608,29,Male,Basic,15.33,2,1,Credit Card,6.0,9.2,1
+CUST00609,18,Male,Standard,49.79,31,2,Credit Card,3.0,9.2,1
+CUST00610,35,Female,Basic,10.09,26,3,Credit Card,4.0,15.4,1
+CUST00611,19,Female,Standard,41.31,19,3,PayPal,7.0,20.1,0
+CUST00612,40,Male,Standard,55.73,9,2,Credit Card,4.0,21.5,0
+CUST00613,29,Male,Premium,94.82,0,0,PayPal,1.0,31.1,0
+CUST00614,18,Female,Premium,75.63,4,1,Bank Transfer,7.0,1.1,0
+CUST00615,62,Male,Basic,27.83,1,6,PayPal,4.0,5.4,1
+CUST00616,33,Female,Standard,30.45,6,1,PayPal,7.0,4.0,1
+CUST00617,18,Male,Standard,56.48,33,2,Debit Card,6.0,31.8,0
+CUST00618,51,Male,Basic,25.18,2,2,Credit Card,5.0,10.7,1
+CUST00619,30,Male,Basic,12.92,44,1,Credit Card,6.0,9.6,0
+CUST00620,54,Female,Basic,11.25,8,2,E-Wallet,3.0,7.1,1
+CUST00621,30,Female,Standard,58.53,1,2,PayPal,4.0,6.8,0
+CUST00622,32,Male,Standard,32.0,1,2,Credit Card,5.0,6.8,1
+CUST00623,44,Male,Premium,118.42,15,1,Debit Card,3.0,7.3,0
+CUST00624,47,Female,Standard,42.61,15,2,Bank Transfer,8.0,6.7,0
+CUST00625,49,Male,Premium,81.2,8,3,PayPal,5.0,27.0,1
+CUST00626,38,Female,Basic,22.99,1,0,PayPal,3.0,38.9,1
+CUST00627,46,Female,Standard,44.87,19,3,Bank Transfer,5.0,37.4,0
+CUST00628,49,Male,Basic,17.79,9,2,PayPal,6.0,1.9,1
+CUST00629,42,Male,Standard,49.19,3,2,PayPal,5.0,,0
+CUST00630,38,Female,Premium,80.99,2,1,Credit Card,7.0,1.4,0
+CUST00631,21,Male,Premium,62.05,7,1,Credit Card,7.0,38.3,0
+CUST00632,47,Female,Premium,109.47,3,2,E-Wallet,10.0,13.3,1
+CUST00633,40,Male,Basic,20.28,26,3,PayPal,9.0,17.9,0
+CUST00634,34,Female,Basic,23.72,14,1,Debit Card,2.0,9.0,1
+CUST00635,56,Male,Basic,21.49,25,2,PayPal,5.0,9.6,0
+CUST00636,21,Female,Basic,22.27,23,1,Credit Card,5.0,23.0,1
+CUST00637,61,Female,Standard,36.56,46,3,Bank Transfer,7.0,10.6,1
+CUST00638,39,Male,Standard,58.03,7,2,Credit Card,4.0,11.0,1
+CUST00639,44,Female,Standard,43.42,7,0,Bank Transfer,5.0,16.8,1
+CUST00640,34,Female,Premium,115.2,10,4,Debit Card,3.0,15.4,1
+CUST00641,18,Female,Standard,54.2,5,2,Credit Card,5.0,10.3,1
+CUST00642,38,Male,Premium,103.19,12,2,Credit Card,5.0,7.0,1
+CUST00643,44,Male,Basic,19.19,19,1,Bank Transfer,5.0,6.6,0
+CUST00644,48,Male,Basic,10.44,9,3,Credit Card,3.0,21.7,1
+CUST00645,37,Female,Standard,39.45,29,3,Credit Card,8.0,11.1,0
+CUST00646,18,Female,Premium,99.88,6,0,Bank Transfer,7.0,5.3,1
+CUST00647,19,Male,Basic,16.6,0,2,Debit Card,3.0,19.3,1
+CUST00648,66,Male,Standard,32.96,46,6,Debit Card,6.0,10.2,1
+CUST00649,25,Female,Standard,45.52,30,3,Credit Card,3.0,1.8,0
+CUST00650,58,Female,Basic,13.08,15,2,Bank Transfer,9.0,5.6,1
+CUST00651,27,Male,Basic,16.11,3,2,Credit Card,10.0,10.2,1
+CUST00652,37,Male,Premium,90.1,4,1,Credit Card,6.0,2.2,0
+CUST00653,48,Female,Standard,33.48,23,0,Credit Card,4.0,12.8,1
+CUST00654,29,Female,Basic,12.24,72,4,Credit Card,5.0,14.5,0
+CUST00655,60,Female,Premium,72.6,21,1,Credit Card,5.0,20.5,0
+CUST00656,40,Female,Basic,21.83,27,2,Credit Card,6.0,11.9,1
+CUST00657,45,Male,Premium,115.98,5,2,Credit Card,9.0,5.9,1
+CUST00658,36,Male,Basic,14.77,24,1,Debit Card,8.0,1.8,0
+CUST00659,48,Male,Standard,51.58,7,4,Bank Transfer,8.0,1.8,0
+CUST00660,60,Male,Basic,13.78,35,1,Credit Card,6.0,8.8,1
+CUST00661,38,Male,Basic,22.7,19,4,Credit Card,3.0,8.8,0
+CUST00662,62,Male,Premium,68.25,8,0,E-Wallet,4.0,2.2,0
+CUST00663,32,Male,Basic,26.9,17,3,Bank Transfer,6.0,12.6,1
+CUST00664,49,Female,Basic,24.84,6,3,PayPal,3.0,7.1,1
+CUST00665,46,Male,Basic,23.6,2,2,Credit Card,7.0,4.3,1
+CUST00666,26,Female,Standard,30.43,35,4,Debit Card,8.0,3.3,0
+CUST00667,42,Male,Premium,110.17,17,4,Credit Card,7.0,27.1,0
+CUST00668,40,Male,Premium,69.04,5,5,Credit Card,7.0,1.5,0
+CUST00669,28,Female,Basic,20.66,3,5,Debit Card,2.0,32.2,1
+CUST00670,44,Female,Basic,25.52,14,3,PayPal,9.0,4.5,0
+CUST00671,41,Female,Basic,22.62,0,1,Debit Card,3.0,34.2,1
+CUST00672,39,Male,Standard,54.56,4,1,PayPal,6.0,2.0,1
+CUST00673,39,Male,Premium,102.52,7,2,,7.0,13.5,1
+CUST00674,38,Male,Standard,52.67,29,0,Credit Card,7.0,23.7,0
+CUST00675,35,Female,Standard,38.95,7,3,Bank Transfer,3.0,24.0,1
+CUST00676,41,Male,Basic,17.57,30,1,Bank Transfer,4.0,13.4,1
+CUST00677,31,Male,Premium,90.08,33,0,Credit Card,7.0,12.0,0
+CUST00678,74,Male,Standard,47.57,47,2,PayPal,7.0,2.5,0
+CUST00679,21,Female,Basic,23.82,8,3,Credit Card,4.0,19.4,1
+CUST00680,32,Female,Basic,21.1,2,1,Credit Card,7.0,22.1,1
+CUST00681,33,Female,Basic,24.2,8,4,PayPal,3.0,10.4,0
+CUST00682,66,Female,Basic,13.01,15,1,Credit Card,7.0,11.7,1
+CUST00683,22,Female,Basic,17.88,16,2,Debit Card,4.0,40.0,0
+CUST00684,45,Female,Standard,57.39,3,3,Debit Card,6.0,2.8,1
+CUST00685,43,Male,Standard,36.5,8,2,Credit Card,6.0,13.7,0
+CUST00686,44,Female,Basic,12.86,5,1,Credit Card,9.0,19.0,0
+CUST00687,56,Male,Basic,24.89,15,3,Credit Card,7.0,1.7,0
+CUST00688,55,Male,Premium,71.66,6,3,E-Wallet,5.0,1.9,0
+CUST00689,34,Male,Standard,43.72,4,2,PayPal,7.0,5.3,0
+CUST00690,42,Male,Standard,51.34,12,1,Debit Card,10.0,5.7,0
+CUST00691,18,Female,Basic,19.69,6,5,Credit Card,8.0,5.0,1
+CUST00692,41,Female,Premium,114.08,1,2,PayPal,6.0,5.9,0
+CUST00693,29,Female,Basic,27.55,27,0,Credit Card,4.0,6.1,1
+CUST00694,37,Female,Basic,20.05,3,1,Debit Card,5.0,10.3,0
+CUST00695,18,Male,Premium,117.64,0,3,Bank Transfer,7.0,4.4,1
+CUST00696,45,Female,Standard,38.74,11,3,Debit Card,4.0,8.0,1
+CUST00697,18,Female,Standard,37.01,4,3,Credit Card,6.0,9.9,1
+CUST00698,41,Male,Standard,50.1,1,3,Credit Card,9.0,7.1,0
+CUST00699,24,Female,Standard,47.17,7,2,Credit Card,6.0,13.7,1
+CUST00700,28,Female,Basic,15.01,6,4,Debit Card,4.0,26.1,1
+CUST00701,55,Female,Basic,17.41,63,1,Bank Transfer,10.0,2.7,0
+CUST00702,47,Female,Basic,14.65,35,5,Credit Card,10.0,4.1,0
+CUST00703,54,Female,Basic,14.73,17,0,PayPal,7.0,17.3,1
+CUST00704,60,Female,Premium,82.04,13,2,PayPal,9.0,12.4,0
+CUST00705,29,Male,Basic,28.47,30,3,Credit Card,5.0,18.3,0
+CUST00706,59,Female,Standard,55.04,25,2,Credit Card,8.0,16.5,0
+CUST00707,20,Male,Standard,45.36,9,3,Credit Card,5.0,5.9,0
+CUST00708,49,Male,Standard,44.32,32,4,PayPal,3.0,27.5,1
+CUST00709,33,Female,Basic,10.62,18,2,Debit Card,10.0,27.9,0
+CUST00710,27,Male,Standard,43.86,58,1,PayPal,3.0,4.2,0
+CUST00711,47,Female,Premium,97.42,15,2,,7.0,,0
+CUST00712,52,Male,Standard,53.35,30,1,Bank Transfer,7.0,26.8,0
+CUST00713,51,Male,Premium,81.35,56,7,E-Wallet,7.0,33.5,0
+CUST00714,42,Male,Premium,115.15,43,1,Bank Transfer,6.0,16.7,1
+CUST00715,41,Male,Standard,55.2,28,4,Bank Transfer,6.0,7.7,0
+CUST00716,46,Female,Basic,11.63,24,1,Bank Transfer,6.0,5.5,1
+CUST00717,43,Male,Standard,57.08,16,2,PayPal,7.0,7.7,0
+CUST00718,47,Female,Basic,14.45,16,3,Bank Transfer,6.0,3.1,1
+CUST00719,42,Female,Standard,57.69,3,1,E-Wallet,6.0,13.9,0
+CUST00720,50,Male,Premium,97.83,13,1,Debit Card,3.0,8.8,1
+CUST00721,18,Female,Standard,42.35,11,4,PayPal,10.0,2.5,0
+CUST00722,38,Male,Basic,18.72,11,1,Debit Card,7.0,5.6,1
+CUST00723,22,Male,Basic,21.25,0,3,Bank Transfer,6.0,23.5,0
+CUST00724,43,Female,Premium,110.62,7,3,Debit Card,5.0,14.1,0
+CUST00725,61,Female,Basic,26.73,21,2,Bank Transfer,4.0,5.1,0
+CUST00726,33,Female,Basic,18.29,9,1,Bank Transfer,8.0,32.9,0
+CUST00727,41,Male,Basic,26.97,14,1,E-Wallet,6.0,12.7,1
+CUST00728,49,Male,Basic,19.43,5,5,Credit Card,7.0,3.5,0
+CUST00729,18,Female,Standard,42.52,5,1,PayPal,3.0,7.7,1
+CUST00730,33,Female,Standard,37.29,1,1,Bank Transfer,9.0,2.4,0
+CUST00731,44,Female,Basic,26.55,21,2,E-Wallet,8.0,27.4,1
+CUST00732,18,Male,Basic,22.39,0,3,E-Wallet,6.0,18.7,0
+CUST00733,27,Female,Basic,18.61,4,2,PayPal,7.0,5.3,1
+CUST00734,54,Male,Basic,23.24,3,2,PayPal,8.0,1.3,1
+CUST00735,53,Male,Basic,27.21,10,0,Credit Card,3.0,18.5,1
+CUST00736,44,Male,Standard,35.92,4,1,E-Wallet,10.0,12.4,0
+CUST00737,51,Male,Basic,17.84,34,2,Credit Card,7.0,24.6,1
+CUST00738,42,Female,Basic,17.6,9,1,PayPal,4.0,0.8,0
+CUST00739,47,Male,Basic,11.51,8,4,Bank Transfer,4.0,17.2,0
+CUST00740,35,Female,Basic,16.67,13,0,Debit Card,8.0,9.6,0
+CUST00741,41,Male,Basic,25.23,12,4,Credit Card,6.0,40.0,0
+CUST00742,31,Female,Basic,15.06,1,2,Credit Card,7.0,3.2,1
+CUST00743,56,Male,Premium,108.64,35,0,Bank Transfer,6.0,19.9,0
+CUST00744,59,Male,Basic,29.1,10,2,Debit Card,4.0,17.5,0
+CUST00745,57,Male,Standard,36.71,31,3,Credit Card,7.0,2.5,0
+CUST00746,34,Female,Standard,42.28,28,2,PayPal,6.0,8.0,1
+CUST00747,27,Male,Basic,12.62,10,1,Credit Card,6.0,15.8,1
+CUST00748,56,Female,Basic,23.83,16,2,Bank Transfer,10.0,5.3,0
+CUST00749,47,Female,Standard,44.46,0,1,Credit Card,8.0,5.4,0
+CUST00750,44,Male,Premium,95.31,1,2,Credit Card,8.0,21.6,1
+CUST00751,31,Female,Basic,25.56,4,1,Credit Card,10.0,36.1,0
+CUST00752,45,Male,Basic,25.51,17,1,Debit Card,7.0,20.3,1
+CUST00753,25,Male,Basic,20.31,11,4,Debit Card,6.0,2.7,1
+CUST00754,48,Male,Standard,56.46,34,3,Bank Transfer,5.0,0.3,0
+CUST00755,57,Female,Standard,57.95,11,1,Debit Card,5.0,3.7,0
+CUST00756,61,Female,Basic,22.6,5,0,Credit Card,1.0,17.1,0
+CUST00757,49,Male,Basic,10.76,17,3,Credit Card,8.0,18.6,0
+CUST00758,22,Male,Premium,106.55,4,2,Credit Card,3.0,7.3,1
+CUST00759,42,Female,Basic,27.83,10,2,E-Wallet,8.0,3.6,1
+CUST00760,67,Male,Standard,46.69,31,1,Credit Card,6.0,7.9,0
+CUST00761,28,Female,Standard,51.0,41,3,E-Wallet,6.0,1.7,1
+CUST00762,39,Female,Basic,17.11,0,8,Credit Card,6.0,13.1,1
+CUST00763,58,Male,Basic,20.03,18,2,Credit Card,9.0,11.9,1
+CUST00764,48,Female,Basic,25.95,33,1,Credit Card,9.0,3.4,0
+CUST00765,72,Male,Premium,112.55,1,2,Credit Card,6.0,20.5,0
+CUST00766,30,Female,Basic,12.29,10,1,Bank Transfer,4.0,10.6,0
+CUST00767,27,Male,Basic,10.33,2,2,Debit Card,8.0,4.9,1
+CUST00768,55,Female,Basic,17.46,9,3,Credit Card,4.0,13.5,1
+CUST00769,24,Female,Basic,17.81,47,4,PayPal,3.0,40.0,1
+CUST00770,37,Male,Standard,53.19,4,7,PayPal,7.0,1.8,0
+CUST00771,39,Male,Basic,10.16,10,1,E-Wallet,9.0,40.0,0
+CUST00772,53,Female,Standard,52.91,27,2,E-Wallet,5.0,10.5,0
+CUST00773,47,Female,Standard,46.08,7,2,PayPal,7.0,16.0,1
+CUST00774,45,Male,Premium,101.86,3,1,Bank Transfer,5.0,16.9,1
+CUST00775,34,Male,Basic,20.18,18,0,Bank Transfer,8.0,5.0,0
+CUST00776,55,Male,Premium,107.43,8,2,Debit Card,8.0,7.2,1
+CUST00777,75,Female,Standard,43.1,14,2,PayPal,5.0,26.4,1
+CUST00778,48,Female,Basic,16.91,12,1,Credit Card,4.0,29.9,0
+CUST00779,41,Male,Standard,49.09,1,0,Bank Transfer,3.0,8.8,1
+CUST00780,23,Male,Premium,86.66,50,2,E-Wallet,8.0,37.0,0
+CUST00781,31,Male,Basic,16.06,10,3,Credit Card,3.0,9.6,1
+CUST00782,37,Male,Premium,114.8,5,0,Bank Transfer,7.0,19.1,1
+CUST00783,33,Female,Standard,51.69,10,2,E-Wallet,8.0,5.4,0
+CUST00784,39,Female,Standard,35.9,5,2,Credit Card,5.0,18.2,0
+CUST00785,63,Female,Premium,104.4,10,2,Debit Card,6.0,8.2,1
+CUST00786,56,Male,Basic,15.04,15,0,E-Wallet,8.0,40.0,0
+CUST00787,37,Male,Premium,85.87,1,3,E-Wallet,4.0,14.1,0
+CUST00788,24,Male,Basic,14.34,39,1,Credit Card,4.0,34.1,0
+CUST00789,57,Male,Standard,33.39,1,2,Credit Card,5.0,12.2,1
+CUST00790,39,Female,Standard,41.96,2,7,PayPal,9.0,10.7,1
+CUST00791,18,Male,Basic,21.09,48,1,Credit Card,10.0,12.0,0
+CUST00792,49,Female,Basic,16.03,9,5,Credit Card,6.0,40.0,1
+CUST00793,53,Male,Basic,11.49,53,1,Credit Card,4.0,6.9,1
+CUST00794,18,Female,Basic,14.98,4,3,Credit Card,8.0,40.0,0
+CUST00795,29,Male,Basic,14.9,12,1,PayPal,2.0,21.4,0
+CUST00796,38,Male,Basic,21.81,8,2,PayPal,7.0,38.7,0
+CUST00797,49,Male,Basic,15.63,8,3,PayPal,6.0,3.6,1
+CUST00798,33,Female,Basic,20.67,38,2,Bank Transfer,9.0,18.8,0
+CUST00799,29,Female,Standard,44.1,4,1,Debit Card,9.0,27.2,0
+CUST00800,49,Female,Standard,37.98,7,3,Credit Card,4.0,27.8,1
+CUST00801,33,Female,Standard,52.23,1,1,Credit Card,6.0,18.7,1
+CUST00802,47,Male,Basic,23.34,29,0,Credit Card,5.0,7.7,0
+CUST00803,25,Male,Premium,100.81,1,1,Credit Card,5.0,7.3,1
+CUST00804,22,Male,Standard,43.0,1,2,Credit Card,7.0,6.9,1
+CUST00805,49,Male,Basic,16.32,4,5,Credit Card,5.0,13.4,0
+CUST00806,43,Male,Basic,21.8,21,2,Credit Card,6.0,11.8,0
+CUST00807,51,Male,Standard,58.76,20,0,PayPal,8.0,8.0,0
+CUST00808,33,Female,Basic,18.67,16,0,PayPal,9.0,9.1,1
+CUST00809,29,Male,Standard,49.95,65,2,E-Wallet,7.0,10.8,0
+CUST00810,57,Male,Premium,86.53,26,2,Bank Transfer,6.0,1.0,0
+CUST00811,20,Male,Basic,28.64,8,1,PayPal,4.0,8.3,1
+CUST00812,56,Female,Basic,15.28,10,4,Credit Card,9.0,6.4,1
+CUST00813,57,Female,Premium,87.49,6,4,PayPal,7.0,3.5,1
+CUST00814,51,Female,Standard,44.8,36,0,Credit Card,6.0,3.7,0
+CUST00815,31,Male,Basic,24.56,26,1,Debit Card,6.0,8.2,1
+CUST00816,29,Male,Premium,103.27,6,2,Debit Card,7.0,13.9,1
+CUST00817,37,Male,Premium,104.36,10,1,Debit Card,8.0,14.6,0
+CUST00818,23,Female,Standard,51.98,5,4,Credit Card,8.0,16.1,0
+CUST00819,27,Male,Standard,44.08,12,1,PayPal,10.0,14.6,0
+CUST00820,48,Male,Basic,13.1,5,1,Bank Transfer,7.0,7.1,1
+CUST00821,48,Male,Basic,27.4,30,2,Bank Transfer,10.0,3.7,1
+CUST00822,26,Male,Standard,39.73,28,3,PayPal,8.0,4.6,0
+CUST00823,48,Male,Basic,12.2,26,1,Debit Card,6.0,9.8,0
+CUST00824,45,Female,Standard,33.85,23,2,Credit Card,2.0,11.9,0
+CUST00825,59,Female,Premium,89.68,2,0,PayPal,6.0,19.8,0
+CUST00826,47,Male,Basic,18.51,1,4,Debit Card,9.0,27.9,1
+CUST00827,53,Male,Standard,49.9,48,2,Credit Card,4.0,7.5,1
+CUST00828,46,Female,Basic,22.23,39,3,Credit Card,6.0,12.3,0
+CUST00829,52,Female,Premium,66.43,16,4,E-Wallet,6.0,16.7,1
+CUST00830,23,Female,Basic,15.92,10,2,PayPal,8.0,10.8,1
+CUST00831,38,Female,Standard,56.88,13,1,Debit Card,5.0,4.7,1
+CUST00832,39,Male,Standard,52.99,29,2,PayPal,4.0,5.5,0
+CUST00833,36,Male,Basic,27.4,23,4,Debit Card,7.0,21.0,0
+CUST00834,45,Male,Standard,30.65,10,1,Debit Card,4.0,8.0,0
+CUST00835,48,Male,Standard,57.35,7,1,Credit Card,,8.7,1
+CUST00836,45,Male,Standard,55.82,3,2,Debit Card,10.0,0.9,0
+CUST00837,37,Male,Standard,43.56,24,2,PayPal,8.0,24.9,0
+CUST00838,30,Female,Premium,100.41,1,1,Credit Card,10.0,17.1,1
+CUST00839,54,Female,Basic,15.43,3,1,Bank Transfer,8.0,2.6,0
+CUST00840,44,Female,Standard,49.75,25,2,Credit Card,7.0,15.5,0
+CUST00841,26,Male,Basic,25.97,13,2,PayPal,7.0,16.3,1
+CUST00842,37,Male,Standard,44.5,3,3,PayPal,6.0,33.9,0
+CUST00843,18,Female,Standard,30.84,2,4,PayPal,7.0,5.1,1
+CUST00844,40,Female,Basic,18.32,56,2,PayPal,5.0,14.9,1
+CUST00845,37,Female,Basic,24.49,2,2,E-Wallet,4.0,6.6,0
+CUST00846,32,Female,Premium,102.22,2,0,Debit Card,5.0,6.4,1
+CUST00847,60,Male,Basic,19.72,4,3,PayPal,9.0,29.6,1
+CUST00848,24,Female,Standard,59.56,20,3,PayPal,3.0,21.1,1
+CUST00849,49,Male,Basic,12.33,19,0,Credit Card,3.0,2.7,0
+CUST00850,68,Male,Premium,69.49,5,2,Credit Card,7.0,2.3,0
+CUST00851,54,Female,Basic,15.16,5,2,Debit Card,5.0,16.0,1
+CUST00852,39,Male,Basic,26.06,9,1,Credit Card,7.0,9.3,1
+CUST00853,25,Male,Premium,105.76,24,2,Debit Card,8.0,4.5,0
+CUST00854,22,Male,Premium,106.36,15,1,Debit Card,7.0,16.2,1
+CUST00855,34,Male,Basic,27.58,19,3,PayPal,5.0,14.7,0
+CUST00856,31,Male,Standard,43.28,11,5,Credit Card,9.0,10.6,1
+CUST00857,30,Male,Standard,39.55,12,2,Bank Transfer,8.0,11.4,0
+CUST00858,35,Male,Premium,96.01,1,4,Debit Card,6.0,4.9,1
+CUST00859,38,Female,Basic,18.19,15,2,PayPal,6.0,14.6,1
+CUST00860,46,Male,Standard,45.71,2,1,Credit Card,7.0,37.6,0
+CUST00861,23,Female,Standard,34.2,53,3,Debit Card,5.0,,0
+CUST00862,31,Male,Standard,41.88,11,0,Credit Card,2.0,20.6,1
+CUST00863,37,Female,Standard,44.17,12,3,PayPal,8.0,4.0,0
+CUST00864,37,Male,Standard,32.61,44,2,,8.0,18.0,0
+CUST00865,63,Male,Basic,29.88,33,2,E-Wallet,1.0,9.1,1
+CUST00866,43,Male,Premium,62.26,16,2,Credit Card,7.0,18.3,0
+CUST00867,19,Female,Premium,115.16,17,0,PayPal,10.0,3.5,0
+CUST00868,45,Female,Standard,32.4,6,1,,4.0,11.8,0
+CUST00869,47,Female,Basic,27.18,9,3,PayPal,6.0,19.6,1
+CUST00870,38,Female,Basic,20.95,0,0,Debit Card,6.0,12.2,1
+CUST00871,24,Female,Standard,35.88,7,2,Debit Card,10.0,16.9,0
+CUST00872,62,Male,Basic,14.62,3,3,Credit Card,8.0,7.2,0
+CUST00873,26,Male,Premium,81.09,15,2,Credit Card,4.0,17.3,1
+CUST00874,48,Female,Basic,25.87,0,2,Credit Card,7.0,29.4,1
+CUST00875,42,Female,Standard,34.4,19,1,E-Wallet,10.0,7.1,0
+CUST00876,47,Male,Premium,74.52,16,2,Debit Card,5.0,16.7,1
+CUST00877,62,Female,Basic,23.84,31,1,Credit Card,6.0,5.5,0
+CUST00878,47,Female,Basic,22.27,12,5,E-Wallet,7.0,31.6,1
+CUST00879,32,Male,Standard,42.61,26,1,Credit Card,,2.7,0
+CUST00880,54,Female,Standard,31.81,23,2,Debit Card,10.0,,0
+CUST00881,31,Female,Basic,21.16,5,1,PayPal,5.0,10.8,0
+CUST00882,42,Male,Standard,36.87,14,2,E-Wallet,3.0,7.1,0
+CUST00883,23,Female,Premium,96.72,37,2,PayPal,5.0,6.9,1
+CUST00884,26,Female,Standard,38.23,13,4,Debit Card,7.0,10.1,0
+CUST00885,40,Female,Basic,29.6,8,1,E-Wallet,4.0,28.5,0
+CUST00886,44,Female,Basic,21.8,31,4,Credit Card,7.0,12.8,1
+CUST00887,18,Female,Basic,21.42,2,3,E-Wallet,7.0,1.5,1
+CUST00888,46,Female,Basic,26.73,4,1,Bank Transfer,3.0,2.2,1
+CUST00889,29,Female,Basic,29.85,1,2,E-Wallet,5.0,12.7,0
+CUST00890,56,Male,Standard,53.37,0,5,Credit Card,7.0,22.2,1
+CUST00891,35,Male,Basic,21.87,5,2,Credit Card,8.0,5.0,1
+CUST00892,25,Male,Premium,111.8,8,5,PayPal,5.0,12.2,1
+CUST00893,40,Male,Basic,13.61,31,1,,6.0,22.4,0
+CUST00894,28,Female,Basic,25.27,63,0,Debit Card,5.0,13.7,1
+CUST00895,56,Female,Standard,50.39,26,0,E-Wallet,8.0,11.3,0
+CUST00896,40,Male,Premium,93.79,4,3,PayPal,7.0,8.0,0
+CUST00897,38,Male,Basic,27.33,0,1,Credit Card,5.0,9.1,0
+CUST00898,47,Female,Basic,24.18,56,3,Debit Card,7.0,17.4,0
+CUST00899,26,Male,Basic,24.32,13,2,Credit Card,5.0,19.0,1
+CUST00900,23,Female,Standard,57.28,14,2,Credit Card,7.0,18.7,0
+CUST00901,45,Male,Standard,50.97,55,1,Credit Card,7.0,5.7,0
+CUST00902,25,Male,Basic,15.1,36,0,Bank Transfer,10.0,0.5,0
+CUST00903,25,Male,Basic,13.66,10,3,PayPal,5.0,7.3,1
+CUST00904,50,Male,Standard,45.39,45,1,Debit Card,6.0,20.3,0
+CUST00905,46,Female,Premium,74.08,1,5,Debit Card,5.0,33.0,0
+CUST00906,23,Male,Standard,50.98,1,1,PayPal,4.0,4.2,0
+CUST00907,31,Male,Standard,55.27,0,0,Bank Transfer,5.0,16.7,0
+CUST00908,28,Male,Basic,15.83,3,4,Bank Transfer,7.0,6.1,1
+CUST00909,63,Male,Basic,28.26,20,1,Debit Card,8.0,27.2,1
+CUST00910,51,Female,Basic,24.93,25,3,Bank Transfer,7.0,20.0,0
+CUST00911,34,Female,Standard,59.63,0,4,Debit Card,5.0,13.4,0
+CUST00912,47,Female,Premium,71.91,18,3,Debit Card,5.0,14.2,1
+CUST00913,22,Female,Premium,87.68,14,5,Bank Transfer,4.0,25.2,1
+CUST00914,31,Male,Premium,98.41,8,1,Debit Card,5.0,1.7,1
+CUST00915,41,Male,Premium,105.77,6,2,Debit Card,3.0,9.8,1
+CUST00916,45,Female,Premium,114.71,9,4,Credit Card,9.0,3.7,0
+CUST00917,38,Female,Basic,27.82,30,2,Debit Card,10.0,14.0,1
+CUST00918,43,Female,Basic,14.71,3,3,Debit Card,2.0,11.9,1
+CUST00919,41,Male,Basic,18.44,20,1,PayPal,7.0,13.4,1
+CUST00920,37,Female,Standard,51.54,0,0,,7.0,3.2,0
+CUST00921,36,Female,Basic,12.64,32,1,Credit Card,6.0,22.3,0
+CUST00922,34,Male,Premium,117.55,5,2,Bank Transfer,5.0,18.0,1
+CUST00923,43,Male,Standard,52.4,4,3,Credit Card,8.0,7.1,1
+CUST00924,45,Female,Standard,54.86,1,2,E-Wallet,7.0,19.0,1
+CUST00925,42,Male,Basic,28.14,12,1,Credit Card,8.0,0.9,1
+CUST00926,24,Female,Basic,13.55,24,2,PayPal,4.0,3.8,1
+CUST00927,27,Female,Basic,18.43,10,0,Debit Card,3.0,10.1,1
+CUST00928,45,Male,Premium,99.09,0,0,Bank Transfer,7.0,8.2,1
+CUST00929,59,Male,Standard,54.66,34,0,Credit Card,4.0,26.2,0
+CUST00930,41,Female,Standard,52.13,13,1,E-Wallet,8.0,17.2,0
+CUST00931,34,Male,Basic,12.42,0,3,Debit Card,1.0,30.2,1
+CUST00932,42,Female,Basic,22.9,13,3,PayPal,5.0,2.6,0
+CUST00933,25,Male,Basic,15.87,0,5,Debit Card,5.0,8.1,0
+CUST00934,57,Male,Standard,42.18,65,2,Credit Card,5.0,3.6,0
+CUST00935,42,Female,Standard,59.82,18,1,Debit Card,7.0,13.4,0
+CUST00936,31,Female,Basic,13.13,1,4,Credit Card,7.0,2.6,1
+CUST00937,37,Female,Premium,66.25,35,1,Credit Card,7.0,12.1,1
+CUST00938,33,Female,Basic,18.17,4,1,PayPal,8.0,5.4,0
+CUST00939,57,Female,Premium,111.84,11,2,Debit Card,6.0,19.2,0
+CUST00940,37,Female,Basic,13.23,6,3,Credit Card,10.0,10.1,1
+CUST00941,42,Female,Basic,11.59,0,2,Credit Card,9.0,2.1,1
+CUST00942,47,Male,Premium,85.12,0,3,Credit Card,5.0,21.4,1
+CUST00943,30,Male,Basic,22.64,20,2,Credit Card,6.0,21.7,1
+CUST00944,42,Female,Basic,13.08,4,0,PayPal,5.0,18.5,0
+CUST00945,43,Female,Basic,26.08,7,1,Credit Card,7.0,7.0,1
+CUST00946,19,Female,Basic,26.91,24,2,Bank Transfer,4.0,15.8,1
+CUST00947,43,Female,Standard,45.67,6,2,Credit Card,4.0,23.1,0
+CUST00948,39,Female,Premium,61.82,17,6,Credit Card,1.0,9.3,1
+CUST00949,41,Female,Premium,90.96,47,1,Bank Transfer,5.0,9.7,0
+CUST00950,40,Male,Basic,14.27,20,1,Credit Card,8.0,11.2,0
+CUST00951,43,Male,Standard,43.37,3,2,Debit Card,6.0,18.7,1
+CUST00952,57,Male,Basic,25.18,4,1,E-Wallet,6.0,12.5,1
+CUST00953,24,Female,Basic,11.08,17,0,E-Wallet,7.0,16.6,1
+CUST00954,35,Female,Basic,9.99,2,0,PayPal,4.0,9.0,0
+CUST00955,48,Male,Premium,68.0,23,1,Credit Card,6.0,8.8,1
+CUST00956,46,Male,Premium,62.71,72,2,PayPal,8.0,,0
+CUST00957,45,Male,Standard,37.8,7,2,E-Wallet,7.0,6.2,0
+CUST00958,75,Male,Standard,42.12,11,0,E-Wallet,8.0,4.3,0
+CUST00959,47,Male,Standard,53.38,28,3,Credit Card,9.0,6.0,0
+CUST00960,54,Male,Standard,30.9,2,5,Debit Card,7.0,8.5,0
+CUST00961,36,Female,Standard,40.52,34,1,Credit Card,4.0,10.7,1
+CUST00962,27,Female,Basic,28.58,21,2,Credit Card,5.0,7.0,1
+CUST00963,35,Male,Basic,21.52,4,0,PayPal,10.0,7.7,0
+CUST00964,49,Male,Basic,26.53,14,0,Credit Card,7.0,13.9,0
+CUST00965,45,Female,Premium,89.0,13,0,Credit Card,6.0,5.4,0
+CUST00966,45,Female,Standard,32.91,7,1,Credit Card,4.0,18.2,1
+CUST00967,37,Female,Premium,71.21,72,0,Debit Card,6.0,4.8,1
+CUST00968,35,Female,Basic,25.15,26,4,Credit Card,8.0,10.4,1
+CUST00969,37,Male,Standard,55.91,27,2,Debit Card,6.0,9.9,1
+CUST00970,49,Female,Basic,19.34,11,3,Credit Card,5.0,26.1,0
+CUST00971,50,Female,Basic,19.84,23,4,E-Wallet,5.0,9.1,1
+CUST00972,26,Female,Basic,18.99,27,3,Credit Card,9.0,20.1,0
+CUST00973,49,Female,Basic,10.36,3,2,Debit Card,7.0,17.1,1
+CUST00974,31,Male,Premium,65.72,6,2,Credit Card,7.0,6.7,0
+CUST00975,46,Male,Basic,29.83,6,2,,7.0,24.6,1
+CUST00976,37,Female,Standard,31.25,13,1,Credit Card,3.0,6.9,1
+CUST00977,60,Male,Standard,40.46,23,3,Credit Card,7.0,8.2,0
+CUST00978,34,Male,Basic,23.8,2,2,Credit Card,8.0,14.7,1
+CUST00979,42,Male,Standard,42.73,34,4,Debit Card,5.0,7.6,1
+CUST00980,47,Female,Basic,29.64,14,2,PayPal,8.0,2.7,1
+CUST00981,28,Male,Premium,61.95,16,2,Credit Card,7.0,8.3,1
+CUST00982,39,Male,Premium,112.46,32,3,Debit Card,8.0,8.2,0
+CUST00983,36,Female,Standard,34.03,19,2,PayPal,6.0,4.5,1
+CUST00984,33,Female,Standard,36.13,2,2,Credit Card,8.0,10.4,0
+CUST00985,34,Male,Basic,20.56,14,2,Debit Card,3.0,10.5,1
+CUST00986,54,Female,Premium,112.28,7,3,Credit Card,6.0,14.0,1
+CUST00987,32,Female,Basic,18.27,36,0,Credit Card,8.0,3.8,0
+CUST00988,47,Male,Basic,15.86,17,0,Debit Card,,4.0,0
+CUST00989,44,Male,Basic,18.02,32,2,E-Wallet,8.0,18.7,1
+CUST00990,21,Female,Standard,32.82,5,2,E-Wallet,6.0,4.7,1
+CUST00991,46,Male,Standard,55.14,15,1,E-Wallet,5.0,12.7,1
+CUST00992,21,Male,Standard,57.45,17,2,Debit Card,2.0,8.8,1
+CUST00993,48,Female,Standard,50.26,41,0,Credit Card,5.0,5.6,0
+CUST00994,33,Male,Basic,18.88,14,1,Credit Card,7.0,25.9,1
+CUST00995,40,Male,Premium,96.84,20,2,Credit Card,8.0,10.6,0
+CUST00996,23,Male,Basic,21.03,13,2,Credit Card,3.0,6.4,0
+CUST00997,41,Male,Standard,31.54,10,1,Credit Card,9.0,2.2,0
+CUST00998,52,Male,Basic,17.88,3,2,Debit Card,4.0,16.3,1
+CUST00999,29,Male,Premium,99.4,7,2,Credit Card,6.0,4.6,0
+CUST01000,32,Female,Basic,26.95,8,3,Credit Card,5.0,24.4,1
+CUST01001,45,Female,Basic,17.17,45,8,PayPal,7.0,9.8,0
+CUST01002,46,Female,Standard,54.57,14,0,Debit Card,6.0,40.0,1
+CUST01003,18,Male,Basic,25.13,10,1,Bank Transfer,7.0,8.2,0
+CUST01004,66,Male,Basic,28.58,4,3,Credit Card,10.0,4.5,1
+CUST01005,46,Male,Standard,59.67,13,2,Debit Card,7.0,10.8,1
+CUST01006,49,Female,Basic,10.82,5,2,Credit Card,5.0,6.2,1
+CUST01007,38,Female,Premium,86.24,22,5,Debit Card,7.0,1.2,1
+CUST01008,18,Female,Basic,25.46,9,0,Credit Card,10.0,19.2,0
+CUST01009,48,Female,Standard,54.68,43,2,Credit Card,7.0,12.9,0
+CUST01010,32,Female,Standard,32.48,2,2,PayPal,8.0,5.2,0
+CUST01011,47,Male,Standard,48.19,25,3,Credit Card,2.0,3.7,0
+CUST01012,37,Male,Standard,56.94,27,3,Credit Card,7.0,4.2,0
+CUST01013,43,Female,Standard,36.8,2,1,E-Wallet,5.0,10.4,0
+CUST01014,29,Female,Premium,80.83,9,2,Credit Card,5.0,36.0,0
+CUST01015,51,Male,Basic,17.89,13,1,PayPal,6.0,8.7,1
+CUST01016,24,Male,Basic,17.88,1,2,Debit Card,6.0,2.1,1
+CUST01017,69,Female,Standard,46.84,0,2,Credit Card,5.0,4.6,1
+CUST01018,69,Female,Premium,63.64,2,3,Debit Card,6.0,11.4,0
+CUST01019,61,Female,Basic,25.57,0,3,Credit Card,6.0,5.4,0
+CUST01020,56,Female,Basic,12.45,4,2,PayPal,8.0,3.1,1
+CUST01021,38,Female,Premium,108.79,60,2,Credit Card,7.0,8.9,0
+CUST01022,55,Female,Standard,30.5,14,2,Credit Card,7.0,4.6,0
+CUST01023,38,Male,Premium,107.21,16,5,Credit Card,8.0,11.9,1
+CUST01024,19,Male,Standard,40.65,1,3,E-Wallet,7.0,12.1,0
+CUST01025,59,Female,Standard,49.67,19,4,Bank Transfer,6.0,14.9,0
+CUST01026,54,Male,Basic,13.57,8,1,E-Wallet,1.0,16.8,1
+CUST01027,39,Male,Premium,92.21,72,2,PayPal,7.0,5.1,0
+CUST01028,24,Female,Basic,15.97,11,3,PayPal,4.0,19.0,1
+CUST01029,32,Male,Standard,30.11,35,0,Debit Card,6.0,7.5,0
+CUST01030,18,Male,Basic,24.49,5,4,E-Wallet,7.0,1.5,1
+CUST01031,52,Male,Standard,33.93,26,2,Debit Card,9.0,17.5,0
+CUST01032,19,Male,Standard,58.18,12,1,Debit Card,10.0,25.6,0
+CUST01033,43,Female,Standard,46.3,3,2,PayPal,4.0,8.5,1
+CUST01034,29,Female,Premium,60.09,15,1,Debit Card,3.0,19.7,0
+CUST01035,21,Female,Basic,28.89,3,1,Credit Card,7.0,9.0,0
+CUST01036,43,Female,Standard,33.97,4,2,Debit Card,7.0,6.3,1
+CUST01037,35,Female,Basic,26.67,72,3,Credit Card,3.0,9.1,1
+CUST01038,50,Male,Basic,16.58,9,1,Bank Transfer,6.0,9.9,1
+CUST01039,23,Male,Basic,21.35,19,3,Debit Card,7.0,11.4,1
+CUST01040,30,Male,Basic,26.7,6,0,Bank Transfer,3.0,7.8,0
+CUST01041,18,Male,Basic,10.99,36,3,Debit Card,4.0,17.0,1
+CUST01042,18,Female,Standard,50.39,5,0,Bank Transfer,5.0,14.4,1
+CUST01043,63,Male,Standard,34.45,36,5,Credit Card,6.0,4.2,0
+CUST01044,67,Male,Standard,51.48,60,0,E-Wallet,8.0,6.7,0
+CUST01045,41,Male,Basic,13.2,26,1,Debit Card,5.0,16.3,0
+CUST01046,29,Male,Basic,10.43,24,2,Credit Card,6.0,8.9,1
+CUST01047,36,Female,Basic,13.1,31,0,Credit Card,10.0,5.4,0
+CUST01048,51,Male,Standard,48.76,2,2,Credit Card,4.0,8.6,0
+CUST01049,33,Male,Premium,119.13,32,3,Debit Card,5.0,2.6,0
+CUST01050,43,Male,Basic,29.39,10,1,PayPal,7.0,23.3,0
+CUST01051,39,Male,Standard,52.36,14,1,E-Wallet,8.0,10.2,0
+CUST01052,32,Female,Basic,26.48,10,1,PayPal,7.0,6.2,0
+CUST01053,33,Male,Basic,27.47,41,5,Debit Card,10.0,2.4,0
+CUST01054,43,Male,Basic,20.56,7,0,Debit Card,7.0,31.2,0
+CUST01055,27,Male,Basic,14.56,8,2,Bank Transfer,2.0,2.2,1
+CUST01056,45,Male,Standard,49.82,41,1,Bank Transfer,6.0,13.3,1
+CUST01057,33,Male,Premium,68.49,4,3,Credit Card,5.0,7.9,0
+CUST01058,41,Female,Basic,26.64,18,2,E-Wallet,9.0,8.6,1
+CUST01059,57,Male,Standard,42.35,9,2,Debit Card,8.0,9.5,1
+CUST01060,37,Male,Standard,37.98,15,1,Bank Transfer,3.0,6.4,0
+CUST01061,51,Male,Premium,110.6,7,0,E-Wallet,9.0,10.0,0
+CUST01062,18,Male,Standard,33.33,23,1,PayPal,8.0,11.1,0
+CUST01063,33,Male,Basic,29.49,2,5,Credit Card,5.0,15.6,0
+CUST01064,40,Female,Standard,58.5,28,1,PayPal,6.0,14.4,1
+CUST01065,65,Male,Basic,22.17,4,1,Credit Card,9.0,4.2,0
+CUST01066,18,Female,Premium,102.72,19,2,Bank Transfer,2.0,5.0,1
+CUST01067,38,Female,Basic,10.73,9,4,Credit Card,7.0,19.0,0
+CUST01068,58,Male,Standard,43.1,19,2,PayPal,8.0,7.1,0
+CUST01069,29,Female,Basic,27.68,55,5,E-Wallet,6.0,12.8,0
+CUST01070,37,Male,Basic,10.22,18,2,Credit Card,7.0,21.8,0
+CUST01071,44,Female,Premium,77.43,36,3,Debit Card,6.0,10.4,0
+CUST01072,42,Male,Standard,40.61,7,1,PayPal,4.0,4.1,0
+CUST01073,60,Male,Basic,23.49,28,1,Debit Card,4.0,4.1,0
+CUST01074,45,Male,Premium,102.28,4,4,Credit Card,8.0,7.8,1
+CUST01075,57,Female,Premium,63.9,18,2,Credit Card,5.0,7.9,0
+CUST01076,35,Female,Basic,14.34,28,0,Debit Card,3.0,3.5,1
+CUST01077,30,Male,Standard,54.75,0,4,PayPal,6.0,4.8,0
+CUST01078,37,Female,Standard,35.74,10,2,PayPal,5.0,14.5,1
+CUST01079,24,Female,Standard,38.59,8,4,Credit Card,3.0,19.2,1
+CUST01080,46,Female,Basic,13.23,19,1,Debit Card,6.0,7.2,0
+CUST01081,34,Male,Basic,25.08,10,2,Debit Card,8.0,0.2,0
+CUST01082,31,Female,Premium,61.62,32,3,Credit Card,6.0,13.7,1
+CUST01083,46,Male,Premium,78.1,22,3,PayPal,4.0,1.9,1
+CUST01084,25,Male,Premium,91.93,31,0,Credit Card,7.0,2.7,1
+CUST01085,50,Male,Premium,60.35,10,3,Debit Card,8.0,8.5,0
+CUST01086,33,Female,Standard,58.61,25,1,E-Wallet,10.0,22.6,1
+CUST01087,55,Female,Standard,56.07,4,2,Debit Card,9.0,16.1,0
+CUST01088,34,Female,Standard,49.41,72,2,PayPal,4.0,15.0,0
+CUST01089,48,Female,Standard,43.16,5,2,Credit Card,8.0,8.6,0
+CUST01090,42,Male,Standard,34.65,13,2,Credit Card,7.0,3.2,1
+CUST01091,49,Male,Basic,21.06,35,1,Credit Card,3.0,20.3,0
+CUST01092,41,Female,Standard,37.17,14,3,Bank Transfer,7.0,3.3,0
+CUST01093,18,Female,Basic,22.75,8,1,Bank Transfer,10.0,12.5,0
+CUST01094,53,Male,Basic,12.9,25,0,Credit Card,9.0,10.9,0
+CUST01095,38,Male,Standard,51.5,3,1,Credit Card,4.0,2.9,1
+CUST01096,50,Female,Basic,16.45,2,0,Credit Card,6.0,1.8,1
+CUST01097,48,Male,Basic,20.03,9,3,PayPal,7.0,14.9,1
+CUST01098,29,Female,Premium,69.7,34,1,PayPal,2.0,9.8,1
+CUST01099,28,Female,Premium,75.37,22,2,PayPal,2.0,20.2,1
+CUST01100,48,Male,Basic,18.99,15,2,E-Wallet,6.0,12.1,0
+CUST01101,36,Male,Basic,19.15,4,1,Credit Card,6.0,11.0,0
+CUST01102,52,Female,Basic,29.99,13,2,PayPal,2.0,1.2,1
+CUST01103,37,Male,Standard,40.05,14,0,PayPal,7.0,10.8,1
+CUST01104,53,Male,Premium,65.05,11,2,Credit Card,8.0,9.0,1
+CUST01105,45,Male,Basic,20.47,7,2,E-Wallet,,12.2,1
+CUST01106,43,Female,Standard,39.64,7,2,Credit Card,6.0,9.0,0
+CUST01107,35,Female,Basic,27.55,0,2,PayPal,7.0,8.8,1
+CUST01108,43,Male,Basic,14.2,8,5,PayPal,7.0,8.4,0
+CUST01109,55,Female,Premium,111.33,20,3,E-Wallet,2.0,5.6,1
+CUST01110,39,Male,Basic,23.26,4,1,Debit Card,4.0,14.8,1
+CUST01111,46,Male,Basic,13.75,2,0,Credit Card,5.0,40.0,0
+CUST01112,40,Male,Basic,18.09,14,2,Bank Transfer,4.0,3.1,1
+CUST01113,41,Male,Standard,44.76,28,0,Bank Transfer,9.0,4.3,0
+CUST01114,62,Female,Premium,91.3,0,1,Debit Card,7.0,14.8,1
+CUST01115,55,Female,Premium,83.82,3,1,Bank Transfer,4.0,7.6,1
+CUST01116,41,Male,Basic,21.68,15,3,Credit Card,6.0,6.5,1
+CUST01117,42,Female,Basic,24.32,43,3,PayPal,8.0,1.8,0
+CUST01118,30,Female,Standard,45.18,15,2,Bank Transfer,5.0,4.6,0
+CUST01119,37,Female,Basic,22.04,13,2,Credit Card,8.0,3.9,0
+CUST01120,44,Male,Premium,111.57,72,2,Debit Card,9.0,1.9,0
+CUST01121,51,Male,Standard,44.92,39,3,E-Wallet,9.0,18.5,0
+CUST01122,49,Male,Basic,18.32,9,4,Bank Transfer,6.0,10.4,0
+CUST01123,25,Male,Premium,74.86,52,1,Bank Transfer,9.0,40.0,0
+CUST01124,52,Male,Basic,12.62,24,2,Debit Card,5.0,11.3,0
+CUST01125,38,Male,Basic,15.84,6,2,E-Wallet,10.0,3.4,0
+CUST01126,27,Male,Standard,42.17,3,1,Credit Card,7.0,12.1,0
+CUST01127,57,Female,Standard,52.92,4,3,Debit Card,9.0,14.0,0
+CUST01128,59,Female,Standard,36.51,10,0,Debit Card,5.0,6.0,1
+CUST01129,43,Female,Standard,51.05,2,3,Bank Transfer,7.0,13.7,1
+CUST01130,49,Male,Premium,64.73,55,4,E-Wallet,7.0,13.4,0
+CUST01131,49,Female,Premium,69.49,5,2,PayPal,4.0,4.8,0
+CUST01132,58,Female,Standard,39.78,45,3,PayPal,4.0,15.5,0
+CUST01133,49,Female,Basic,19.39,19,3,Debit Card,6.0,11.7,0
+CUST01134,22,Female,Standard,35.42,44,1,Debit Card,8.0,9.7,0
+CUST01135,66,Female,Premium,66.71,1,1,Debit Card,2.0,10.5,1
+CUST01136,53,Female,Basic,21.31,14,1,Credit Card,5.0,3.4,1
+CUST01137,33,Female,Standard,42.35,4,4,Debit Card,9.0,,0
+CUST01138,26,Female,Basic,18.31,72,0,Bank Transfer,3.0,7.6,0
+CUST01139,46,Female,Basic,16.15,38,1,PayPal,9.0,7.0,0
+CUST01140,36,Female,Standard,41.13,5,3,Bank Transfer,4.0,12.4,0
+CUST01141,44,Male,Basic,13.67,57,6,Debit Card,4.0,39.8,0
+CUST01142,49,Female,Standard,38.11,24,0,Debit Card,6.0,15.9,1
+CUST01143,32,Male,Premium,92.53,17,2,Credit Card,10.0,7.7,1
+CUST01144,25,Female,Premium,91.33,34,2,Debit Card,5.0,12.3,1
+CUST01145,45,Female,Basic,28.11,15,3,Debit Card,2.0,12.2,1
+CUST01146,33,Female,Basic,26.64,33,1,Credit Card,3.0,9.7,1
+CUST01147,41,Male,Standard,30.2,19,3,Credit Card,8.0,,0
+CUST01148,22,Female,Premium,73.78,1,3,PayPal,3.0,16.3,1
+CUST01149,36,Male,Standard,56.62,9,2,,9.0,6.6,0
+CUST01150,49,Male,Premium,78.88,15,1,Debit Card,6.0,5.2,0
+CUST01151,47,Male,Basic,19.54,19,1,Credit Card,6.0,7.2,1
+CUST01152,29,Female,Premium,100.49,3,2,Debit Card,7.0,19.3,0
+CUST01153,24,Male,Basic,20.86,25,2,Debit Card,4.0,6.5,1
+CUST01154,40,Male,Basic,10.09,17,1,Debit Card,6.0,8.9,0
+CUST01155,47,Female,Standard,36.19,30,2,PayPal,3.0,33.4,0
+CUST01156,45,Female,Basic,12.0,35,1,Credit Card,9.0,6.8,1
+CUST01157,33,Male,Basic,13.34,43,3,E-Wallet,4.0,8.7,0
+CUST01158,43,Female,Basic,12.94,9,6,Credit Card,7.0,9.5,0
+CUST01159,59,Male,Basic,22.45,9,2,Debit Card,4.0,6.8,0
+CUST01160,42,Female,Standard,42.19,32,0,Credit Card,5.0,8.6,0
+CUST01161,18,Male,Basic,11.32,2,2,Debit Card,5.0,10.4,0
+CUST01162,42,Female,Standard,32.46,15,1,Credit Card,10.0,6.5,0
+CUST01163,66,Female,Premium,117.01,3,2,Bank Transfer,6.0,1.7,0
+CUST01164,23,Female,Basic,13.09,7,3,Debit Card,4.0,2.6,1
+CUST01165,40,Female,Basic,15.07,66,4,PayPal,5.0,9.3,1
+CUST01166,37,Female,Premium,94.45,3,2,Credit Card,3.0,26.2,0
+CUST01167,41,Male,Premium,71.22,3,0,Credit Card,6.0,7.5,0
+CUST01168,42,Male,Standard,35.92,20,2,Debit Card,10.0,11.5,0
+CUST01169,54,Male,Premium,64.35,0,3,Debit Card,7.0,20.3,0
+CUST01170,41,Male,Basic,29.61,1,1,Debit Card,8.0,13.5,0
+CUST01171,56,Female,Basic,22.11,27,4,E-Wallet,4.0,9.5,1
+CUST01172,38,Male,Standard,45.88,27,3,PayPal,6.0,8.7,0
+CUST01173,35,Female,Basic,27.76,5,3,E-Wallet,6.0,5.5,1
+CUST01174,31,Male,Standard,47.82,24,0,Credit Card,4.0,16.0,0
+CUST01175,18,Male,Standard,37.88,15,3,Bank Transfer,7.0,19.5,0
+CUST01176,43,Female,Standard,44.16,0,3,PayPal,7.0,0.1,1
+CUST01177,66,Female,Standard,44.32,0,2,PayPal,7.0,16.1,0
+CUST01178,45,Female,Basic,17.95,21,0,E-Wallet,6.0,14.1,1
+CUST01179,48,Male,Basic,25.06,6,3,PayPal,8.0,7.1,0
+CUST01180,34,Female,Basic,12.18,11,0,Bank Transfer,5.0,5.5,1
+CUST01181,36,Female,Standard,34.77,0,0,PayPal,5.0,12.9,1
+CUST01182,52,Male,Basic,17.43,17,2,Credit Card,9.0,2.6,1
+CUST01183,66,Female,Basic,11.41,12,2,PayPal,4.0,7.3,1
+CUST01184,59,Female,Basic,29.74,16,2,Debit Card,2.0,11.5,1
+CUST01185,50,Male,Basic,19.91,4,1,E-Wallet,4.0,22.2,1
+CUST01186,40,Male,Premium,63.0,0,2,Bank Transfer,7.0,28.1,0
+CUST01187,42,Male,Basic,22.15,2,3,Credit Card,9.0,3.9,1
+CUST01188,30,Female,Premium,106.86,25,0,Credit Card,5.0,12.2,1
+CUST01189,21,Female,Basic,18.14,49,1,Credit Card,10.0,9.5,0
+CUST01190,25,Female,Standard,44.41,3,4,Debit Card,6.0,14.6,0
+CUST01191,40,Female,Basic,24.0,41,4,Credit Card,6.0,8.4,0
+CUST01192,36,Male,Basic,14.67,18,2,PayPal,4.0,15.2,1
+CUST01193,20,Female,Premium,95.85,59,3,PayPal,10.0,11.3,0
+CUST01194,39,Male,Premium,97.85,1,1,Bank Transfer,6.0,6.0,1
+CUST01195,35,Female,Premium,108.27,19,2,Credit Card,3.0,15.3,1
+CUST01196,24,Male,Basic,27.81,23,2,Debit Card,10.0,8.6,1
+CUST01197,35,Male,Basic,28.81,2,1,Credit Card,7.0,10.0,0
+CUST01198,35,Male,Standard,33.78,2,0,Bank Transfer,,4.5,0
+CUST01199,31,Male,Basic,26.32,8,1,Credit Card,10.0,7.8,0
+CUST01200,52,Male,Standard,50.25,12,2,Credit Card,7.0,21.9,0
+CUST01201,18,Female,Standard,41.11,24,4,Credit Card,8.0,6.2,1
+CUST01202,18,Male,Standard,57.67,22,2,Bank Transfer,6.0,28.2,0
+CUST01203,40,Female,Premium,111.6,27,1,Credit Card,8.0,10.3,1
+CUST01204,41,Male,Standard,53.22,24,2,PayPal,6.0,11.8,0
+CUST01205,45,Female,Basic,11.14,4,1,PayPal,6.0,5.3,0
+CUST01206,32,Male,Basic,13.53,71,2,Bank Transfer,6.0,16.0,0
+CUST01207,28,Male,Standard,57.54,5,0,Credit Card,5.0,2.4,0
+CUST01208,39,Male,Standard,59.46,15,4,Credit Card,7.0,7.9,0
+CUST01209,34,Female,Basic,15.54,17,2,Debit Card,7.0,5.3,1
+CUST01210,60,Female,Basic,15.54,33,1,Credit Card,8.0,2.9,0
+CUST01211,35,Male,Standard,48.3,34,1,PayPal,7.0,14.6,0
+CUST01212,39,Male,Premium,64.56,10,1,Debit Card,10.0,8.2,0
+CUST01213,72,Female,Standard,47.85,20,2,Debit Card,8.0,10.0,1
+CUST01214,37,Female,Basic,29.36,1,3,Credit Card,6.0,5.5,1
+CUST01215,47,Male,Basic,15.93,4,6,PayPal,7.0,16.8,1
+CUST01216,48,Male,Standard,52.27,1,2,Credit Card,9.0,11.3,1
+CUST01217,49,Female,Basic,20.49,11,0,PayPal,4.0,24.6,1
+CUST01218,43,Male,Standard,38.61,29,5,Credit Card,10.0,5.8,1
+CUST01219,42,Male,Standard,42.36,7,1,E-Wallet,4.0,5.8,1
+CUST01220,41,Male,Basic,21.01,18,2,PayPal,8.0,13.7,0
+CUST01221,32,Male,Basic,25.22,8,2,Credit Card,6.0,26.3,1
+CUST01222,44,Female,Basic,20.81,34,3,Credit Card,6.0,6.5,0
+CUST01223,66,Male,Premium,115.5,29,2,Credit Card,3.0,0.9,1
+CUST01224,55,Male,Standard,33.5,40,5,Credit Card,8.0,3.3,0
+CUST01225,43,Male,Basic,29.14,4,2,Credit Card,3.0,21.9,1
+CUST01226,51,Female,Premium,93.03,5,0,Bank Transfer,3.0,7.7,1
+CUST01227,28,Male,Standard,41.74,0,1,PayPal,9.0,30.0,0
+CUST01228,36,Male,Standard,32.27,2,3,Credit Card,10.0,3.8,0
+CUST01229,52,Male,Premium,77.76,5,0,PayPal,5.0,13.7,1
+CUST01230,59,Female,Basic,18.75,34,3,Credit Card,8.0,13.9,1
+CUST01231,29,Female,Basic,28.73,24,2,E-Wallet,8.0,2.6,0
+CUST01232,33,Male,Standard,52.68,11,1,Credit Card,6.0,2.6,1
+CUST01233,68,Male,Basic,11.17,22,1,PayPal,9.0,7.9,0
+CUST01234,41,Male,Standard,39.83,22,3,Bank Transfer,6.0,14.6,0
+CUST01235,63,Male,Basic,19.82,31,1,Credit Card,7.0,12.5,1
+CUST01236,42,Female,Basic,26.99,6,2,Credit Card,3.0,8.4,1
+CUST01237,43,Female,Basic,25.52,0,2,Debit Card,3.0,8.2,1
+CUST01238,36,Male,Basic,14.31,14,2,Bank Transfer,9.0,1.3,1
+CUST01239,52,Male,Basic,11.0,10,1,Debit Card,7.0,4.7,0
+CUST01240,57,Male,Basic,12.64,6,1,PayPal,6.0,2.1,1
+CUST01241,26,Female,Premium,90.19,18,3,Bank Transfer,10.0,12.3,1
+CUST01242,35,Female,Basic,11.79,11,1,Bank Transfer,10.0,3.3,0
+CUST01243,51,Male,Basic,14.99,30,3,Debit Card,7.0,21.7,0
+CUST01244,38,Male,Basic,26.42,9,2,Debit Card,3.0,10.0,1
+CUST01245,33,Male,Basic,18.03,2,2,PayPal,6.0,4.5,1
+CUST01246,53,Male,Basic,29.91,0,3,Credit Card,4.0,19.4,1
+CUST01247,54,Male,Standard,52.67,5,4,Bank Transfer,6.0,3.0,0
+CUST01248,34,Male,Basic,15.29,9,2,Credit Card,4.0,3.1,1
+CUST01249,42,Female,Premium,60.44,33,1,Credit Card,3.0,4.4,0
+CUST01250,24,Male,Premium,91.62,10,1,Bank Transfer,1.0,19.5,1
+CUST01251,28,Male,Basic,24.11,12,2,Credit Card,6.0,30.2,0
+CUST01252,41,Female,Basic,19.38,4,4,Credit Card,1.0,2.1,1
+CUST01253,40,Female,Basic,28.12,31,1,Credit Card,5.0,40.0,1
+CUST01254,27,Female,Standard,53.03,27,2,Debit Card,8.0,14.9,0
+CUST01255,30,Female,Basic,20.4,72,1,Bank Transfer,4.0,6.7,1
+CUST01256,26,Female,Premium,61.13,34,1,Credit Card,4.0,14.0,0
+CUST01257,45,Male,Standard,40.14,49,2,Credit Card,6.0,19.7,0
+CUST01258,18,Male,Premium,89.65,2,2,,4.0,4.6,1
+CUST01259,26,Male,Standard,37.5,32,0,E-Wallet,6.0,19.8,0
+CUST01260,18,Female,Premium,110.25,0,2,Credit Card,4.0,9.5,1
+CUST01261,45,Female,Basic,18.48,72,2,E-Wallet,6.0,2.1,1
+CUST01262,18,Female,Basic,14.07,10,1,Bank Transfer,5.0,14.8,1
+CUST01263,40,Female,Basic,25.57,2,3,,6.0,25.4,1
+CUST01264,61,Male,Premium,96.49,2,3,Bank Transfer,10.0,12.9,0
+CUST01265,61,Female,Standard,35.9,47,3,PayPal,6.0,3.7,0
+CUST01266,18,Female,Premium,91.95,14,2,Debit Card,7.0,13.1,1
+CUST01267,43,Female,Basic,23.88,0,1,Debit Card,5.0,11.5,0
+CUST01268,27,Female,Premium,86.9,26,2,Bank Transfer,6.0,13.9,1
+CUST01269,24,Male,Standard,39.06,26,3,Bank Transfer,5.0,1.9,0
+CUST01270,38,Female,Standard,50.68,13,1,Bank Transfer,6.0,,1
+CUST01271,55,Male,Premium,101.23,3,1,E-Wallet,7.0,6.1,1
+CUST01272,47,Male,Basic,10.33,3,2,Debit Card,5.0,17.3,0
+CUST01273,30,Male,Basic,14.67,8,1,Bank Transfer,5.0,15.5,1
+CUST01274,49,Male,Standard,49.38,14,0,Bank Transfer,5.0,18.7,0
+CUST01275,18,Female,Basic,14.47,69,2,Credit Card,5.0,14.1,0
+CUST01276,30,Female,Basic,29.24,18,0,Credit Card,6.0,16.5,1
+CUST01277,29,Male,Basic,13.25,4,2,Debit Card,5.0,11.5,1
+CUST01278,41,Female,Basic,24.95,17,1,Bank Transfer,9.0,8.5,1
+CUST01279,37,Male,Premium,119.89,59,4,Credit Card,10.0,15.1,0
+CUST01280,38,Male,Standard,40.39,4,1,PayPal,5.0,3.4,1
+CUST01281,37,Female,Basic,22.05,3,0,Credit Card,7.0,4.3,1
+CUST01282,40,Male,Basic,12.1,0,2,Debit Card,8.0,3.0,1
+CUST01283,47,Female,Basic,22.43,15,4,PayPal,5.0,10.9,1
+CUST01284,41,Female,Standard,59.62,0,0,Credit Card,4.0,3.4,1
+CUST01285,36,Female,Premium,118.36,72,2,Bank Transfer,10.0,0.8,0
+CUST01286,45,Male,Premium,84.7,40,2,Credit Card,8.0,2.5,1
+CUST01287,50,Female,Basic,26.4,2,3,E-Wallet,7.0,,0
+CUST01288,32,Male,Basic,26.52,4,1,Credit Card,9.0,11.0,1
+CUST01289,39,Female,Standard,39.81,5,2,E-Wallet,8.0,19.4,1
+CUST01290,55,Female,Standard,54.67,1,3,PayPal,6.0,2.2,1
+CUST01291,25,Male,Standard,34.86,29,1,Credit Card,4.0,13.6,0
+CUST01292,63,Male,Standard,59.36,27,2,Credit Card,5.0,3.1,1
+CUST01293,22,Male,Standard,55.92,5,1,Credit Card,9.0,13.4,1
+CUST01294,35,Male,Basic,20.2,26,0,PayPal,8.0,18.7,0
+CUST01295,27,Male,Basic,17.7,19,2,Bank Transfer,6.0,14.9,0
+CUST01296,68,Male,Basic,28.91,7,2,Debit Card,10.0,10.1,1
+CUST01297,33,Female,Basic,11.41,11,1,Debit Card,6.0,24.5,0
+CUST01298,33,Female,Basic,19.96,58,3,PayPal,8.0,17.3,0
+CUST01299,35,Male,Standard,44.6,57,2,Debit Card,6.0,5.0,0
+CUST01300,41,Male,Basic,17.62,33,0,PayPal,10.0,3.3,0
+CUST01301,35,Female,Basic,12.24,5,2,Debit Card,8.0,40.0,1
+CUST01302,38,Female,Standard,37.53,16,6,PayPal,6.0,5.3,1
+CUST01303,18,Female,Standard,59.48,46,2,E-Wallet,6.0,8.7,0
+CUST01304,40,Female,Basic,26.15,5,2,Debit Card,6.0,4.1,1
+CUST01305,40,Female,Premium,110.29,20,2,Credit Card,4.0,16.6,0
+CUST01306,53,Female,Premium,90.56,3,4,Credit Card,3.0,4.5,1
+CUST01307,57,Female,Standard,49.84,15,1,PayPal,7.0,9.7,0
+CUST01308,37,Female,Standard,45.14,26,2,Credit Card,5.0,13.0,0
+CUST01309,50,Male,Basic,23.54,72,0,E-Wallet,5.0,5.7,1
+CUST01310,25,Female,Premium,111.8,12,1,PayPal,6.0,12.9,0
+CUST01311,49,Female,Basic,14.84,59,2,Debit Card,6.0,28.5,0
+CUST01312,32,Male,Premium,117.04,35,2,Bank Transfer,6.0,11.5,1
+CUST01313,24,Male,Standard,57.4,22,0,Credit Card,10.0,15.7,0
+CUST01314,37,Female,Basic,18.38,10,1,Bank Transfer,7.0,7.1,1
+CUST01315,58,Female,Basic,29.53,35,1,Credit Card,10.0,6.6,1
+CUST01316,42,Female,Standard,56.47,46,1,PayPal,5.0,3.1,1
+CUST01317,59,Female,Standard,31.19,8,2,E-Wallet,8.0,10.7,1
+CUST01318,30,Female,Basic,10.83,15,3,Bank Transfer,5.0,19.5,0
+CUST01319,53,Male,Standard,51.21,18,2,Bank Transfer,5.0,15.1,0
+CUST01320,31,Male,Premium,107.01,55,5,Debit Card,10.0,6.6,1
+CUST01321,42,Male,Standard,37.45,12,3,Bank Transfer,4.0,7.6,1
+CUST01322,42,Male,Standard,44.95,19,1,PayPal,1.0,28.8,1
+CUST01323,48,Female,Basic,20.77,72,2,PayPal,4.0,13.8,0
+CUST01324,43,Female,Standard,43.36,41,0,Credit Card,2.0,16.9,0
+CUST01325,30,Male,Basic,11.37,3,4,Credit Card,4.0,18.4,1
+CUST01326,51,Male,Premium,73.12,19,5,PayPal,4.0,6.8,0
+CUST01327,62,Female,Basic,26.28,52,0,Credit Card,6.0,6.2,0
+CUST01328,32,Female,Standard,32.18,12,3,PayPal,1.0,6.7,1
+CUST01329,18,Female,Basic,22.43,20,6,Bank Transfer,9.0,6.0,0
+CUST01330,46,Male,Basic,22.67,53,3,E-Wallet,2.0,25.0,0
+CUST01331,35,Female,Standard,58.68,15,2,Credit Card,6.0,8.4,1
+CUST01332,38,Female,Standard,59.61,29,2,E-Wallet,5.0,22.6,0
+CUST01333,47,Female,Standard,58.34,2,4,Credit Card,8.0,8.6,0
+CUST01334,34,Female,Premium,92.47,18,1,Debit Card,7.0,,1
+CUST01335,36,Female,Premium,62.5,4,1,Bank Transfer,9.0,1.5,0
+CUST01336,38,Male,Premium,76.63,22,2,Credit Card,5.0,6.4,1
+CUST01337,59,Male,Basic,19.5,6,3,Credit Card,5.0,25.4,1
+CUST01338,40,Male,Standard,31.16,4,1,Credit Card,7.0,24.8,0
+CUST01339,23,Female,Premium,62.22,14,5,Debit Card,8.0,6.3,1
+CUST01340,24,Female,Basic,16.47,28,2,Bank Transfer,8.0,0.9,1
+CUST01341,41,Male,Basic,17.74,43,2,Credit Card,7.0,4.2,1
+CUST01342,25,Male,Premium,94.84,4,3,Credit Card,7.0,6.2,1
+CUST01343,19,Male,Standard,57.98,4,0,PayPal,6.0,6.3,1
+CUST01344,48,Male,Standard,41.73,72,3,Credit Card,,6.2,0
+CUST01345,48,Female,Premium,62.88,15,1,PayPal,10.0,9.9,0
+CUST01346,35,Female,Standard,46.19,9,2,E-Wallet,5.0,3.8,1
+CUST01347,43,Male,Basic,17.15,4,4,Bank Transfer,5.0,8.8,1
+CUST01348,42,Male,Basic,28.01,24,2,Bank Transfer,5.0,12.0,1
+CUST01349,47,Female,Basic,18.62,8,1,Debit Card,7.0,6.7,1
+CUST01350,47,Female,Basic,16.43,15,1,Bank Transfer,1.0,10.3,1
+CUST01351,18,Male,Standard,51.71,0,3,Credit Card,6.0,28.3,0
+CUST01352,36,Male,Premium,89.59,3,1,Credit Card,8.0,15.5,0
+CUST01353,46,Male,Basic,21.09,2,2,PayPal,5.0,14.0,1
+CUST01354,34,Male,Basic,13.03,10,1,Credit Card,6.0,7.1,1
+CUST01355,40,Female,Premium,82.5,17,1,Bank Transfer,,6.0,1
+CUST01356,49,Female,Basic,10.92,7,3,PayPal,7.0,9.2,1
+CUST01357,41,Female,Standard,52.64,4,0,E-Wallet,1.0,13.8,0
+CUST01358,59,Male,Standard,37.36,12,4,Credit Card,3.0,11.4,1
+CUST01359,54,Male,Standard,33.61,49,2,Debit Card,5.0,10.5,0
+CUST01360,38,Male,Basic,21.78,13,3,PayPal,4.0,17.3,0
+CUST01361,37,Female,Standard,47.37,4,4,Credit Card,6.0,13.2,1
+CUST01362,18,Female,Basic,16.31,6,2,Debit Card,5.0,16.6,0
+CUST01363,35,Male,Standard,58.86,9,2,PayPal,9.0,4.5,0
+CUST01364,22,Female,Basic,22.7,0,4,E-Wallet,4.0,3.2,1
+CUST01365,42,Male,Standard,57.78,8,2,PayPal,6.0,26.7,0
+CUST01366,41,Female,Standard,39.01,11,1,Credit Card,6.0,0.8,1
+CUST01367,49,Male,Basic,21.03,55,1,Debit Card,7.0,3.6,1
+CUST01368,58,Female,Basic,18.26,44,2,PayPal,6.0,7.1,1
+CUST01369,39,Female,Basic,18.26,15,3,Credit Card,1.0,22.4,1
+CUST01370,69,Male,Basic,10.95,10,3,Debit Card,6.0,3.1,1
+CUST01371,43,Male,Basic,14.38,5,2,Credit Card,6.0,1.6,1
+CUST01372,22,Male,Premium,112.15,9,0,Credit Card,8.0,4.7,1
+CUST01373,32,Male,Basic,26.99,1,3,Debit Card,8.0,6.4,0
+CUST01374,35,Female,Premium,66.3,4,2,Credit Card,7.0,10.2,1
+CUST01375,47,Female,Premium,61.08,15,2,PayPal,7.0,14.2,0
+CUST01376,27,Female,Basic,12.03,69,3,Credit Card,9.0,17.7,0
+CUST01377,36,Male,Standard,49.15,37,3,PayPal,9.0,2.5,0
+CUST01378,37,Female,Premium,74.38,36,1,Credit Card,7.0,0.7,1
+CUST01379,34,Male,Standard,52.87,20,4,Bank Transfer,10.0,9.9,1
+CUST01380,50,Male,Basic,10.11,72,0,Credit Card,5.0,3.1,0
+CUST01381,48,Female,Basic,24.31,8,0,Debit Card,3.0,,1
+CUST01382,55,Male,Basic,27.72,2,0,Credit Card,6.0,7.4,0
+CUST01383,35,Female,Standard,31.33,3,2,Credit Card,5.0,6.2,1
+CUST01384,55,Male,Premium,112.03,0,2,Debit Card,1.0,1.4,1
+CUST01385,22,Male,Premium,115.06,11,0,Bank Transfer,5.0,10.7,1
+CUST01386,21,Female,Basic,20.71,30,3,E-Wallet,7.0,33.3,0
+CUST01387,24,Female,Standard,38.53,9,2,Credit Card,6.0,8.8,0
+CUST01388,40,Female,Basic,21.25,30,2,Credit Card,4.0,36.9,0
+CUST01389,55,Male,Premium,78.63,14,3,PayPal,6.0,0.8,1
+CUST01390,32,Male,Basic,28.65,4,3,PayPal,6.0,4.6,0
+CUST01391,33,Male,Premium,92.61,11,3,Credit Card,8.0,29.8,0
+CUST01392,37,Male,Premium,107.91,0,6,Bank Transfer,5.0,4.5,1
+CUST01393,47,Female,Basic,22.19,3,3,Debit Card,8.0,11.3,0
+CUST01394,33,Male,Basic,15.76,36,2,PayPal,4.0,9.0,1
+CUST01395,33,Male,Premium,90.0,29,3,Debit Card,5.0,7.2,1
+CUST01396,22,Male,Basic,27.59,43,4,Debit Card,10.0,17.9,0
+CUST01397,32,Male,Standard,41.48,21,2,Credit Card,4.0,9.2,0
+CUST01398,55,Female,Premium,80.47,4,0,Bank Transfer,5.0,15.7,0
+CUST01399,41,Female,Standard,58.68,72,2,Credit Card,3.0,30.3,0
+CUST01400,30,Female,Basic,16.67,2,0,Bank Transfer,4.0,18.3,1
+CUST01401,56,Female,Basic,27.18,9,3,Bank Transfer,6.0,3.6,0
+CUST01402,32,Male,Basic,13.56,1,0,PayPal,8.0,40.0,0
+CUST01403,58,Male,Premium,107.49,11,0,Credit Card,6.0,13.9,1
+CUST01404,58,Female,Basic,22.3,2,2,Credit Card,5.0,7.8,0
+CUST01405,40,Male,Basic,12.39,5,2,Debit Card,,3.0,1
+CUST01406,20,Female,Basic,11.27,28,3,PayPal,4.0,9.7,1
+CUST01407,69,Male,Premium,77.89,6,2,E-Wallet,3.0,4.9,1
+CUST01408,45,Male,Basic,23.14,0,6,Debit Card,8.0,2.3,1
+CUST01409,35,Male,Premium,81.6,21,5,Bank Transfer,8.0,3.3,1
+CUST01410,52,Male,Standard,38.12,9,0,Credit Card,,1.9,0
+CUST01411,49,Female,Premium,94.9,4,2,Debit Card,7.0,6.8,1
+CUST01412,57,Male,Premium,117.14,13,6,Credit Card,8.0,8.4,1
+CUST01413,31,Male,Premium,67.3,9,5,PayPal,6.0,12.5,1
+CUST01414,44,Male,Premium,98.66,30,0,Credit Card,9.0,13.6,0
+CUST01415,24,Male,Basic,28.24,18,3,Credit Card,4.0,5.9,1
+CUST01416,48,Female,Standard,46.22,8,2,Bank Transfer,5.0,6.6,0
+CUST01417,39,Female,Standard,58.92,2,1,Debit Card,5.0,10.8,1
+CUST01418,43,Female,Standard,47.93,4,3,Credit Card,7.0,3.5,0
+CUST01419,38,Male,Premium,100.35,13,1,Credit Card,3.0,15.3,1
+CUST01420,36,Male,Premium,107.47,27,5,Debit Card,9.0,7.1,0
+CUST01421,28,Male,Standard,35.98,22,0,Credit Card,7.0,17.1,0
+CUST01422,50,Male,Standard,46.8,11,0,Credit Card,10.0,10.0,0
+CUST01423,59,Female,Standard,48.42,30,3,PayPal,6.0,7.7,0
+CUST01424,32,Female,Basic,12.39,6,0,Credit Card,5.0,20.6,1
+CUST01425,47,Female,Basic,19.1,1,4,PayPal,7.0,2.2,0
+CUST01426,45,Male,Basic,25.4,29,3,Debit Card,8.0,12.1,1
+CUST01427,40,Male,Basic,10.8,26,3,Credit Card,4.0,26.7,0
+CUST01428,20,Female,Basic,18.26,3,2,Credit Card,2.0,10.4,1
+CUST01429,23,Male,Standard,34.36,4,3,Credit Card,2.0,8.9,1
+CUST01430,29,Female,Basic,13.5,49,0,Credit Card,7.0,17.4,0
+CUST01431,18,Male,Premium,90.74,26,4,Credit Card,9.0,,0
+CUST01432,58,Female,Standard,30.87,6,3,E-Wallet,3.0,7.4,0
+CUST01433,44,Female,Basic,18.49,4,0,Bank Transfer,5.0,3.0,1
+CUST01434,39,Female,Basic,10.5,51,0,Debit Card,5.0,5.6,0
+CUST01435,18,Male,Basic,28.5,23,4,PayPal,10.0,14.5,0
+CUST01436,18,Female,Premium,112.97,2,1,PayPal,10.0,7.5,0
+CUST01437,39,Female,Basic,14.22,1,0,Bank Transfer,7.0,4.2,0
+CUST01438,65,Female,Standard,31.96,11,1,Credit Card,8.0,21.2,0
+CUST01439,30,Male,Premium,75.03,24,4,Credit Card,8.0,19.3,1
+CUST01440,51,Male,Premium,61.69,15,4,Credit Card,3.0,4.7,0
+CUST01441,33,Female,Basic,24.69,9,2,Credit Card,8.0,19.2,0
+CUST01442,40,Male,Basic,21.47,32,3,Credit Card,4.0,14.2,0
+CUST01443,55,Male,Basic,20.87,15,3,Bank Transfer,6.0,10.8,0
+CUST01444,35,Male,Basic,27.03,25,3,E-Wallet,9.0,27.9,0
+CUST01445,31,Male,Basic,26.18,0,3,Credit Card,6.0,12.0,1
+CUST01446,58,Male,Standard,42.26,24,2,Debit Card,8.0,5.1,0
+CUST01447,40,Male,Premium,96.61,33,3,Debit Card,9.0,6.9,0
+CUST01448,54,Male,Standard,43.24,46,2,Debit Card,2.0,2.0,1
+CUST01449,31,Male,Standard,48.71,9,1,PayPal,1.0,13.9,0
+CUST01450,58,Male,Basic,13.02,30,2,Credit Card,9.0,27.6,0
+CUST01451,43,Male,Premium,77.99,3,1,Bank Transfer,9.0,12.1,1
+CUST01452,45,Male,Standard,37.55,28,1,E-Wallet,7.0,10.9,0
+CUST01453,41,Male,Premium,70.04,1,1,PayPal,7.0,17.1,0
+CUST01454,33,Male,Premium,84.82,40,5,PayPal,8.0,15.2,0
+CUST01455,39,Male,Basic,24.52,29,1,Debit Card,8.0,21.6,1
+CUST01456,34,Male,Basic,17.91,2,0,Credit Card,5.0,9.2,0
+CUST01457,52,Male,Basic,29.64,5,1,Credit Card,8.0,13.0,1
+CUST01458,37,Female,Basic,16.03,1,3,PayPal,5.0,8.8,1
+CUST01459,20,Male,Premium,116.88,22,1,Credit Card,7.0,2.9,1
+CUST01460,18,Female,Basic,13.86,41,2,Bank Transfer,6.0,3.6,0
+CUST01461,18,Female,Standard,39.61,19,3,Debit Card,4.0,5.4,0
+CUST01462,48,Female,Standard,34.91,6,0,Debit Card,4.0,2.8,0
+CUST01463,25,Female,Basic,14.75,11,1,Credit Card,10.0,10.6,0
+CUST01464,43,Female,Basic,13.13,53,2,E-Wallet,4.0,17.9,0
+CUST01465,41,Female,Standard,48.73,36,3,Credit Card,7.0,6.0,0
+CUST01466,39,Female,Standard,36.01,28,2,Credit Card,7.0,1.6,1
+CUST01467,45,Male,Basic,11.69,28,4,Credit Card,6.0,4.9,1
+CUST01468,42,Female,Basic,15.32,72,2,PayPal,7.0,7.6,0
+CUST01469,18,Male,Standard,50.34,6,0,E-Wallet,7.0,17.0,1
+CUST01470,35,Male,Basic,18.56,30,2,Credit Card,4.0,9.8,1
+CUST01471,45,Female,Premium,69.36,2,5,E-Wallet,7.0,9.8,1
+CUST01472,61,Female,Basic,11.26,8,3,Credit Card,5.0,13.4,1
+CUST01473,61,Male,Basic,24.58,10,8,PayPal,10.0,18.9,1
+CUST01474,22,Male,Standard,51.11,3,0,Credit Card,7.0,26.9,1
+CUST01475,35,Female,Standard,43.84,15,0,Debit Card,4.0,6.0,1
+CUST01476,19,Female,Standard,45.82,20,3,PayPal,7.0,9.2,0
+CUST01477,59,Male,Basic,14.8,24,2,Debit Card,4.0,6.0,0
+CUST01478,53,Female,Premium,89.11,31,1,Credit Card,7.0,12.9,0
+CUST01479,44,Male,Standard,51.85,13,2,Bank Transfer,6.0,1.6,1
+CUST01480,42,Male,Standard,53.14,14,2,E-Wallet,4.0,31.8,0
+CUST01481,57,Male,Basic,16.8,4,1,Debit Card,4.0,13.9,0
+CUST01482,55,Female,Basic,23.57,48,1,PayPal,10.0,12.4,0
+CUST01483,55,Male,Standard,44.58,8,0,Bank Transfer,6.0,5.0,1
+CUST01484,45,Male,Basic,24.78,1,0,Credit Card,5.0,6.8,1
+CUST01485,35,Male,Standard,50.71,10,1,Bank Transfer,5.0,2.9,0
+CUST01486,49,Male,Basic,25.0,15,2,Credit Card,7.0,4.8,1
+CUST01487,50,Female,Premium,69.88,52,0,Bank Transfer,5.0,18.9,1
+CUST01488,37,Male,Standard,39.65,4,0,Credit Card,4.0,2.0,1
+CUST01489,35,Female,Premium,75.89,17,3,Credit Card,6.0,36.3,0
+CUST01490,54,Male,Standard,43.4,10,0,Debit Card,6.0,21.6,0
+CUST01491,61,Male,Basic,19.29,2,1,Debit Card,5.0,12.2,0
+CUST01492,30,Male,Premium,100.03,12,1,Bank Transfer,4.0,4.5,1
+CUST01493,36,Male,Standard,47.08,1,3,E-Wallet,5.0,15.7,0
+CUST01494,44,Female,Standard,47.39,24,1,Credit Card,5.0,14.7,0
+CUST01495,46,Male,Basic,22.65,1,2,Credit Card,5.0,5.9,1
+CUST01496,33,Female,Standard,38.18,11,3,Debit Card,7.0,13.7,0
+CUST01497,64,Female,Premium,73.56,9,1,Debit Card,10.0,7.5,0
+CUST01498,45,Male,Standard,36.45,57,1,Debit Card,9.0,1.5,0
+CUST01499,46,Male,Basic,25.58,11,3,Bank Transfer,10.0,3.1,0
+CUST01500,62,Female,Standard,32.91,5,3,Bank Transfer,5.0,21.0,0
+CUST01501,34,Male,Standard,39.47,20,0,Credit Card,10.0,6.5,1
+CUST01502,38,Male,Premium,76.81,2,1,Debit Card,7.0,5.2,1
+CUST01503,23,Male,Basic,21.83,9,2,PayPal,8.0,10.5,0
+CUST01504,37,Male,Basic,28.47,6,4,Debit Card,7.0,0.9,1
+CUST01505,20,Male,Premium,112.71,72,1,Credit Card,5.0,9.7,1
+CUST01506,49,Female,Standard,33.15,3,1,Debit Card,8.0,11.1,0
+CUST01507,45,Female,Standard,46.2,54,2,Debit Card,7.0,15.4,0
+CUST01508,36,Female,Standard,31.11,2,2,Credit Card,2.0,3.6,1
+CUST01509,38,Male,Basic,25.84,8,4,Bank Transfer,6.0,5.8,1
+CUST01510,49,Male,Standard,41.23,3,2,Credit Card,8.0,10.9,1
+CUST01511,25,Female,Basic,14.29,22,1,PayPal,7.0,4.0,0
+CUST01512,42,Male,Basic,19.67,31,0,Debit Card,7.0,11.6,0
+CUST01513,49,Male,Standard,43.04,4,2,Bank Transfer,4.0,10.5,1
+CUST01514,18,Female,Standard,58.28,19,1,Credit Card,7.0,0.8,1
+CUST01515,48,Male,Premium,61.98,21,2,Credit Card,6.0,18.6,0
+CUST01516,18,Female,Basic,28.99,10,1,Credit Card,6.0,4.1,1
+CUST01517,38,Male,Basic,14.68,17,2,Debit Card,5.0,9.9,0
+CUST01518,24,Male,Premium,68.69,11,3,Credit Card,8.0,32.2,0
+CUST01519,58,Female,Basic,24.83,40,0,Bank Transfer,7.0,4.5,1
+CUST01520,24,Male,Basic,20.44,5,3,Credit Card,7.0,13.5,0
+CUST01521,18,Female,Basic,27.9,2,3,Credit Card,10.0,37.7,1
+CUST01522,41,Male,Standard,46.27,21,2,Debit Card,7.0,15.0,0
+CUST01523,34,Male,Premium,90.32,12,1,Bank Transfer,9.0,21.4,1
+CUST01524,20,Female,Standard,36.17,24,1,Bank Transfer,7.0,3.3,0
+CUST01525,46,Female,Standard,58.48,3,3,PayPal,5.0,26.7,1
+CUST01526,18,Female,Basic,23.28,13,1,PayPal,4.0,1.5,1
+CUST01527,26,Female,Basic,22.02,0,1,PayPal,7.0,14.3,0
+CUST01528,32,Female,Standard,53.69,9,1,PayPal,1.0,9.5,1
+CUST01529,50,Female,Basic,12.02,9,0,Credit Card,7.0,7.4,0
+CUST01530,56,Male,Basic,27.32,11,1,PayPal,7.0,6.3,0
+CUST01531,54,Female,Basic,20.0,21,2,Bank Transfer,6.0,15.2,0
+CUST01532,38,Female,Basic,26.03,0,4,Credit Card,6.0,5.0,1
+CUST01533,18,Male,Standard,51.37,72,3,PayPal,3.0,6.6,0
+CUST01534,45,Female,Standard,43.53,14,1,Debit Card,9.0,14.3,0
+CUST01535,59,Male,Basic,25.38,47,3,Debit Card,5.0,20.8,0
+CUST01536,56,Male,Standard,51.61,7,2,Credit Card,4.0,8.7,1
+CUST01537,46,Male,Standard,30.1,3,3,PayPal,7.0,27.5,0
+CUST01538,24,Female,Standard,51.27,3,1,Bank Transfer,6.0,11.0,0
+CUST01539,33,Male,Premium,90.52,25,2,Credit Card,5.0,10.2,0
+CUST01540,65,Male,Basic,26.78,3,1,Debit Card,5.0,40.0,1
+CUST01541,21,Male,Premium,108.57,26,1,Credit Card,6.0,12.8,0
+CUST01542,25,Male,Basic,13.4,0,3,,9.0,34.5,0
+CUST01543,52,Male,Basic,10.43,20,0,E-Wallet,7.0,40.0,0
+CUST01544,34,Female,Basic,13.92,1,0,Debit Card,6.0,3.4,1
+CUST01545,24,Female,Standard,52.22,20,1,Debit Card,8.0,4.9,1
+CUST01546,59,Male,Basic,27.42,1,0,Credit Card,6.0,1.9,1
+CUST01547,45,Female,Basic,24.0,1,2,E-Wallet,7.0,16.1,1
+CUST01548,35,Female,Standard,54.61,26,1,Credit Card,6.0,16.3,0
+CUST01549,25,Male,Basic,21.73,31,3,PayPal,7.0,6.0,0
+CUST01550,66,Female,Basic,20.12,14,2,Credit Card,5.0,0.8,1
+CUST01551,39,Female,Basic,29.4,11,2,Credit Card,3.0,13.3,1
+CUST01552,58,Male,Basic,11.6,13,5,PayPal,8.0,2.1,1
+CUST01553,51,Female,Basic,18.42,20,0,Credit Card,9.0,8.2,0
+CUST01554,33,Male,Basic,15.55,6,2,PayPal,4.0,16.7,1
+CUST01555,33,Male,Basic,12.43,6,2,Credit Card,6.0,10.8,0
+CUST01556,58,Female,Standard,48.16,41,2,PayPal,5.0,20.7,0
+CUST01557,59,Male,Premium,75.79,22,1,Bank Transfer,8.0,7.8,0
+CUST01558,18,Male,Standard,43.88,7,3,,7.0,5.2,0
+CUST01559,47,Female,Standard,34.09,3,4,Credit Card,10.0,4.3,0
+CUST01560,38,Female,Premium,83.39,21,0,PayPal,5.0,16.4,0
+CUST01561,26,Male,Premium,72.01,34,0,E-Wallet,9.0,9.0,0
+CUST01562,43,Male,Standard,56.9,22,2,Credit Card,10.0,4.9,0
+CUST01563,22,Male,Premium,91.33,22,1,Credit Card,7.0,12.8,1
+CUST01564,33,Male,Premium,107.96,14,4,Bank Transfer,6.0,1.7,1
+CUST01565,29,Female,Standard,44.56,0,0,Credit Card,6.0,10.1,1
+CUST01566,33,Female,Standard,31.26,1,1,PayPal,6.0,11.9,0
+CUST01567,39,Male,Basic,23.88,2,2,Bank Transfer,8.0,,0
+CUST01568,26,Male,Basic,10.95,5,1,Credit Card,4.0,27.6,0
+CUST01569,60,Female,Standard,41.84,26,3,PayPal,6.0,7.4,1
+CUST01570,46,Female,Standard,46.4,2,5,PayPal,5.0,12.0,0
+CUST01571,63,Male,Basic,25.59,1,4,Credit Card,2.0,13.6,1
+CUST01572,37,Female,Standard,56.95,4,2,Bank Transfer,8.0,9.1,0
+CUST01573,32,Male,Standard,36.13,3,2,Credit Card,8.0,3.0,1
+CUST01574,62,Male,Premium,99.8,13,2,Debit Card,5.0,17.6,1
+CUST01575,32,Female,Basic,19.39,0,1,Bank Transfer,8.0,0.7,1
+CUST01576,37,Female,Basic,25.34,9,2,Credit Card,3.0,3.2,1
+CUST01577,49,Female,Standard,58.19,41,6,Bank Transfer,6.0,7.3,1
+CUST01578,23,Female,Premium,91.97,19,2,Credit Card,6.0,3.2,1
+CUST01579,49,Male,Premium,77.2,58,1,Debit Card,6.0,10.1,0
+CUST01580,47,Female,Premium,107.9,23,3,Credit Card,6.0,22.2,0
+CUST01581,56,Male,Premium,91.59,5,0,PayPal,6.0,35.4,0
+CUST01582,51,Male,Basic,27.64,27,3,Bank Transfer,5.0,9.2,1
+CUST01583,56,Female,Basic,21.31,29,3,Bank Transfer,6.0,12.8,0
+CUST01584,38,Male,Basic,28.73,19,3,E-Wallet,9.0,10.0,0
+CUST01585,28,Male,Standard,30.52,27,2,PayPal,5.0,8.8,0
+CUST01586,67,Female,Premium,104.33,51,4,Bank Transfer,10.0,8.9,0
+CUST01587,20,Female,Basic,16.92,12,1,Debit Card,5.0,31.0,0
+CUST01588,21,Female,Standard,50.05,2,2,E-Wallet,7.0,1.0,1
+CUST01589,47,Male,Basic,28.84,9,3,PayPal,7.0,18.7,0
+CUST01590,61,Female,Basic,23.07,2,3,Bank Transfer,5.0,4.5,0
+CUST01591,42,Male,Basic,24.89,72,2,Credit Card,9.0,7.9,0
+CUST01592,52,Female,Basic,13.15,2,3,Debit Card,7.0,3.1,1
+CUST01593,18,Female,Premium,70.22,4,3,PayPal,6.0,2.8,1
+CUST01594,33,Female,Basic,21.46,17,2,Credit Card,9.0,20.8,0
+CUST01595,18,Female,Premium,85.83,25,4,Credit Card,4.0,5.4,1
+CUST01596,50,Male,Standard,33.32,27,1,,5.0,9.8,0
+CUST01597,19,Male,Basic,24.56,16,1,Debit Card,7.0,14.0,0
+CUST01598,23,Female,Basic,23.97,3,2,Credit Card,8.0,27.5,0
+CUST01599,46,Female,Premium,65.48,10,2,Credit Card,7.0,2.9,0
+CUST01600,53,Male,Basic,10.96,43,2,Debit Card,6.0,28.8,0
+CUST01601,37,Male,Premium,82.72,13,2,PayPal,5.0,11.7,1
+CUST01602,47,Male,Basic,22.65,0,3,E-Wallet,8.0,11.3,1
+CUST01603,46,Male,Standard,56.8,13,5,E-Wallet,7.0,7.4,0
+CUST01604,37,Female,Premium,86.06,0,0,PayPal,4.0,6.5,1
+CUST01605,25,Male,Basic,11.67,15,3,PayPal,4.0,1.8,1
+CUST01606,47,Male,Basic,26.8,72,1,Credit Card,9.0,23.4,0
+CUST01607,47,Female,Premium,67.48,12,4,Bank Transfer,4.0,2.7,0
+CUST01608,51,Male,Basic,22.74,16,2,Credit Card,7.0,5.8,0
+CUST01609,44,Male,Basic,18.26,24,2,Credit Card,9.0,20.8,0
+CUST01610,24,Female,Basic,28.18,5,3,E-Wallet,7.0,8.7,0
+CUST01611,48,Male,Basic,24.09,1,4,Bank Transfer,4.0,3.4,1
+CUST01612,39,Female,Standard,29.99,18,3,Credit Card,4.0,17.8,1
+CUST01613,33,Female,Standard,41.17,7,0,PayPal,10.0,6.5,0
+CUST01614,36,Female,Basic,13.6,15,2,Debit Card,4.0,5.7,1
+CUST01615,31,Male,Premium,77.0,7,3,Credit Card,5.0,2.8,1
+CUST01616,51,Female,Basic,17.97,43,1,Credit Card,7.0,6.1,1
+CUST01617,21,Female,Basic,20.82,14,0,Credit Card,6.0,7.2,1
+CUST01618,27,Male,Standard,53.94,16,0,Debit Card,7.0,13.8,1
+CUST01619,35,Female,Premium,65.18,2,0,Debit Card,3.0,4.8,0
+CUST01620,60,Female,Basic,18.81,10,1,Debit Card,6.0,23.9,1
+CUST01621,53,Female,Basic,27.0,20,1,Credit Card,7.0,21.3,0
+CUST01622,18,Male,Standard,42.96,12,0,E-Wallet,7.0,21.3,0
+CUST01623,57,Female,Premium,91.15,5,0,PayPal,5.0,11.0,0
+CUST01624,57,Male,Basic,25.56,23,1,Bank Transfer,4.0,16.9,0
+CUST01625,24,Male,Basic,24.25,52,1,Credit Card,6.0,15.8,0
+CUST01626,18,Male,Standard,45.29,3,2,PayPal,3.0,19.6,1
+CUST01627,39,Male,Basic,29.33,24,2,Bank Transfer,9.0,21.0,0
+CUST01628,54,Male,Basic,10.71,0,6,Credit Card,6.0,16.3,1
+CUST01629,60,Female,Basic,11.08,1,3,Credit Card,4.0,16.6,1
+CUST01630,28,Female,Basic,18.54,26,3,Credit Card,4.0,15.5,1
+CUST01631,62,Male,Standard,34.73,0,1,Credit Card,5.0,16.6,0
+CUST01632,18,Male,Premium,72.98,0,2,Debit Card,3.0,10.3,1
+CUST01633,35,Female,Standard,34.49,7,1,Credit Card,7.0,5.8,0
+CUST01634,34,Female,Standard,50.76,24,2,Credit Card,4.0,3.6,0
+CUST01635,54,Female,Premium,85.27,0,2,PayPal,7.0,2.8,1
+CUST01636,56,Male,Basic,26.67,26,6,Credit Card,7.0,3.9,0
+CUST01637,52,Male,Basic,15.0,57,0,Credit Card,8.0,20.1,0
+CUST01638,22,Male,Premium,97.4,9,2,PayPal,7.0,26.3,0
+CUST01639,51,Male,Basic,14.26,21,1,Credit Card,8.0,16.0,0
+CUST01640,46,Female,Standard,30.42,53,1,Credit Card,9.0,11.9,0
+CUST01641,18,Male,Standard,50.66,1,1,Credit Card,7.0,1.8,1
+CUST01642,18,Female,Basic,12.9,25,3,Credit Card,7.0,8.9,0
+CUST01643,53,Female,Standard,50.8,2,2,Debit Card,5.0,5.5,0
+CUST01644,37,Female,Basic,23.8,17,2,Credit Card,4.0,5.5,1
+CUST01645,23,Male,Basic,23.35,12,0,Credit Card,9.0,10.8,0
+CUST01646,37,Male,Standard,47.75,3,2,E-Wallet,7.0,15.9,0
+CUST01647,44,Male,Basic,27.69,3,2,E-Wallet,8.0,9.9,1
+CUST01648,38,Male,Standard,32.26,36,4,Credit Card,5.0,39.7,0
+CUST01649,19,Female,Premium,115.9,5,2,Credit Card,10.0,11.6,0
+CUST01650,64,Female,Premium,63.95,21,1,Debit Card,5.0,1.5,0
+CUST01651,53,Male,Basic,19.9,1,4,Bank Transfer,4.0,31.1,1
+CUST01652,35,Female,Basic,28.45,30,2,Bank Transfer,5.0,9.5,1
+CUST01653,36,Female,Basic,15.37,8,0,Credit Card,9.0,26.2,0
+CUST01654,44,Male,Basic,26.75,22,2,Credit Card,4.0,2.7,1
+CUST01655,25,Female,Premium,95.58,8,1,Debit Card,4.0,4.8,1
+CUST01656,44,Female,Basic,27.21,2,3,Bank Transfer,10.0,3.8,0
+CUST01657,22,Female,Basic,10.96,43,2,Bank Transfer,8.0,19.7,0
+CUST01658,39,Female,Premium,93.35,0,4,Credit Card,4.0,23.3,0
+CUST01659,24,Male,Basic,13.76,40,0,PayPal,4.0,14.5,0
+CUST01660,25,Female,Basic,10.35,15,2,Credit Card,2.0,12.3,0
+CUST01661,61,Female,Basic,23.77,11,4,PayPal,6.0,1.7,1
+CUST01662,40,Male,Standard,52.48,38,4,E-Wallet,8.0,5.3,0
+CUST01663,42,Female,Standard,52.08,18,1,Debit Card,9.0,6.0,1
+CUST01664,18,Female,Basic,24.53,72,4,Credit Card,2.0,2.2,1
+CUST01665,32,Male,Premium,107.99,39,2,PayPal,3.0,9.1,0
+CUST01666,45,Male,Premium,88.17,24,3,Debit Card,6.0,14.8,1
+CUST01667,42,Female,Premium,80.84,15,3,Bank Transfer,10.0,18.3,0
+CUST01668,18,Female,Basic,25.41,39,2,Credit Card,8.0,15.5,0
+CUST01669,42,Male,Basic,23.32,8,0,Bank Transfer,7.0,7.8,1
+CUST01670,44,Male,Premium,71.99,1,1,Credit Card,3.0,,0
+CUST01671,56,Female,Basic,18.7,1,4,Credit Card,1.0,8.2,1
+CUST01672,31,Male,Standard,35.46,34,1,Credit Card,6.0,8.9,0
+CUST01673,18,Male,Standard,53.36,11,1,Credit Card,6.0,3.7,0
+CUST01674,27,Male,Basic,14.93,17,2,Credit Card,5.0,6.6,1
+CUST01675,25,Male,Standard,48.67,3,0,PayPal,5.0,5.7,1
+CUST01676,49,Female,Premium,104.11,8,2,Credit Card,4.0,28.6,0
+CUST01677,18,Male,Standard,59.74,56,1,Credit Card,4.0,19.4,0
+CUST01678,34,Female,Basic,18.65,13,1,Credit Card,9.0,14.6,0
+CUST01679,58,Female,Premium,112.34,6,2,Credit Card,4.0,4.3,1
+CUST01680,40,Female,Standard,49.92,1,1,Bank Transfer,5.0,16.8,1
+CUST01681,51,Female,Standard,30.24,6,4,E-Wallet,6.0,5.1,1
+CUST01682,18,Female,Premium,83.47,16,1,Credit Card,8.0,17.0,0
+CUST01683,19,Female,Standard,41.81,13,2,Bank Transfer,4.0,8.0,1
+CUST01684,58,Female,Basic,12.38,11,1,PayPal,8.0,21.8,0
+CUST01685,41,Male,Basic,18.73,36,3,E-Wallet,5.0,2.6,1
+CUST01686,41,Female,Basic,12.32,11,0,Credit Card,,16.4,0
+CUST01687,25,Male,Standard,55.05,3,1,Credit Card,10.0,23.1,0
+CUST01688,41,Male,Standard,40.85,6,1,Debit Card,4.0,8.3,1
+CUST01689,25,Male,Standard,35.48,28,6,Bank Transfer,8.0,7.8,0
+CUST01690,55,Female,Basic,22.03,1,2,PayPal,8.0,9.8,0
+CUST01691,75,Female,Standard,55.72,42,2,Debit Card,7.0,14.5,0
+CUST01692,46,Male,Premium,116.09,11,0,Credit Card,6.0,6.1,0
+CUST01693,31,Female,Basic,27.88,23,1,PayPal,10.0,5.3,1
+CUST01694,18,Male,Standard,56.45,72,3,Bank Transfer,6.0,31.6,0
+CUST01695,18,Male,Standard,40.43,16,5,Debit Card,6.0,7.5,1
+CUST01696,60,Male,Standard,45.15,9,3,PayPal,5.0,9.4,1
+CUST01697,26,Female,Basic,17.42,0,2,Debit Card,6.0,6.8,1
+CUST01698,35,Male,Standard,57.66,10,3,Debit Card,8.0,15.4,1
+CUST01699,48,Male,Premium,65.56,13,2,Debit Card,5.0,5.7,1
+CUST01700,59,Female,Standard,46.62,7,5,Bank Transfer,1.0,8.8,1
+CUST01701,37,Male,Premium,74.8,18,2,E-Wallet,,20.2,0
+CUST01702,34,Female,Premium,111.01,1,1,Debit Card,4.0,18.3,1
+CUST01703,40,Female,Basic,16.77,35,3,Credit Card,8.0,7.4,1
+CUST01704,31,Male,Standard,55.9,15,0,Debit Card,6.0,10.0,0
+CUST01705,32,Female,Standard,57.83,10,1,Credit Card,8.0,4.5,0
+CUST01706,45,Female,Premium,70.31,8,3,Credit Card,4.0,10.0,0
+CUST01707,42,Male,Basic,25.08,21,2,Credit Card,5.0,35.6,1
+CUST01708,67,Male,Basic,16.99,18,5,Debit Card,5.0,17.5,0
+CUST01709,45,Male,Premium,84.19,1,2,Credit Card,3.0,4.5,1
+CUST01710,54,Male,Basic,15.48,22,3,,8.0,2.2,0
+CUST01711,26,Male,Standard,48.49,1,1,Bank Transfer,,4.6,0
+CUST01712,46,Male,Basic,16.85,9,0,Credit Card,8.0,3.2,1
+CUST01713,30,Female,Premium,104.43,7,0,PayPal,7.0,8.9,1
+CUST01714,45,Male,Premium,106.7,12,1,E-Wallet,6.0,21.4,1
+CUST01715,48,Male,Basic,17.89,21,2,PayPal,7.0,8.9,0
+CUST01716,40,Male,Standard,30.13,16,1,Credit Card,7.0,5.7,0
+CUST01717,71,Female,Basic,11.31,1,0,Credit Card,5.0,7.5,0
+CUST01718,58,Male,Standard,38.2,29,2,PayPal,7.0,14.3,0
+CUST01719,55,Male,Standard,58.61,29,3,Debit Card,8.0,11.2,0
+CUST01720,49,Male,Premium,83.62,16,2,Credit Card,4.0,4.7,1
+CUST01721,62,Male,Basic,24.87,4,2,Debit Card,7.0,17.5,0
+CUST01722,21,Male,Basic,28.71,3,2,Debit Card,1.0,3.9,1
+CUST01723,57,Female,Standard,40.24,50,6,Credit Card,2.0,10.6,1
+CUST01724,27,Female,Standard,46.83,3,1,PayPal,7.0,6.7,1
+CUST01725,32,Male,Standard,55.56,16,3,Credit Card,5.0,8.3,1
+CUST01726,47,Male,Basic,22.29,49,1,Credit Card,4.0,4.0,1
+CUST01727,56,Male,Basic,12.23,6,1,Bank Transfer,6.0,10.1,1
+CUST01728,25,Male,Premium,106.16,3,4,Credit Card,5.0,3.6,1
+CUST01729,33,Male,Basic,28.07,6,2,PayPal,4.0,6.3,1
+CUST01730,41,Female,Basic,25.37,31,2,Debit Card,2.0,7.9,1
+CUST01731,37,Male,Premium,105.14,37,2,Credit Card,2.0,4.8,1
+CUST01732,51,Male,Basic,25.1,8,2,E-Wallet,8.0,24.0,1
+CUST01733,75,Male,Standard,48.37,13,4,Credit Card,5.0,6.3,1
+CUST01734,45,Female,Basic,14.95,45,3,Credit Card,8.0,7.5,0
+CUST01735,30,Female,Premium,114.64,4,3,E-Wallet,5.0,9.9,1
+CUST01736,23,Male,Standard,33.86,10,0,PayPal,7.0,2.7,0
+CUST01737,35,Male,Premium,109.63,22,2,PayPal,6.0,1.7,1
+CUST01738,27,Female,Basic,17.18,54,2,Credit Card,6.0,7.9,1
+CUST01739,46,Female,Standard,50.2,45,5,Credit Card,6.0,2.1,0
+CUST01740,45,Female,Standard,54.14,14,3,PayPal,5.0,12.4,1
+CUST01741,33,Female,Basic,25.96,7,2,Credit Card,3.0,12.9,1
+CUST01742,65,Female,Basic,13.21,21,1,Credit Card,8.0,12.4,0
+CUST01743,30,Male,Basic,22.21,2,1,Bank Transfer,10.0,16.6,0
+CUST01744,38,Female,Premium,72.86,72,4,Credit Card,10.0,7.9,0
+CUST01745,48,Male,Standard,33.35,5,1,Credit Card,5.0,24.5,0
+CUST01746,51,Male,Standard,45.4,14,0,Credit Card,4.0,11.5,1
+CUST01747,56,Male,Standard,59.62,0,0,Debit Card,5.0,23.2,1
+CUST01748,45,Male,Standard,59.44,10,1,PayPal,6.0,16.1,0
+CUST01749,53,Male,Standard,47.19,12,1,Bank Transfer,6.0,8.1,1
+CUST01750,31,Male,Basic,25.43,7,0,Credit Card,4.0,11.5,1
+CUST01751,51,Male,Standard,37.48,12,3,Credit Card,3.0,14.2,1
+CUST01752,51,Female,Basic,14.48,2,0,Debit Card,6.0,1.6,0
+CUST01753,59,Female,Premium,102.38,15,2,Debit Card,1.0,2.8,0
+CUST01754,18,Male,Premium,107.15,35,2,Debit Card,6.0,27.8,1
+CUST01755,28,Female,Basic,24.83,5,4,E-Wallet,4.0,14.1,1
+CUST01756,50,Male,Standard,33.13,45,3,Debit Card,8.0,19.8,0
+CUST01757,18,Female,Basic,17.12,7,1,Debit Card,8.0,7.8,1
+CUST01758,46,Female,Premium,62.64,7,4,E-Wallet,8.0,23.5,1
+CUST01759,53,Female,Premium,107.16,13,2,Credit Card,5.0,8.2,1
+CUST01760,32,Male,Premium,78.69,10,1,E-Wallet,4.0,14.0,1
+CUST01761,34,Female,Basic,18.58,14,3,Debit Card,4.0,25.8,1
+CUST01762,26,Male,Basic,21.57,34,2,Debit Card,7.0,15.3,1
+CUST01763,33,Female,Basic,10.0,31,1,E-Wallet,,3.9,1
+CUST01764,33,Female,Basic,17.07,4,4,Debit Card,9.0,8.7,0
+CUST01765,31,Male,Basic,24.54,9,1,Debit Card,5.0,11.8,1
+CUST01766,30,Male,Basic,15.71,36,1,Credit Card,7.0,14.7,0
+CUST01767,36,Male,Premium,94.22,1,7,PayPal,2.0,21.6,1
+CUST01768,36,Female,Basic,29.53,3,0,PayPal,4.0,14.8,1
+CUST01769,64,Female,Basic,12.35,1,3,Credit Card,2.0,9.0,0
+CUST01770,34,Female,Premium,76.08,7,2,PayPal,8.0,7.6,0
+CUST01771,44,Female,Standard,50.51,8,3,PayPal,6.0,7.9,1
+CUST01772,32,Female,Standard,47.94,0,2,Debit Card,7.0,6.4,0
+CUST01773,32,Female,Standard,59.33,20,2,Credit Card,6.0,6.1,1
+CUST01774,18,Male,Premium,62.07,42,2,Debit Card,7.0,19.5,0
+CUST01775,19,Female,Standard,56.33,10,1,Credit Card,5.0,10.6,0
+CUST01776,24,Male,Standard,44.65,2,4,Credit Card,6.0,6.5,0
+CUST01777,42,Female,Standard,36.8,40,4,Debit Card,6.0,9.7,0
+CUST01778,53,Female,Basic,20.06,33,4,Credit Card,7.0,6.9,1
+CUST01779,18,Male,Basic,18.23,14,0,Credit Card,7.0,1.9,1
+CUST01780,32,Female,Standard,35.37,0,2,PayPal,10.0,14.9,1
+CUST01781,22,Male,Basic,14.38,12,2,Credit Card,10.0,20.3,0
+CUST01782,36,Female,Standard,38.63,10,3,E-Wallet,2.0,17.9,1
+CUST01783,53,Male,Basic,21.03,20,2,E-Wallet,,17.2,1
+CUST01784,34,Male,Basic,11.65,43,3,PayPal,5.0,3.7,1
+CUST01785,39,Female,Basic,11.77,18,1,E-Wallet,9.0,23.4,0
+CUST01786,58,Male,Premium,79.89,36,2,Bank Transfer,5.0,5.9,0
+CUST01787,45,Female,Basic,24.14,37,0,Credit Card,7.0,3.1,1
+CUST01788,30,Male,Standard,59.34,21,1,PayPal,,0.9,0
+CUST01789,42,Male,Premium,60.71,15,3,Credit Card,3.0,11.6,0
+CUST01790,29,Male,Basic,29.44,0,0,PayPal,10.0,23.8,0
+CUST01791,45,Male,Standard,50.57,11,3,Debit Card,6.0,21.6,1
+CUST01792,46,Male,Basic,28.01,4,0,Credit Card,4.0,9.9,1
+CUST01793,22,Female,Basic,20.72,7,2,Credit Card,7.0,19.1,0
+CUST01794,42,Female,Standard,43.88,5,0,E-Wallet,4.0,36.4,0
+CUST01795,38,Female,Premium,107.1,31,0,Credit Card,5.0,7.2,0
+CUST01796,47,Male,Basic,21.01,0,2,Credit Card,3.0,13.6,1
+CUST01797,50,Female,Standard,56.91,16,1,Credit Card,4.0,24.1,1
+CUST01798,46,Female,Basic,27.85,0,2,Debit Card,5.0,3.2,0
+CUST01799,36,Female,Standard,45.9,41,0,Bank Transfer,8.0,3.5,1
+CUST01800,52,Female,Standard,47.2,72,1,Bank Transfer,7.0,26.8,0
+CUST01801,28,Male,Standard,43.68,8,1,Debit Card,7.0,19.4,0
+CUST01802,22,Male,Standard,50.67,61,4,Credit Card,6.0,5.5,1
+CUST01803,18,Female,Basic,23.64,0,4,Credit Card,8.0,4.1,0
+CUST01804,39,Female,Standard,49.51,26,3,Debit Card,4.0,3.6,0
+CUST01805,29,Female,Standard,31.86,23,5,Bank Transfer,4.0,11.3,0
+CUST01806,45,Female,Standard,58.9,44,1,PayPal,7.0,5.6,0
+CUST01807,18,Female,Basic,16.7,1,1,Debit Card,5.0,5.7,0
+CUST01808,31,Male,Basic,14.91,0,5,PayPal,6.0,3.6,1
+CUST01809,46,Male,Basic,14.21,38,3,Debit Card,,10.2,0
+CUST01810,26,Male,Basic,11.38,6,0,PayPal,9.0,3.2,1
+CUST01811,45,Female,Basic,19.13,58,4,Debit Card,9.0,15.1,0
+CUST01812,32,Female,Basic,10.82,44,3,PayPal,5.0,22.1,0
+CUST01813,39,Male,Standard,34.82,5,2,Debit Card,2.0,11.7,1
+CUST01814,47,Female,Basic,10.1,23,1,E-Wallet,4.0,19.4,1
+CUST01815,52,Female,Premium,70.47,3,2,Debit Card,4.0,8.7,1
+CUST01816,41,Female,Standard,59.85,3,1,Credit Card,8.0,4.9,0
+CUST01817,29,Female,Standard,46.23,65,6,Credit Card,8.0,7.3,0
+CUST01818,34,Female,Standard,32.0,25,5,Debit Card,4.0,2.2,1
+CUST01819,48,Female,Standard,46.91,45,1,Debit Card,4.0,5.9,0
+CUST01820,26,Male,Standard,48.01,7,3,PayPal,3.0,8.4,1
+CUST01821,37,Male,Premium,92.85,13,2,PayPal,6.0,9.8,1
+CUST01822,34,Female,Standard,40.07,20,1,Credit Card,6.0,19.8,0
+CUST01823,38,Male,Standard,49.71,16,4,PayPal,8.0,24.7,0
+CUST01824,26,Female,Standard,34.27,30,7,PayPal,7.0,11.4,1
+CUST01825,18,Female,Standard,36.58,8,1,Debit Card,7.0,3.9,1
+CUST01826,46,Female,Basic,29.88,45,2,Debit Card,3.0,3.9,0
+CUST01827,52,Male,Standard,42.46,6,1,Credit Card,5.0,6.0,0
+CUST01828,18,Female,Standard,34.42,9,2,,8.0,5.2,0
+CUST01829,44,Male,Premium,73.01,36,5,Bank Transfer,5.0,11.6,0
+CUST01830,54,Female,Standard,51.71,10,2,E-Wallet,2.0,4.1,1
+CUST01831,47,Female,Standard,33.48,17,5,PayPal,8.0,25.2,0
+CUST01832,34,Female,Premium,81.23,16,0,Credit Card,5.0,17.7,0
+CUST01833,27,Female,Standard,39.84,5,0,PayPal,8.0,20.3,0
+CUST01834,41,Male,Basic,14.55,2,2,PayPal,6.0,5.8,0
+CUST01835,43,Male,Basic,19.53,21,1,Credit Card,5.0,4.1,0
+CUST01836,41,Female,Basic,12.19,14,2,Bank Transfer,9.0,5.5,0
+CUST01837,37,Male,Basic,19.12,25,0,Credit Card,3.0,10.4,0
+CUST01838,25,Male,Basic,10.64,1,3,Credit Card,9.0,9.6,1
+CUST01839,45,Female,Standard,59.1,13,3,Credit Card,5.0,23.4,0
+CUST01840,46,Female,Standard,48.14,4,0,Credit Card,6.0,26.4,0
+CUST01841,42,Female,Basic,11.49,11,4,Bank Transfer,6.0,10.8,1
+CUST01842,41,Female,Standard,35.71,6,0,Debit Card,5.0,2.8,1
+CUST01843,61,Male,Basic,24.72,3,0,Credit Card,4.0,7.7,1
+CUST01844,31,Female,Premium,103.89,0,2,Debit Card,5.0,40.0,0
+CUST01845,56,Female,Basic,17.29,5,0,Debit Card,4.0,2.9,1
+CUST01846,30,Male,Standard,34.44,35,0,Credit Card,10.0,11.9,0
+CUST01847,54,Male,Basic,20.71,3,2,Credit Card,5.0,5.5,0
+CUST01848,56,Female,Standard,38.28,15,3,PayPal,,33.9,1
+CUST01849,36,Female,Basic,11.93,47,3,Credit Card,8.0,12.7,1
+CUST01850,61,Male,Standard,40.37,38,1,Bank Transfer,7.0,5.5,0
+CUST01851,46,Male,Basic,25.01,5,0,Credit Card,6.0,6.8,0
+CUST01852,28,Male,Premium,81.24,6,2,PayPal,6.0,1.5,1
+CUST01853,35,Male,Standard,31.21,1,1,Bank Transfer,7.0,11.8,1
+CUST01854,54,Male,Standard,33.6,27,2,Credit Card,6.0,12.0,1
+CUST01855,51,Female,Premium,95.77,37,7,Credit Card,3.0,2.9,1
+CUST01856,26,Female,Premium,91.32,25,1,E-Wallet,2.0,15.0,0
+CUST01857,38,Male,Basic,23.49,9,1,Debit Card,9.0,26.2,0
+CUST01858,42,Male,Basic,21.43,5,4,PayPal,1.0,3.5,1
+CUST01859,33,Male,Basic,19.93,51,1,Credit Card,6.0,14.7,0
+CUST01860,70,Female,Basic,19.49,6,2,Credit Card,5.0,15.0,1
+CUST01861,43,Female,Standard,58.84,0,2,Debit Card,6.0,10.9,0
+CUST01862,39,Male,Premium,111.73,0,1,Bank Transfer,3.0,11.4,1
+CUST01863,55,Male,Premium,82.96,17,1,Credit Card,7.0,6.6,0
+CUST01864,35,Female,Standard,49.59,72,3,Bank Transfer,6.0,1.4,0
+CUST01865,53,Female,Standard,30.6,28,3,PayPal,10.0,12.5,0
+CUST01866,18,Female,Premium,61.25,21,6,Credit Card,6.0,17.5,1
+CUST01867,34,Male,Premium,79.1,29,4,Credit Card,9.0,4.4,0
+CUST01868,53,Female,Basic,25.09,10,3,Credit Card,3.0,5.6,1
+CUST01869,60,Female,Standard,57.75,9,3,Debit Card,8.0,5.0,1
+CUST01870,29,Female,Premium,100.97,16,1,PayPal,,13.2,0
+CUST01871,28,Male,Basic,24.12,33,5,Debit Card,7.0,11.9,1
+CUST01872,47,Female,Basic,10.63,5,0,Credit Card,7.0,4.6,1
+CUST01873,31,Male,Premium,115.8,2,4,PayPal,10.0,9.4,0
+CUST01874,36,Female,Premium,65.2,47,4,PayPal,7.0,9.6,0
+CUST01875,51,Female,Premium,116.8,7,3,Debit Card,4.0,12.6,1
+CUST01876,32,Female,Standard,34.24,1,1,PayPal,5.0,7.2,1
+CUST01877,18,Female,Basic,10.66,16,3,Credit Card,8.0,20.9,1
+CUST01878,23,Male,Basic,21.26,34,3,PayPal,7.0,12.8,0
+CUST01879,40,Female,Standard,33.4,9,1,Debit Card,3.0,20.7,1
+CUST01880,18,Male,Standard,30.85,31,0,Debit Card,7.0,12.5,0
+CUST01881,36,Male,Standard,50.02,0,2,Credit Card,4.0,13.3,0
+CUST01882,21,Female,Standard,52.14,1,2,PayPal,7.0,2.4,1
+CUST01883,61,Female,Basic,15.85,9,5,PayPal,4.0,11.8,1
+CUST01884,68,Male,Standard,46.0,8,3,Credit Card,5.0,9.2,0
+CUST01885,26,Female,Basic,21.71,22,3,Bank Transfer,5.0,22.2,1
+CUST01886,43,Female,Basic,13.21,33,2,Bank Transfer,9.0,20.1,0
+CUST01887,27,Male,Basic,18.79,21,2,Credit Card,7.0,23.8,1
+CUST01888,35,Female,Basic,22.73,7,6,PayPal,9.0,5.7,0
+CUST01889,63,Female,Premium,113.13,2,0,Debit Card,10.0,9.7,0
+CUST01890,33,Male,Basic,18.37,5,4,E-Wallet,6.0,25.3,0
+CUST01891,36,Female,Basic,23.98,37,2,Credit Card,9.0,5.6,0
+CUST01892,27,Female,Standard,45.04,5,4,Credit Card,4.0,22.3,1
+CUST01893,54,Female,Standard,51.2,56,1,Debit Card,9.0,20.6,0
+CUST01894,18,Female,Basic,25.77,16,1,Credit Card,4.0,9.5,1
+CUST01895,34,Female,Basic,20.6,28,1,PayPal,6.0,29.6,0
+CUST01896,39,Female,Basic,11.21,7,2,Debit Card,7.0,21.3,1
+CUST01897,31,Female,Standard,56.25,3,3,Credit Card,8.0,3.3,1
+CUST01898,51,Female,Basic,22.01,0,1,Debit Card,3.0,26.7,1
+CUST01899,55,Female,Basic,22.0,19,4,Bank Transfer,4.0,9.5,0
+CUST01900,21,Female,Basic,20.18,1,1,Bank Transfer,7.0,13.1,0
+CUST01901,67,Female,Standard,35.21,2,2,Debit Card,5.0,13.2,1
+CUST01902,21,Female,Basic,19.71,35,0,Credit Card,3.0,15.5,1
+CUST01903,56,Female,Premium,92.2,4,4,Credit Card,6.0,25.7,0
+CUST01904,41,Female,Basic,17.67,5,2,Bank Transfer,6.0,13.0,1
+CUST01905,33,Male,Standard,34.46,7,0,PayPal,6.0,9.0,0
+CUST01906,34,Male,Basic,25.23,8,3,PayPal,7.0,4.5,0
+CUST01907,39,Female,Basic,19.12,3,1,Bank Transfer,7.0,6.9,0
+CUST01908,42,Female,Basic,24.0,12,1,Credit Card,,20.3,1
+CUST01909,28,Male,Premium,62.81,33,5,PayPal,5.0,23.3,0
+CUST01910,36,Female,Premium,90.25,72,1,Credit Card,8.0,7.5,0
+CUST01911,29,Male,Basic,11.47,16,2,Credit Card,5.0,17.7,1
+CUST01912,24,Male,Basic,24.66,25,3,Debit Card,5.0,6.4,1
+CUST01913,29,Male,Premium,94.85,4,4,Debit Card,3.0,1.8,1
+CUST01914,25,Male,Standard,43.53,1,5,E-Wallet,6.0,2.8,0
+CUST01915,34,Female,Basic,29.45,12,1,Credit Card,7.0,21.5,0
+CUST01916,45,Female,Basic,16.51,54,1,Bank Transfer,2.0,1.9,1
+CUST01917,41,Male,Standard,42.68,32,2,PayPal,4.0,16.6,0
+CUST01918,65,Male,Standard,52.12,6,1,PayPal,3.0,12.3,0
+CUST01919,18,Male,Standard,45.74,5,2,E-Wallet,8.0,22.4,1
+CUST01920,46,Female,Premium,99.5,11,2,Debit Card,2.0,11.3,1
+CUST01921,40,Male,Standard,59.28,11,3,Debit Card,6.0,14.4,0
+CUST01922,50,Male,Basic,23.9,12,3,Credit Card,8.0,12.1,0
+CUST01923,49,Male,Standard,34.51,11,6,,6.0,13.3,1
+CUST01924,37,Male,Basic,14.18,15,0,Bank Transfer,5.0,10.0,0
+CUST01925,42,Female,Basic,27.39,40,1,Debit Card,7.0,14.6,0
+CUST01926,30,Female,Basic,10.95,7,3,Credit Card,8.0,8.2,1
+CUST01927,47,Male,Basic,20.17,5,4,Credit Card,6.0,19.3,1
+CUST01928,18,Male,Standard,57.17,29,1,Debit Card,1.0,11.2,1
+CUST01929,50,Female,Basic,25.51,19,1,PayPal,9.0,18.3,0
+CUST01930,39,Male,Basic,12.3,2,1,Credit Card,7.0,5.6,1
+CUST01931,33,Female,Standard,52.2,7,0,Bank Transfer,6.0,7.6,0
+CUST01932,36,Female,Standard,41.45,19,2,PayPal,2.0,2.9,1
+CUST01933,37,Male,Standard,57.03,33,0,Bank Transfer,5.0,13.4,1
+CUST01934,56,Female,Premium,94.36,58,1,Credit Card,4.0,13.0,1
+CUST01935,75,Female,Standard,46.45,14,1,PayPal,3.0,6.7,1
+CUST01936,55,Male,Basic,10.16,5,2,Credit Card,6.0,10.4,0
+CUST01937,32,Female,Standard,37.48,5,7,Debit Card,5.0,4.4,1
+CUST01938,48,Female,Standard,42.37,14,2,PayPal,5.0,20.6,0
+CUST01939,48,Female,Basic,24.47,19,1,PayPal,8.0,20.2,0
+CUST01940,27,Female,Basic,20.39,4,1,Credit Card,7.0,10.0,1
+CUST01941,23,Female,Basic,27.04,15,1,Bank Transfer,5.0,8.7,1
+CUST01942,39,Female,Standard,31.02,46,1,Credit Card,,2.3,0
+CUST01943,50,Female,Basic,16.45,4,1,PayPal,5.0,18.0,0
+CUST01944,19,Male,Basic,21.94,14,1,E-Wallet,5.0,5.1,1
+CUST01945,30,Female,Premium,99.52,9,2,Debit Card,7.0,19.0,1
+CUST01946,47,Male,Premium,90.13,22,3,Bank Transfer,4.0,2.8,1
+CUST01947,40,Female,Basic,17.97,11,2,PayPal,9.0,,1
+CUST01948,58,Female,Premium,64.28,16,3,Bank Transfer,7.0,3.5,1
+CUST01949,21,Male,Basic,23.91,3,3,PayPal,1.0,4.9,0
+CUST01950,70,Female,Premium,114.21,10,1,PayPal,6.0,40.0,1
+CUST01951,20,Female,Premium,108.52,2,3,Credit Card,8.0,9.1,1
+CUST01952,18,Male,Basic,24.01,6,2,PayPal,7.0,16.1,1
+CUST01953,39,Female,Standard,49.01,3,2,Credit Card,5.0,4.1,1
+CUST01954,25,Female,Premium,106.31,60,2,E-Wallet,6.0,5.7,0
+CUST01955,39,Female,Premium,106.59,3,0,Credit Card,6.0,31.9,1
+CUST01956,39,Male,Premium,60.41,5,0,Credit Card,8.0,9.4,0
+CUST01957,37,Female,Standard,40.73,2,4,Bank Transfer,,,1
+CUST01958,29,Female,Basic,27.35,8,2,Credit Card,5.0,14.1,1
+CUST01959,45,Male,Premium,111.04,4,5,Debit Card,10.0,29.2,0
+CUST01960,35,Female,Standard,51.29,46,1,PayPal,6.0,0.7,1
+CUST01961,54,Female,Standard,39.26,2,1,Credit Card,9.0,21.5,0
+CUST01962,37,Female,Basic,25.95,19,0,Credit Card,10.0,24.5,0
+CUST01963,27,Male,Standard,36.94,20,3,Debit Card,5.0,15.1,0
+CUST01964,18,Female,Basic,14.47,20,0,Credit Card,3.0,8.1,1
+CUST01965,37,Female,Standard,46.06,14,1,Credit Card,5.0,12.7,0
+CUST01966,23,Male,Basic,21.42,42,4,Credit Card,8.0,3.8,0
+CUST01967,22,Male,Standard,40.53,14,1,Debit Card,9.0,1.5,0
+CUST01968,46,Female,Premium,96.22,12,0,Credit Card,10.0,11.6,0
+CUST01969,18,Female,Standard,51.26,18,3,Credit Card,6.0,0.3,1
+CUST01970,58,Male,Standard,35.4,7,1,PayPal,7.0,6.6,0
+CUST01971,42,Female,Basic,15.76,24,3,PayPal,4.0,4.3,0
+CUST01972,39,Female,Premium,101.98,29,0,Credit Card,1.0,8.1,1
+CUST01973,26,Male,Standard,57.81,34,2,Credit Card,6.0,8.6,0
+CUST01974,49,Female,Basic,27.68,18,1,Bank Transfer,3.0,3.3,0
+CUST01975,39,Female,Basic,12.58,15,3,PayPal,7.0,14.5,1
+CUST01976,31,Male,Basic,21.38,72,2,Debit Card,2.0,23.5,0
+CUST01977,42,Male,Standard,54.0,24,1,Debit Card,4.0,3.8,1
+CUST01978,18,Male,Premium,74.23,60,0,Credit Card,7.0,3.6,1
+CUST01979,18,Female,Standard,49.29,27,2,Bank Transfer,7.0,9.7,1
+CUST01980,25,Male,Basic,18.54,46,4,E-Wallet,6.0,1.6,0
+CUST01981,44,Female,Premium,99.75,16,3,E-Wallet,10.0,9.8,0
+CUST01982,39,Male,Basic,10.63,7,0,Credit Card,9.0,21.5,0
+CUST01983,53,Male,Premium,78.77,0,1,Credit Card,4.0,3.6,1
+CUST01984,28,Male,Basic,16.14,12,2,Credit Card,10.0,28.0,0
+CUST01985,47,Female,Standard,42.55,1,4,Credit Card,10.0,7.2,0
+CUST01986,38,Female,Premium,66.86,36,2,Credit Card,6.0,8.0,1
+CUST01987,27,Male,Basic,18.72,9,2,PayPal,6.0,6.1,1
+CUST01988,45,Female,Standard,46.23,29,4,Credit Card,6.0,17.5,1
+CUST01989,39,Female,Premium,61.59,8,2,E-Wallet,5.0,10.9,1
+CUST01990,31,Female,Basic,16.01,25,1,Credit Card,5.0,7.5,1
+CUST01991,40,Male,Basic,13.54,40,2,Credit Card,9.0,5.1,0
+CUST01992,38,Female,Standard,59.15,28,0,Bank Transfer,7.0,12.2,1
+CUST01993,38,Female,Basic,12.59,6,2,PayPal,5.0,24.6,1
+CUST01994,34,Female,Basic,22.54,26,3,Debit Card,4.0,8.1,1
+CUST01995,23,Female,Standard,42.05,17,3,,4.0,10.6,1
+CUST01996,40,Male,Standard,38.61,6,2,Credit Card,6.0,2.4,0
+CUST01997,29,Female,Basic,27.07,7,1,Credit Card,8.0,10.5,0
+CUST01998,26,Female,Basic,23.27,4,3,Debit Card,4.0,,1
+CUST01999,36,Female,Premium,97.21,23,1,Debit Card,8.0,3.2,1
+CUST02000,49,Female,Standard,32.8,31,3,PayPal,6.0,13.0,1
+CUST02001,42,Male,Premium,75.53,18,1,Credit Card,6.0,6.4,1
+CUST02002,33,Female,Basic,15.52,54,2,PayPal,8.0,2.2,0
+CUST02003,32,Male,Premium,86.05,4,4,Bank Transfer,8.0,7.1,1
+CUST02004,48,Female,Standard,57.63,15,2,Credit Card,3.0,36.0,0
+CUST02005,18,Female,Basic,18.06,0,1,Credit Card,4.0,12.8,0
+CUST02006,50,Female,Premium,79.67,26,1,Debit Card,5.0,11.8,0
+CUST02007,18,Male,Standard,32.12,14,2,Bank Transfer,7.0,3.5,0
+CUST02008,21,Female,Basic,17.69,38,1,PayPal,9.0,20.3,0
+CUST02009,33,Male,Basic,11.04,16,1,PayPal,6.0,25.8,0
+CUST02010,68,Female,Standard,40.95,23,2,Debit Card,10.0,25.1,0
+CUST02011,61,Female,Basic,29.35,31,1,Credit Card,4.0,,1
+CUST02012,49,Male,Basic,21.11,9,0,Debit Card,5.0,4.7,1
+CUST02013,44,Female,Basic,14.17,17,2,Credit Card,5.0,3.7,1
+CUST02014,18,Female,Basic,15.97,28,2,PayPal,4.0,1.3,1
+CUST02015,42,Male,Basic,21.41,7,2,Credit Card,9.0,4.1,1
+CUST02016,32,Male,Standard,30.57,9,2,Credit Card,1.0,12.5,1
+CUST02017,29,Male,Basic,27.98,6,1,Debit Card,5.0,4.1,0
+CUST02018,42,Male,Basic,21.55,10,1,Debit Card,9.0,21.0,0
+CUST02019,33,Female,Standard,44.76,3,3,PayPal,5.0,23.2,0
+CUST02020,51,Female,Basic,24.31,7,1,Debit Card,8.0,,0
+CUST02021,18,Female,Standard,36.0,1,1,E-Wallet,10.0,1.8,0
+CUST02022,40,Male,Basic,10.42,5,3,Bank Transfer,6.0,11.8,1
+CUST02023,28,Female,Basic,22.29,13,0,Bank Transfer,9.0,10.8,0
+CUST02024,34,Female,Basic,13.19,8,2,PayPal,10.0,21.9,1
+CUST02025,43,Female,Standard,30.36,19,4,PayPal,7.0,2.3,0
+CUST02026,25,Male,Basic,28.57,17,0,PayPal,6.0,10.7,1
+CUST02027,42,Male,Premium,107.3,14,4,Debit Card,8.0,2.2,1
+CUST02028,37,Female,Basic,12.27,0,4,Credit Card,9.0,19.7,0
+CUST02029,31,Female,Standard,56.88,44,4,PayPal,6.0,0.6,0
+CUST02030,33,Male,Standard,32.02,8,2,Credit Card,5.0,35.5,0
+CUST02031,37,Female,Basic,26.05,17,6,Credit Card,10.0,14.7,1
+CUST02032,30,Female,Standard,42.42,27,4,Bank Transfer,5.0,9.6,0
+CUST02033,40,Female,Basic,20.35,5,2,Credit Card,9.0,5.7,1
+CUST02034,36,Male,Basic,23.36,3,3,Debit Card,7.0,22.6,1
+CUST02035,32,Female,Basic,11.97,0,0,,10.0,2.3,0
+CUST02036,60,Male,Standard,57.22,36,6,Credit Card,,0.6,1
+CUST02037,45,Female,Premium,68.61,4,3,Bank Transfer,4.0,14.1,0
+CUST02038,35,Male,Basic,28.82,72,2,Credit Card,8.0,9.1,1
+CUST02039,41,Male,Standard,32.73,6,3,Bank Transfer,4.0,12.5,1
+CUST02040,26,Female,Standard,35.15,24,1,Bank Transfer,6.0,11.2,1
+CUST02041,34,Female,Basic,11.14,0,1,Credit Card,9.0,15.6,0
+CUST02042,35,Female,Standard,41.92,23,2,Credit Card,2.0,9.7,0
+CUST02043,23,Female,Standard,47.72,3,2,Credit Card,7.0,,0
+CUST02044,45,Female,Premium,97.49,1,1,Debit Card,9.0,9.9,0
+CUST02045,33,Female,Premium,109.7,1,5,Credit Card,6.0,17.5,1
+CUST02046,35,Male,Basic,20.56,22,1,E-Wallet,4.0,18.4,1
+CUST02047,32,Female,Basic,20.19,2,1,Credit Card,5.0,12.9,1
+CUST02048,75,Male,Standard,39.77,7,2,Bank Transfer,4.0,0.9,1
+CUST02049,31,Female,Basic,23.01,28,3,Credit Card,6.0,11.9,0
+CUST02050,18,Male,Basic,28.16,10,2,E-Wallet,5.0,1.9,0
+CUST02051,19,Male,Premium,81.31,0,1,Credit Card,5.0,19.0,1
+CUST02052,49,Female,Basic,17.12,3,3,Debit Card,7.0,17.2,1
+CUST02053,57,Male,Standard,40.29,5,1,PayPal,9.0,4.4,0
+CUST02054,31,Female,Premium,73.63,11,1,Credit Card,7.0,15.3,1
+CUST02055,56,Male,Basic,21.32,60,3,Bank Transfer,9.0,10.5,0
+CUST02056,49,Male,Standard,33.16,12,3,Credit Card,9.0,5.2,0
+CUST02057,37,Female,Premium,110.08,15,3,Debit Card,5.0,15.0,0
+CUST02058,36,Female,Standard,34.12,11,0,Debit Card,7.0,27.2,0
+CUST02059,42,Female,Basic,13.47,3,3,PayPal,5.0,6.8,1
+CUST02060,51,Female,Basic,11.36,10,3,Credit Card,3.0,13.0,1
+CUST02061,45,Female,Premium,82.87,72,0,Credit Card,7.0,4.2,0
+CUST02062,31,Male,Basic,25.14,16,1,Credit Card,4.0,5.7,1
+CUST02063,37,Female,Standard,57.29,30,2,Credit Card,7.0,10.0,0
+CUST02064,65,Male,Basic,18.68,13,4,Credit Card,3.0,5.0,1
+CUST02065,43,Male,Basic,14.69,68,3,E-Wallet,6.0,4.7,0
+CUST02066,51,Male,Premium,103.53,3,1,Debit Card,3.0,3.6,1
+CUST02067,47,Male,Standard,50.63,8,2,PayPal,7.0,23.2,1
+CUST02068,43,Male,Premium,100.89,12,3,Debit Card,5.0,17.7,1
+CUST02069,41,Female,Basic,18.86,5,1,Credit Card,5.0,9.8,1
+CUST02070,51,Male,Standard,46.95,8,3,Debit Card,,18.6,0
+CUST02071,49,Female,Premium,63.71,31,2,Credit Card,5.0,19.7,0
+CUST02072,43,Female,Basic,14.99,26,2,Credit Card,6.0,8.6,1
+CUST02073,30,Male,Basic,28.53,12,2,Debit Card,6.0,4.0,1
+CUST02074,45,Male,Premium,62.5,3,3,Debit Card,7.0,13.1,0
+CUST02075,39,Female,Basic,16.02,2,3,E-Wallet,8.0,23.3,0
+CUST02076,35,Female,Standard,36.79,20,2,Credit Card,8.0,16.7,1
+CUST02077,74,Male,Premium,67.8,3,2,Debit Card,5.0,26.4,1
+CUST02078,19,Female,Basic,28.48,32,4,Credit Card,9.0,19.5,0
+CUST02079,52,Male,Basic,12.51,25,2,Credit Card,4.0,38.2,1
+CUST02080,28,Female,Basic,19.78,37,2,PayPal,4.0,13.7,1
+CUST02081,41,Male,Basic,26.78,15,3,Credit Card,6.0,7.8,1
+CUST02082,73,Female,Basic,10.07,7,3,PayPal,8.0,17.5,1
+CUST02083,27,Male,Standard,33.25,9,0,Debit Card,3.0,24.0,0
+CUST02084,30,Male,Basic,16.83,9,1,Credit Card,8.0,11.9,1
+CUST02085,39,Male,Standard,34.42,53,4,E-Wallet,6.0,19.8,0
+CUST02086,28,Male,Basic,13.64,13,1,Debit Card,5.0,7.2,0
+CUST02087,51,Male,Basic,21.81,1,2,Bank Transfer,8.0,19.4,1
+CUST02088,33,Male,Basic,13.4,11,1,Debit Card,4.0,40.0,0
+CUST02089,48,Male,Standard,49.16,2,1,E-Wallet,10.0,7.2,0
+CUST02090,22,Female,Standard,57.46,0,2,Credit Card,6.0,12.5,0
+CUST02091,18,Female,Basic,14.58,17,2,Debit Card,6.0,15.9,1
+CUST02092,37,Female,Premium,72.73,7,1,Bank Transfer,9.0,9.4,0
+CUST02093,19,Male,Standard,30.33,3,2,Credit Card,6.0,7.6,1
+CUST02094,59,Male,Basic,10.28,50,1,Debit Card,9.0,10.8,1
+CUST02095,20,Male,Premium,83.79,38,3,E-Wallet,2.0,21.8,1
+CUST02096,26,Male,Basic,19.77,5,1,PayPal,5.0,2.4,0
+CUST02097,45,Male,Basic,13.65,12,3,PayPal,7.0,4.9,1
+CUST02098,32,Female,Standard,39.68,23,1,PayPal,8.0,9.2,0
+CUST02099,20,Male,Basic,12.8,3,5,Bank Transfer,8.0,20.2,0
+CUST02100,66,Male,Basic,23.61,4,0,Bank Transfer,7.0,10.7,1
+CUST02101,26,Female,Standard,41.78,23,0,PayPal,8.0,6.2,0
+CUST02102,37,Female,Basic,24.68,46,3,Credit Card,7.0,,0
+CUST02103,37,Male,Premium,93.01,20,1,Credit Card,,12.3,1
+CUST02104,49,Male,Premium,82.63,72,2,PayPal,9.0,7.5,1
+CUST02105,46,Female,Standard,48.78,5,1,Bank Transfer,4.0,15.8,1
+CUST02106,29,Male,Standard,30.21,50,3,Debit Card,7.0,15.2,0
+CUST02107,35,Female,Standard,50.7,32,0,Credit Card,6.0,12.5,0
+CUST02108,37,Male,Premium,82.25,5,3,Credit Card,6.0,5.9,1
+CUST02109,49,Male,Basic,20.26,9,3,Debit Card,4.0,19.9,1
+CUST02110,24,Male,Basic,20.46,24,2,Bank Transfer,,31.5,1
+CUST02111,66,Male,Standard,46.74,59,2,Credit Card,4.0,14.0,0
+CUST02112,30,Male,Standard,51.06,5,1,PayPal,8.0,2.8,1
+CUST02113,39,Male,Basic,12.2,52,2,Bank Transfer,,40.0,0
+CUST02114,24,Female,Standard,44.66,8,1,E-Wallet,4.0,15.7,0
+CUST02115,23,Female,Basic,11.65,15,4,Credit Card,7.0,4.4,1
+CUST02116,28,Male,Premium,74.04,9,3,E-Wallet,4.0,19.2,0
+CUST02117,27,Female,Basic,13.78,8,2,PayPal,5.0,23.4,1
+CUST02118,34,Female,Basic,21.96,5,2,Bank Transfer,6.0,11.0,1
+CUST02119,27,Male,Basic,22.11,15,1,Credit Card,7.0,2.0,1
+CUST02120,49,Male,Basic,26.61,4,1,Debit Card,4.0,13.0,1
+CUST02121,29,Male,Basic,20.43,72,5,PayPal,6.0,4.3,0
+CUST02122,28,Male,Basic,24.88,24,2,Credit Card,7.0,16.0,1
+CUST02123,34,Female,Basic,27.77,8,0,Debit Card,3.0,6.1,0
+CUST02124,52,Male,Basic,12.66,9,3,PayPal,6.0,14.7,0
+CUST02125,42,Male,Basic,24.41,16,2,PayPal,4.0,7.7,1
+CUST02126,38,Male,Basic,16.55,12,0,Credit Card,6.0,13.4,0
+CUST02127,21,Male,Basic,15.55,13,2,Debit Card,8.0,19.6,1
+CUST02128,25,Male,Basic,29.25,18,0,Credit Card,6.0,20.0,0
+CUST02129,23,Male,Basic,14.12,8,2,E-Wallet,8.0,5.4,1
+CUST02130,56,Male,Basic,28.28,47,3,E-Wallet,8.0,8.5,0
+CUST02131,46,Male,Basic,26.46,3,4,Credit Card,8.0,8.8,1
+CUST02132,28,Female,Standard,56.35,0,2,Credit Card,,12.8,0
+CUST02133,32,Female,Premium,95.15,0,3,Credit Card,8.0,24.5,1
+CUST02134,29,Female,Premium,95.07,5,0,Debit Card,7.0,9.7,1
+CUST02135,28,Female,Standard,42.07,39,3,Bank Transfer,2.0,14.9,0
+CUST02136,45,Female,Standard,42.02,2,0,Debit Card,4.0,9.3,1
+CUST02137,36,Male,Basic,27.0,15,1,Credit Card,6.0,6.1,0
+CUST02138,67,Male,Standard,41.62,3,4,Credit Card,6.0,2.6,1
+CUST02139,56,Male,Standard,44.59,23,4,Credit Card,7.0,7.4,0
+CUST02140,57,Female,Premium,119.77,2,1,Bank Transfer,4.0,3.7,1
+CUST02141,48,Male,Premium,81.25,0,3,PayPal,10.0,3.9,0
+CUST02142,34,Female,Basic,26.44,6,1,PayPal,6.0,13.6,0
+CUST02143,47,Female,Standard,38.31,0,3,Credit Card,6.0,14.8,1
+CUST02144,35,Male,Premium,61.49,6,4,E-Wallet,5.0,20.6,0
+CUST02145,61,Female,Basic,21.86,33,1,Credit Card,4.0,1.6,0
+CUST02146,45,Male,Premium,88.75,0,2,Bank Transfer,6.0,18.3,0
+CUST02147,43,Male,Basic,25.72,30,1,Bank Transfer,6.0,0.5,0
+CUST02148,41,Female,Premium,60.24,25,5,Debit Card,6.0,6.1,0
+CUST02149,62,Male,Standard,32.11,45,3,Bank Transfer,10.0,9.3,0
+CUST02150,21,Female,Basic,27.18,37,7,Credit Card,6.0,6.1,0
+CUST02151,63,Male,Standard,44.41,8,6,,6.0,10.4,0
+CUST02152,37,Male,Basic,20.12,34,1,Credit Card,8.0,12.2,1
+CUST02153,21,Female,Standard,36.74,40,0,Debit Card,6.0,0.4,1
+CUST02154,30,Male,Standard,57.77,22,3,Credit Card,7.0,15.1,1
+CUST02155,18,Male,Standard,57.42,1,4,Credit Card,3.0,6.9,1
+CUST02156,48,Female,Premium,90.99,9,1,Credit Card,3.0,17.8,0
+CUST02157,26,Male,Basic,14.35,6,0,Credit Card,6.0,18.2,0
+CUST02158,42,Male,Basic,29.65,42,2,PayPal,5.0,11.4,1
+CUST02159,54,Male,Basic,27.84,0,1,Debit Card,4.0,20.0,1
+CUST02160,31,Female,Basic,20.42,3,0,Credit Card,6.0,4.9,1
+CUST02161,36,Female,Basic,22.52,32,3,E-Wallet,6.0,6.2,1
+CUST02162,23,Female,Basic,18.78,16,1,E-Wallet,4.0,1.5,0
+CUST02163,34,Male,Basic,14.11,1,0,Credit Card,5.0,15.5,0
+CUST02164,73,Female,Basic,23.62,18,2,Debit Card,6.0,10.6,1
+CUST02165,50,Male,Premium,100.14,24,2,PayPal,4.0,9.2,0
+CUST02166,36,Female,Basic,20.94,38,4,PayPal,5.0,8.8,1
+CUST02167,32,Female,Premium,108.86,61,1,Debit Card,7.0,7.8,0
+CUST02168,39,Male,Basic,19.03,1,3,PayPal,6.0,3.9,1
+CUST02169,41,Female,Basic,27.21,11,2,Credit Card,5.0,3.2,1
+CUST02170,34,Female,Standard,36.5,21,1,,4.0,31.6,0
+CUST02171,46,Female,Basic,29.23,13,0,PayPal,4.0,14.5,1
+CUST02172,27,Female,Basic,14.09,30,1,PayPal,,9.0,0
+CUST02173,27,Male,Standard,34.79,72,2,Bank Transfer,10.0,8.2,0
+CUST02174,44,Female,Basic,22.06,72,4,Credit Card,7.0,13.3,0
+CUST02175,24,Male,Basic,11.85,19,3,Credit Card,3.0,22.7,1
+CUST02176,49,Male,Standard,35.03,22,0,Credit Card,8.0,11.6,0
+CUST02177,39,Male,Basic,24.57,44,0,Credit Card,4.0,39.6,0
+CUST02178,18,Male,Premium,78.48,0,1,Credit Card,6.0,15.9,0
+CUST02179,41,Female,Basic,25.99,3,2,Debit Card,5.0,7.0,0
+CUST02180,18,Male,Premium,69.32,3,5,Debit Card,10.0,3.1,1
+CUST02181,49,Male,Standard,41.55,30,1,PayPal,4.0,21.9,0
+CUST02182,36,Male,Premium,83.17,59,2,Debit Card,7.0,4.5,0
+CUST02183,64,Female,Premium,88.81,11,1,Credit Card,4.0,17.8,0
+CUST02184,53,Female,Basic,18.2,2,3,PayPal,8.0,13.5,1
+CUST02185,26,Female,Standard,41.59,21,2,Credit Card,7.0,2.5,0
+CUST02186,18,Female,Basic,16.56,4,3,Bank Transfer,9.0,13.1,0
+CUST02187,30,Male,Premium,60.9,13,2,Credit Card,8.0,15.0,0
+CUST02188,24,Female,Standard,48.49,2,3,Debit Card,4.0,7.9,1
+CUST02189,63,Female,Basic,19.46,13,1,Bank Transfer,10.0,7.5,0
+CUST02190,39,Female,Premium,82.39,13,1,PayPal,7.0,8.3,1
+CUST02191,52,Male,Basic,14.22,16,2,PayPal,5.0,21.6,0
+CUST02192,36,Male,Standard,56.73,17,1,PayPal,6.0,7.2,1
+CUST02193,37,Female,Standard,37.13,8,3,Credit Card,7.0,1.7,1
+CUST02194,39,Male,Basic,28.41,42,4,PayPal,7.0,10.6,1
+CUST02195,54,Male,Standard,36.51,2,0,Bank Transfer,7.0,1.5,0
+CUST02196,44,Male,Premium,118.28,1,3,E-Wallet,8.0,12.8,0
+CUST02197,26,Male,Basic,18.39,11,0,Debit Card,8.0,4.1,0
+CUST02198,61,Male,Standard,45.97,1,0,Credit Card,4.0,8.7,1
+CUST02199,36,Female,Basic,15.97,2,2,Bank Transfer,10.0,4.2,1
+CUST02200,34,Male,Standard,58.17,2,1,Debit Card,10.0,26.8,0
+CUST02201,18,Female,Basic,15.64,1,2,Credit Card,8.0,13.5,0
+CUST02202,48,Male,Premium,103.8,28,2,Credit Card,6.0,4.0,1
+CUST02203,41,Female,Premium,61.22,6,0,Credit Card,6.0,11.5,0
+CUST02204,41,Male,Basic,21.16,55,3,Debit Card,5.0,3.3,1
+CUST02205,34,Female,Basic,24.82,16,1,Credit Card,6.0,8.6,0
+CUST02206,32,Female,Standard,44.12,41,4,Credit Card,1.0,22.7,0
+CUST02207,35,Female,Standard,49.29,17,3,Credit Card,9.0,13.6,1
+CUST02208,46,Male,Basic,25.35,12,4,E-Wallet,9.0,4.4,1
+CUST02209,48,Female,Basic,19.99,15,2,Credit Card,2.0,2.8,1
+CUST02210,36,Male,Basic,14.35,6,1,Credit Card,8.0,15.0,1
+CUST02211,52,Male,Premium,83.8,11,3,Debit Card,6.0,30.2,0
+CUST02212,38,Male,Standard,51.91,2,1,Credit Card,6.0,9.0,0
+CUST02213,33,Female,Premium,76.26,13,1,E-Wallet,7.0,21.9,1
+CUST02214,42,Female,Standard,48.95,22,1,E-Wallet,2.0,13.8,0
+CUST02215,22,Female,Premium,68.89,19,1,Debit Card,6.0,14.9,1
+CUST02216,43,Female,Basic,28.6,6,4,Debit Card,6.0,3.2,1
+CUST02217,19,Male,Basic,22.05,2,0,Debit Card,6.0,8.5,1
+CUST02218,26,Male,Premium,88.09,21,0,Credit Card,3.0,9.0,1
+CUST02219,18,Male,Premium,108.68,38,2,Credit Card,7.0,0.9,0
+CUST02220,37,Male,Basic,25.93,2,5,Credit Card,8.0,5.7,1
+CUST02221,60,Female,Basic,11.94,5,2,Credit Card,7.0,6.3,1
+CUST02222,38,Female,Standard,39.2,10,5,PayPal,5.0,4.3,0
+CUST02223,48,Female,Basic,19.16,31,4,Credit Card,10.0,8.3,0
+CUST02224,70,Female,Basic,16.8,12,3,Credit Card,4.0,17.2,0
+CUST02225,45,Female,Premium,79.03,18,0,Debit Card,8.0,17.6,0
+CUST02226,30,Female,Basic,17.03,3,4,Debit Card,7.0,24.7,1
+CUST02227,31,Male,Standard,34.25,3,1,Credit Card,10.0,19.4,0
+CUST02228,40,Female,Basic,12.38,26,2,Credit Card,7.0,12.2,0
+CUST02229,31,Female,Basic,15.2,28,2,Credit Card,7.0,25.3,1
+CUST02230,32,Female,Standard,32.09,5,1,Credit Card,7.0,6.7,1
+CUST02231,52,Female,Basic,20.19,44,7,Bank Transfer,4.0,9.7,0
+CUST02232,53,Female,Standard,34.58,0,1,E-Wallet,4.0,31.8,0
+CUST02233,18,Female,Basic,11.34,5,2,Debit Card,5.0,6.5,1
+CUST02234,29,Male,Premium,110.22,4,1,Debit Card,8.0,0.7,0
+CUST02235,33,Male,Standard,47.62,3,5,PayPal,7.0,2.8,1
+CUST02236,47,Female,Premium,113.89,1,4,PayPal,6.0,8.9,1
+CUST02237,54,Female,Basic,29.66,27,1,Credit Card,9.0,4.3,0
+CUST02238,75,Male,Basic,21.86,20,4,Credit Card,2.0,2.5,1
+CUST02239,33,Male,Basic,25.91,10,2,Debit Card,3.0,17.9,1
+CUST02240,34,Female,Standard,34.78,15,3,PayPal,1.0,13.8,1
+CUST02241,47,Female,Basic,23.96,10,3,Credit Card,9.0,1.0,1
+CUST02242,31,Male,Basic,20.98,25,2,Credit Card,6.0,20.5,0
+CUST02243,38,Female,Basic,23.52,2,0,Credit Card,8.0,37.5,0
+CUST02244,34,Male,Basic,12.08,0,3,Credit Card,6.0,5.6,1
+CUST02245,18,Male,Basic,28.71,43,2,Debit Card,8.0,14.0,0
+CUST02246,41,Female,Basic,18.34,9,1,PayPal,6.0,3.8,0
+CUST02247,37,Female,Basic,25.51,54,3,Debit Card,7.0,11.1,0
+CUST02248,56,Female,Standard,59.71,72,3,Credit Card,7.0,14.4,0
+CUST02249,40,Male,Basic,27.46,53,2,Credit Card,7.0,9.0,1
+CUST02250,23,Male,Basic,16.22,17,1,Bank Transfer,10.0,4.9,0
+CUST02251,36,Female,Standard,42.05,1,2,Debit Card,2.0,6.5,1
+CUST02252,18,Female,Standard,49.45,72,3,Credit Card,6.0,1.4,1
+CUST02253,24,Female,Basic,20.75,14,1,Credit Card,6.0,10.1,1
+CUST02254,48,Male,Standard,42.3,6,2,Bank Transfer,6.0,28.5,0
+CUST02255,36,Female,Premium,99.19,22,2,Bank Transfer,5.0,2.8,1
+CUST02256,51,Male,Standard,57.28,6,0,Bank Transfer,5.0,24.6,0
+CUST02257,18,Female,Premium,78.56,5,3,PayPal,9.0,7.7,1
+CUST02258,36,Female,Standard,33.84,26,3,Debit Card,6.0,1.3,0
+CUST02259,33,Male,Basic,23.5,3,1,Debit Card,10.0,18.1,0
+CUST02260,52,Male,Basic,21.78,19,3,Credit Card,7.0,10.3,0
+CUST02261,48,Female,Standard,57.16,14,1,PayPal,5.0,3.5,1
+CUST02262,48,Male,Premium,104.55,18,4,PayPal,7.0,5.1,1
+CUST02263,60,Male,Standard,41.9,22,3,Credit Card,6.0,6.2,1
+CUST02264,35,Female,Basic,22.66,5,4,Bank Transfer,9.0,8.6,0
+CUST02265,57,Female,Standard,55.86,31,0,Debit Card,3.0,11.0,1
+CUST02266,26,Male,Basic,16.94,27,3,Credit Card,2.0,11.3,1
+CUST02267,25,Female,Standard,30.4,4,2,Credit Card,7.0,16.8,1
+CUST02268,49,Male,Standard,48.78,49,1,Bank Transfer,8.0,10.0,0
+CUST02269,20,Male,Standard,30.77,47,1,E-Wallet,7.0,12.6,0
+CUST02270,47,Male,Premium,116.24,71,0,Debit Card,7.0,10.3,0
+CUST02271,41,Male,Standard,35.04,14,1,E-Wallet,7.0,0.3,1
+CUST02272,53,Female,Standard,41.22,0,1,Bank Transfer,3.0,2.9,1
+CUST02273,39,Female,Standard,58.38,28,0,Bank Transfer,7.0,3.8,0
+CUST02274,40,Male,Premium,64.79,31,0,Bank Transfer,9.0,9.6,1
+CUST02275,46,Male,Premium,60.25,4,2,Debit Card,6.0,10.3,1
+CUST02276,31,Male,Basic,12.06,9,4,Bank Transfer,3.0,7.8,1
+CUST02277,30,Male,Standard,59.57,2,4,PayPal,5.0,14.1,0
+CUST02278,46,Female,Basic,29.42,7,3,PayPal,7.0,15.6,1
+CUST02279,39,Female,Premium,83.07,23,1,Credit Card,10.0,8.5,0
+CUST02280,34,Male,Standard,52.28,30,4,PayPal,2.0,17.0,0
+CUST02281,38,Female,Basic,24.71,4,1,E-Wallet,7.0,7.5,1
+CUST02282,60,Male,Basic,11.99,40,4,Credit Card,4.0,,0
+CUST02283,34,Male,Basic,14.69,13,4,E-Wallet,7.0,0.6,0
+CUST02284,33,Female,Standard,56.66,31,0,Debit Card,7.0,8.6,0
+CUST02285,18,Male,Basic,13.3,7,4,Credit Card,5.0,17.5,1
+CUST02286,39,Female,Basic,20.41,2,2,Credit Card,7.0,9.7,0
+CUST02287,48,Male,Premium,74.64,28,1,Bank Transfer,9.0,3.6,0
+CUST02288,50,Male,Standard,46.72,3,0,PayPal,6.0,11.4,0
+CUST02289,41,Female,Basic,13.92,11,1,Credit Card,3.0,7.8,1
+CUST02290,52,Female,Basic,14.3,0,5,PayPal,9.0,12.4,0
+CUST02291,49,Female,Premium,62.8,4,3,Credit Card,8.0,4.9,1
+CUST02292,54,Female,Standard,59.7,30,1,Debit Card,7.0,8.3,1
+CUST02293,52,Male,Standard,33.38,8,4,Bank Transfer,4.0,3.4,0
+CUST02294,60,Male,Basic,18.3,29,1,PayPal,8.0,6.2,1
+CUST02295,37,Male,Basic,18.34,29,2,Bank Transfer,10.0,10.8,0
+CUST02296,22,Female,Basic,16.06,29,1,PayPal,6.0,1.6,1
+CUST02297,48,Male,Standard,53.81,21,5,E-Wallet,6.0,8.6,0
+CUST02298,50,Female,Basic,16.74,3,1,Credit Card,4.0,2.8,1
+CUST02299,60,Male,Basic,22.5,13,1,Credit Card,4.0,7.4,0
+CUST02300,56,Female,Standard,46.28,21,4,Credit Card,4.0,2.4,1
+CUST02301,65,Male,Premium,111.83,38,2,PayPal,6.0,34.4,0
+CUST02302,48,Female,Standard,54.57,26,2,PayPal,5.0,17.4,1
+CUST02303,42,Male,Standard,36.53,28,2,PayPal,7.0,7.8,0
+CUST02304,21,Female,Standard,52.49,24,3,,4.0,24.5,0
+CUST02305,44,Male,Basic,25.84,4,3,Credit Card,6.0,5.0,1
+CUST02306,32,Female,Basic,28.37,7,3,PayPal,4.0,20.9,1
+CUST02307,42,Female,Standard,58.89,11,6,,6.0,12.6,1
+CUST02308,40,Female,Basic,24.73,12,0,Credit Card,2.0,5.2,0
+CUST02309,46,Female,Standard,43.49,11,4,Credit Card,6.0,14.4,0
+CUST02310,38,Female,Premium,77.57,4,2,Credit Card,5.0,18.0,1
+CUST02311,52,Male,Premium,111.87,33,3,Debit Card,6.0,8.9,1
+CUST02312,18,Female,Basic,28.3,7,1,Credit Card,2.0,16.5,1
+CUST02313,42,Male,Basic,11.94,5,1,Credit Card,7.0,15.5,0
+CUST02314,55,Female,Basic,21.08,6,3,PayPal,5.0,11.6,1
+CUST02315,64,Female,Basic,12.57,21,3,Credit Card,6.0,2.4,0
+CUST02316,49,Female,Basic,15.02,19,3,Debit Card,2.0,11.2,1
+CUST02317,61,Male,Basic,17.65,9,3,Credit Card,3.0,,0
+CUST02318,42,Male,Standard,39.32,24,2,E-Wallet,5.0,13.7,0
+CUST02319,40,Male,Standard,51.47,9,1,Debit Card,9.0,3.8,0
+CUST02320,46,Male,Premium,64.73,40,2,Credit Card,7.0,16.9,1
+CUST02321,39,Female,Basic,22.27,62,4,Credit Card,6.0,5.9,1
+CUST02322,29,Female,Basic,21.62,6,2,PayPal,4.0,3.8,1
+CUST02323,33,Male,Basic,25.73,21,2,Bank Transfer,4.0,15.1,0
+CUST02324,25,Male,Basic,11.92,38,0,Credit Card,7.0,24.9,0
+CUST02325,46,Male,Basic,16.64,11,0,Credit Card,8.0,10.2,1
+CUST02326,40,Female,Premium,101.82,27,3,Credit Card,6.0,23.7,1
+CUST02327,35,Male,Basic,24.22,7,2,PayPal,10.0,5.2,1
+CUST02328,32,Female,Basic,18.98,12,0,E-Wallet,4.0,4.4,0
+CUST02329,46,Male,Standard,43.84,2,1,Debit Card,6.0,19.8,1
+CUST02330,50,Female,Standard,58.94,4,4,Credit Card,2.0,13.8,1
+CUST02331,25,Male,Standard,39.78,14,3,Bank Transfer,6.0,2.7,0
+CUST02332,23,Male,Basic,12.99,1,4,PayPal,9.0,26.5,1
+CUST02333,52,Male,Premium,117.16,5,1,Credit Card,4.0,8.7,1
+CUST02334,22,Female,Basic,26.18,10,2,Credit Card,8.0,9.3,1
+CUST02335,47,Female,Basic,14.73,31,4,Debit Card,9.0,29.0,0
+CUST02336,61,Male,Standard,55.71,1,2,Bank Transfer,4.0,24.1,0
+CUST02337,61,Male,Premium,75.13,0,2,PayPal,7.0,22.8,0
+CUST02338,49,Female,Basic,26.54,49,5,PayPal,9.0,5.3,0
+CUST02339,49,Male,Standard,48.85,17,1,Bank Transfer,7.0,11.5,0
+CUST02340,69,Male,Basic,19.64,10,1,Credit Card,8.0,13.3,0
+CUST02341,18,Male,Basic,28.55,10,2,Credit Card,2.0,4.0,1
+CUST02342,33,Female,Basic,26.18,7,6,Credit Card,7.0,2.8,1
+CUST02343,51,Male,Standard,33.89,3,0,Bank Transfer,7.0,8.2,1
+CUST02344,35,Female,Basic,24.1,30,3,PayPal,3.0,16.8,1
+CUST02345,56,Male,Standard,53.68,48,4,Credit Card,4.0,0.5,0
+CUST02346,39,Female,Basic,20.81,16,0,Credit Card,7.0,9.9,0
+CUST02347,41,Male,Premium,76.55,43,1,PayPal,5.0,3.2,0
+CUST02348,36,Female,Premium,74.06,11,0,PayPal,8.0,17.9,0
+CUST02349,33,Female,Basic,29.47,1,5,PayPal,7.0,11.9,1
+CUST02350,32,Male,Basic,18.73,33,0,Credit Card,6.0,3.1,0
+CUST02351,43,Male,Basic,20.37,1,2,E-Wallet,6.0,18.2,1
+CUST02352,29,Male,Premium,95.88,21,3,Bank Transfer,7.0,11.9,0
+CUST02353,52,Male,Basic,12.0,14,1,PayPal,8.0,7.7,1
+CUST02354,48,Male,Standard,32.43,5,4,PayPal,7.0,34.7,0
+CUST02355,54,Female,Basic,13.95,10,0,E-Wallet,5.0,8.4,1
+CUST02356,25,Female,Standard,31.95,72,1,E-Wallet,9.0,6.0,0
+CUST02357,18,Female,Standard,56.94,18,0,PayPal,7.0,,1
+CUST02358,39,Female,Standard,34.43,35,2,Debit Card,7.0,27.5,0
+CUST02359,75,Female,Premium,73.58,4,0,Debit Card,6.0,0.5,0
+CUST02360,56,Male,Basic,20.74,23,0,Bank Transfer,7.0,20.7,0
+CUST02361,32,Male,Premium,113.76,14,1,PayPal,2.0,14.9,1
+CUST02362,45,Male,Basic,10.97,2,0,Credit Card,7.0,24.6,0
+CUST02363,49,Female,Standard,36.47,8,2,Credit Card,10.0,21.7,0
+CUST02364,22,Male,Premium,103.03,56,1,E-Wallet,6.0,12.9,0
+CUST02365,57,Male,Standard,45.57,13,1,Bank Transfer,6.0,14.7,1
+CUST02366,37,Female,Standard,47.83,29,4,E-Wallet,5.0,10.3,0
+CUST02367,38,Male,Basic,10.33,4,2,Debit Card,7.0,25.3,1
+CUST02368,40,Male,Basic,27.33,29,0,Bank Transfer,6.0,5.2,0
+CUST02369,54,Male,Basic,21.56,16,2,Bank Transfer,9.0,10.2,0
+CUST02370,30,Male,Standard,55.02,38,1,Credit Card,4.0,,0
+CUST02371,18,Male,Standard,58.9,7,2,Credit Card,5.0,18.2,0
+CUST02372,44,Male,Basic,24.63,11,0,E-Wallet,5.0,18.2,1
+CUST02373,18,Female,Basic,10.61,35,3,Credit Card,10.0,13.8,0
+CUST02374,36,Male,Basic,24.22,22,2,PayPal,6.0,18.3,1
+CUST02375,55,Female,Basic,21.26,9,2,PayPal,5.0,14.6,0
+CUST02376,47,Male,Basic,12.06,2,2,PayPal,1.0,29.1,1
+CUST02377,53,Male,Premium,76.22,2,3,Credit Card,4.0,5.0,1
+CUST02378,48,Male,Standard,35.06,72,0,PayPal,7.0,,0
+CUST02379,71,Female,Basic,28.49,11,3,Credit Card,7.0,9.1,0
+CUST02380,32,Female,Standard,53.85,10,2,Bank Transfer,5.0,10.9,1
+CUST02381,45,Male,Premium,102.04,13,1,Credit Card,5.0,30.6,0
+CUST02382,34,Female,Basic,25.26,72,1,PayPal,10.0,30.3,0
+CUST02383,52,Male,Basic,22.01,6,3,Bank Transfer,10.0,25.3,1
+CUST02384,39,Male,Basic,27.1,15,2,Credit Card,9.0,6.7,1
+CUST02385,62,Female,Basic,14.56,3,0,Credit Card,9.0,6.1,1
+CUST02386,33,Female,Standard,37.51,5,6,Bank Transfer,10.0,3.1,0
+CUST02387,58,Male,Premium,95.49,0,3,Credit Card,10.0,26.8,0
+CUST02388,47,Male,Basic,26.19,5,5,Credit Card,5.0,4.2,1
+CUST02389,39,Male,Standard,55.06,12,1,Debit Card,4.0,7.8,1
+CUST02390,47,Female,Basic,29.52,5,0,E-Wallet,10.0,6.7,0
+CUST02391,43,Male,Standard,52.86,17,3,PayPal,4.0,6.0,1
+CUST02392,44,Female,Standard,36.97,0,2,,4.0,1.6,1
+CUST02393,37,Female,Basic,14.6,7,3,E-Wallet,4.0,7.3,0
+CUST02394,30,Male,Basic,18.9,2,2,Debit Card,6.0,11.5,1
+CUST02395,35,Male,Standard,49.49,5,3,Debit Card,2.0,3.5,1
+CUST02396,18,Female,Premium,90.77,0,1,Debit Card,3.0,5.3,1
+CUST02397,50,Male,Basic,11.34,8,3,Credit Card,5.0,24.2,0
+CUST02398,23,Female,Basic,19.63,22,2,Credit Card,3.0,4.5,1
+CUST02399,37,Female,Basic,26.33,8,6,PayPal,8.0,9.4,1
+CUST02400,48,Female,Standard,37.2,2,3,Credit Card,6.0,9.9,1
+CUST02401,50,Male,Standard,49.04,27,1,PayPal,7.0,5.4,0
+CUST02402,18,Male,Standard,38.08,18,2,Credit Card,7.0,19.7,0
+CUST02403,38,Male,Standard,46.66,21,5,Debit Card,6.0,23.5,0
+CUST02404,45,Male,Premium,102.05,1,1,Credit Card,8.0,2.7,1
+CUST02405,40,Female,Premium,72.42,17,4,PayPal,7.0,6.6,1
+CUST02406,57,Male,Basic,24.78,9,3,PayPal,5.0,5.0,1
+CUST02407,29,Female,Standard,50.29,20,3,Debit Card,2.0,7.9,1
+CUST02408,18,Female,Basic,16.25,50,2,Credit Card,7.0,9.9,0
+CUST02409,50,Female,Basic,27.89,20,2,Credit Card,3.0,1.7,1
+CUST02410,33,Female,Premium,106.82,7,2,Bank Transfer,7.0,,1
+CUST02411,18,Female,Standard,45.62,2,3,Credit Card,6.0,30.5,0
+CUST02412,37,Male,Premium,64.95,11,5,Bank Transfer,3.0,22.1,1
+CUST02413,55,Female,Basic,18.8,1,2,Credit Card,7.0,11.4,0
+CUST02414,23,Female,Standard,39.89,13,2,Credit Card,6.0,2.1,1
+CUST02415,70,Male,Standard,37.86,3,2,PayPal,6.0,17.8,0
+CUST02416,29,Male,Basic,22.86,3,2,Debit Card,6.0,7.1,1
+CUST02417,41,Female,Basic,28.42,3,3,Credit Card,5.0,20.8,1
+CUST02418,24,Male,Standard,34.39,30,1,E-Wallet,7.0,18.6,0
+CUST02419,40,Male,Basic,24.82,27,2,Credit Card,4.0,7.8,0
+CUST02420,38,Female,Premium,97.29,13,0,Debit Card,4.0,9.3,0
+CUST02421,20,Female,Basic,23.33,13,2,Debit Card,7.0,5.2,1
+CUST02422,75,Female,Basic,26.89,67,1,Debit Card,8.0,2.2,1
+CUST02423,33,Female,Standard,41.25,34,3,Bank Transfer,7.0,9.7,1
+CUST02424,33,Female,Basic,21.58,41,2,Credit Card,6.0,16.0,0
+CUST02425,52,Female,Premium,76.6,17,1,E-Wallet,2.0,10.6,1
+CUST02426,63,Female,Standard,38.52,0,2,PayPal,9.0,8.9,0
+CUST02427,54,Female,Basic,20.26,24,2,E-Wallet,2.0,14.6,0
+CUST02428,24,Female,Standard,30.21,10,1,Bank Transfer,7.0,8.7,0
+CUST02429,42,Female,Standard,37.43,1,0,E-Wallet,10.0,11.5,0
+CUST02430,18,Female,Standard,34.54,9,3,PayPal,6.0,7.6,0
+CUST02431,51,Female,Premium,67.18,29,3,Debit Card,7.0,9.6,0
+CUST02432,18,Male,Standard,41.53,5,3,,7.0,3.3,0
+CUST02433,29,Female,Standard,33.12,2,5,PayPal,6.0,5.7,1
+CUST02434,39,Female,Basic,13.08,2,4,Debit Card,10.0,29.9,0
+CUST02435,45,Female,Standard,50.05,0,1,PayPal,4.0,3.0,1
+CUST02436,36,Female,Premium,99.07,39,1,Credit Card,4.0,31.3,0
+CUST02437,59,Female,Standard,58.34,25,0,Bank Transfer,5.0,11.1,0
+CUST02438,49,Male,Standard,57.6,52,3,Credit Card,10.0,2.2,0
+CUST02439,48,Male,Basic,27.47,26,0,E-Wallet,5.0,,1
+CUST02440,24,Male,Standard,50.72,20,2,Credit Card,7.0,2.8,0
+CUST02441,62,Male,Premium,75.99,8,1,Credit Card,8.0,17.0,1
+CUST02442,29,Male,Basic,13.55,8,2,Bank Transfer,8.0,13.4,0
+CUST02443,62,Male,Basic,28.98,13,1,Bank Transfer,8.0,10.6,0
+CUST02444,66,Male,Standard,58.78,24,2,PayPal,9.0,12.3,0
+CUST02445,46,Male,Standard,45.12,4,4,E-Wallet,7.0,12.8,0
+CUST02446,53,Female,Standard,46.44,18,0,Credit Card,5.0,8.5,0
+CUST02447,18,Female,Basic,10.1,7,2,Bank Transfer,6.0,32.8,0
+CUST02448,37,Male,Basic,12.96,32,3,Debit Card,5.0,24.8,1
+CUST02449,54,Female,Standard,46.37,9,1,Debit Card,10.0,17.7,0
+CUST02450,52,Female,Standard,35.44,9,5,Debit Card,5.0,7.6,1
+CUST02451,24,Female,Standard,44.35,20,0,Credit Card,7.0,7.0,1
+CUST02452,36,Male,Standard,53.84,16,0,PayPal,3.0,12.7,0
+CUST02453,18,Female,Standard,54.01,18,2,PayPal,6.0,7.1,1
+CUST02454,45,Male,Standard,55.84,2,3,Credit Card,5.0,8.5,0
+CUST02455,18,Male,Standard,37.06,14,1,E-Wallet,7.0,17.9,0
+CUST02456,54,Male,Standard,42.95,1,3,Debit Card,8.0,25.4,0
+CUST02457,55,Female,Standard,48.8,4,1,Credit Card,9.0,12.9,1
+CUST02458,33,Male,Basic,21.61,6,1,PayPal,9.0,11.7,0
+CUST02459,46,Female,Basic,29.97,5,1,Credit Card,6.0,2.1,1
+CUST02460,37,Female,Standard,38.28,1,3,Credit Card,4.0,17.3,0
+CUST02461,43,Female,Premium,64.27,8,2,PayPal,4.0,18.7,1
+CUST02462,25,Male,Standard,41.63,10,1,Credit Card,7.0,21.8,0
+CUST02463,48,Male,Basic,20.35,32,1,Credit Card,6.0,40.0,0
+CUST02464,18,Male,Standard,41.61,30,1,PayPal,7.0,6.8,1
+CUST02465,18,Female,Basic,16.38,47,2,Credit Card,5.0,27.8,1
+CUST02466,38,Male,Standard,37.71,48,1,Bank Transfer,9.0,25.9,0
+CUST02467,37,Female,Premium,85.64,19,3,Bank Transfer,3.0,11.9,0
+CUST02468,43,Male,Standard,50.67,66,4,Credit Card,5.0,2.9,0
+CUST02469,31,Female,Standard,34.46,6,1,Debit Card,4.0,23.9,0
+CUST02470,64,Female,Basic,27.3,6,1,Credit Card,6.0,28.4,0
+CUST02471,42,Female,Basic,22.81,2,3,PayPal,9.0,3.8,1
+CUST02472,43,Female,Premium,66.43,0,0,Credit Card,5.0,16.2,1
+CUST02473,42,Female,Standard,30.7,1,4,E-Wallet,6.0,11.2,1
+CUST02474,53,Male,Standard,31.53,1,2,Credit Card,7.0,10.8,1
+CUST02475,47,Female,Basic,11.8,64,2,PayPal,5.0,2.2,1
+CUST02476,45,Female,Basic,22.86,13,0,Credit Card,7.0,23.5,0
+CUST02477,49,Female,Basic,28.81,5,2,Credit Card,7.0,7.7,0
+CUST02478,18,Male,Basic,12.66,6,3,Debit Card,4.0,35.8,1
+CUST02479,18,Male,Basic,15.68,3,1,PayPal,5.0,9.0,1
+CUST02480,39,Female,Premium,111.94,10,2,E-Wallet,7.0,6.9,1
+CUST02481,37,Female,Standard,45.16,8,2,Credit Card,9.0,7.5,0
+CUST02482,47,Female,Basic,18.53,39,1,Credit Card,9.0,9.3,0
+CUST02483,40,Male,Basic,19.45,67,1,Debit Card,10.0,9.1,0
+CUST02484,47,Male,Basic,12.01,5,2,Debit Card,7.0,23.5,0
+CUST02485,23,Male,Premium,73.17,26,2,Bank Transfer,5.0,9.1,0
+CUST02486,39,Female,Basic,29.23,15,1,E-Wallet,6.0,26.2,0
+CUST02487,22,Female,Standard,49.29,19,1,Bank Transfer,6.0,23.1,1
+CUST02488,45,Female,Premium,77.17,9,4,Credit Card,5.0,21.0,0
+CUST02489,18,Male,Basic,28.93,34,2,Debit Card,7.0,18.5,0
+CUST02490,44,Male,Standard,41.91,28,3,PayPal,7.0,4.3,0
+CUST02491,20,Female,Premium,68.44,16,0,Credit Card,3.0,19.4,1
+CUST02492,35,Female,Basic,29.3,14,0,PayPal,8.0,23.2,0
+CUST02493,51,Male,Basic,23.31,2,2,Credit Card,2.0,27.3,1
+CUST02494,42,Female,Premium,105.16,4,2,Credit Card,6.0,2.3,1
+CUST02495,18,Male,Premium,61.34,5,1,Bank Transfer,9.0,22.4,0
+CUST02496,31,Male,Standard,38.48,0,2,Credit Card,7.0,2.4,1
+CUST02497,20,Female,Standard,58.35,8,2,E-Wallet,5.0,16.9,1
+CUST02498,18,Female,Basic,13.1,15,3,Credit Card,10.0,14.9,0
+CUST02499,41,Female,Premium,112.4,28,1,Credit Card,5.0,5.1,0
+CUST02500,47,Female,Standard,53.1,0,2,,2.0,,0
+CUST02501,45,Female,Basic,17.56,13,3,Credit Card,7.0,10.0,0
+CUST02502,47,Female,Standard,56.59,47,1,Debit Card,2.0,15.5,0
+CUST02503,39,Female,Premium,115.35,6,2,Credit Card,4.0,,1
+CUST02504,36,Female,Premium,112.0,1,3,PayPal,7.0,14.1,1
+CUST02505,26,Male,Basic,18.14,26,0,Bank Transfer,5.0,8.7,0
+CUST02506,34,Female,Basic,21.73,9,3,Debit Card,7.0,40.0,0
+CUST02507,22,Male,Premium,78.36,18,2,Credit Card,,14.3,0
+CUST02508,29,Female,Premium,67.79,6,3,Debit Card,8.0,7.6,1
+CUST02509,41,Female,Standard,57.05,13,2,Bank Transfer,2.0,7.2,0
+CUST02510,38,Female,Standard,59.42,52,5,PayPal,9.0,18.7,0
+CUST02511,75,Female,Standard,31.75,7,3,Credit Card,5.0,40.0,1
+CUST02512,22,Male,Basic,23.74,24,4,Debit Card,9.0,24.9,0
+CUST02513,38,Male,Basic,28.97,17,1,Debit Card,4.0,10.9,1
+CUST02514,21,Male,Basic,22.15,29,4,Credit Card,10.0,2.0,0
+CUST02515,34,Male,Basic,10.93,28,1,Credit Card,4.0,5.4,1
+CUST02516,35,Female,Premium,60.88,15,7,E-Wallet,2.0,6.7,1
+CUST02517,50,Female,Basic,20.07,47,3,Credit Card,6.0,1.9,0
+CUST02518,34,Female,Basic,28.79,0,4,Credit Card,9.0,9.5,0
+CUST02519,37,Male,Standard,38.36,1,1,Credit Card,8.0,17.1,0
+CUST02520,34,Male,Basic,17.0,1,3,PayPal,,8.1,0
+CUST02521,21,Female,Basic,25.91,15,0,Debit Card,8.0,20.1,0
+CUST02522,31,Female,Standard,54.04,2,2,Credit Card,4.0,7.1,1
+CUST02523,35,Male,Basic,28.86,13,0,Debit Card,8.0,3.1,1
+CUST02524,40,Female,Standard,55.15,16,1,PayPal,6.0,6.1,0
+CUST02525,47,Female,Premium,95.63,15,4,Credit Card,4.0,5.5,0
+CUST02526,36,Female,Basic,28.77,8,3,E-Wallet,6.0,2.4,0
+CUST02527,36,Male,Premium,96.86,13,2,Credit Card,6.0,4.5,1
+CUST02528,18,Male,Premium,96.08,20,3,Credit Card,9.0,1.6,0
+CUST02529,47,Female,Premium,60.92,35,4,E-Wallet,5.0,1.4,1
+CUST02530,30,Female,Standard,43.65,2,1,,5.0,7.9,1
+CUST02531,49,Male,Standard,31.28,31,3,Credit Card,4.0,6.6,0
+CUST02532,57,Male,Standard,56.95,14,1,Bank Transfer,10.0,38.1,0
+CUST02533,37,Female,Standard,30.3,1,1,Debit Card,,4.7,1
+CUST02534,26,Male,Basic,16.13,9,1,Credit Card,9.0,7.5,0
+CUST02535,39,Male,Premium,119.69,10,1,Bank Transfer,4.0,12.4,1
+CUST02536,44,Female,Standard,53.84,12,2,Bank Transfer,7.0,21.1,0
+CUST02537,35,Male,Standard,52.72,13,3,Credit Card,7.0,26.6,1
+CUST02538,32,Female,Basic,24.25,46,0,PayPal,9.0,12.5,0
+CUST02539,47,Female,Basic,11.01,12,0,Debit Card,8.0,9.6,0
+CUST02540,46,Male,Standard,38.64,14,3,Credit Card,6.0,5.8,0
+CUST02541,35,Male,Standard,53.94,2,6,E-Wallet,5.0,11.4,1
+CUST02542,18,Female,Basic,27.9,11,5,Debit Card,10.0,25.2,0
+CUST02543,45,Female,Basic,16.99,35,3,PayPal,5.0,11.1,0
+CUST02544,30,Female,Basic,15.18,14,2,PayPal,1.0,14.6,0
+CUST02545,42,Male,Standard,37.07,7,2,PayPal,2.0,19.4,1
+CUST02546,41,Male,Basic,20.95,3,1,Credit Card,2.0,13.7,1
+CUST02547,18,Female,Premium,77.48,6,2,E-Wallet,7.0,15.6,1
+CUST02548,41,Male,Basic,10.42,6,1,PayPal,10.0,13.4,0
+CUST02549,46,Female,Basic,17.8,2,0,PayPal,2.0,4.3,0
+CUST02550,48,Female,Basic,21.06,69,1,Debit Card,4.0,11.6,0
+CUST02551,41,Male,Standard,49.02,7,3,Credit Card,6.0,12.5,1
+CUST02552,18,Female,Standard,40.28,4,3,Credit Card,9.0,32.1,0
+CUST02553,56,Male,Standard,39.41,7,0,Debit Card,4.0,5.9,0
+CUST02554,45,Male,Premium,77.02,3,6,Credit Card,7.0,12.1,0
+CUST02555,24,Male,Basic,22.46,29,0,PayPal,5.0,7.9,0
+CUST02556,29,Female,Standard,38.5,8,0,Bank Transfer,10.0,30.2,0
+CUST02557,43,Female,Basic,28.33,0,3,Credit Card,6.0,22.9,0
+CUST02558,48,Female,Basic,15.62,10,2,Credit Card,7.0,11.9,0
+CUST02559,33,Male,Standard,53.72,20,1,PayPal,6.0,0.3,1
+CUST02560,50,Female,Basic,16.38,0,3,Credit Card,5.0,23.6,1
+CUST02561,18,Male,Standard,49.03,8,1,E-Wallet,8.0,2.6,1
+CUST02562,26,Female,Standard,50.96,19,1,Debit Card,3.0,1.6,1
+CUST02563,18,Male,Standard,35.22,2,1,Credit Card,2.0,20.2,1
+CUST02564,28,Male,Standard,41.39,5,3,Credit Card,6.0,15.0,1
+CUST02565,59,Female,Standard,33.82,16,4,E-Wallet,8.0,14.0,1
+CUST02566,66,Male,Basic,20.2,67,2,Credit Card,5.0,6.2,0
+CUST02567,43,Female,Basic,28.18,6,3,PayPal,,2.2,0
+CUST02568,31,Male,Basic,21.91,40,3,Credit Card,3.0,0.5,1
+CUST02569,37,Male,Standard,51.04,36,1,Credit Card,8.0,14.0,1
+CUST02570,46,Female,Premium,76.97,10,3,Bank Transfer,7.0,3.2,0
+CUST02571,19,Male,Basic,19.35,10,5,Credit Card,6.0,15.8,1
+CUST02572,32,Female,Standard,52.21,1,2,Credit Card,6.0,3.6,1
+CUST02573,58,Male,Standard,33.93,3,3,Debit Card,3.0,12.2,1
+CUST02574,26,Female,Premium,67.29,1,7,Bank Transfer,3.0,4.1,1
+CUST02575,30,Female,Standard,36.72,72,4,Credit Card,6.0,18.9,1
+CUST02576,40,Male,Standard,37.09,24,2,Credit Card,7.0,13.5,0
+CUST02577,43,Male,Standard,58.86,7,1,E-Wallet,7.0,11.4,0
+CUST02578,31,Female,Premium,69.51,7,1,PayPal,5.0,4.8,1
+CUST02579,41,Female,Basic,12.09,18,0,Bank Transfer,8.0,2.5,0
+CUST02580,47,Male,Premium,68.25,56,2,Bank Transfer,9.0,14.0,0
+CUST02581,65,Male,Basic,14.05,14,0,PayPal,6.0,6.3,0
+CUST02582,38,Male,Premium,82.11,6,1,Debit Card,7.0,10.8,0
+CUST02583,39,Male,Basic,13.93,22,3,Credit Card,6.0,10.3,1
+CUST02584,59,Male,Basic,11.75,6,0,PayPal,6.0,9.8,1
+CUST02585,32,Male,Basic,12.72,55,2,PayPal,6.0,23.1,0
+CUST02586,22,Female,Basic,25.78,8,1,E-Wallet,10.0,9.9,1
+CUST02587,43,Female,Basic,20.39,2,1,PayPal,8.0,4.2,0
+CUST02588,53,Male,Basic,24.91,12,2,Credit Card,8.0,16.6,1
+CUST02589,44,Female,Standard,35.29,19,1,Debit Card,5.0,16.2,0
+CUST02590,38,Female,Basic,16.09,12,3,PayPal,4.0,5.7,1
+CUST02591,21,Female,Standard,59.46,9,4,Debit Card,7.0,4.8,1
+CUST02592,39,Female,Premium,65.13,10,3,Bank Transfer,9.0,13.5,0
+CUST02593,56,Female,Standard,43.15,12,3,PayPal,10.0,3.3,1
+CUST02594,23,Female,Basic,15.91,22,4,Credit Card,1.0,13.6,1
+CUST02595,36,Male,Basic,10.14,0,2,PayPal,10.0,27.5,0
+CUST02596,34,Male,Premium,93.14,23,3,PayPal,7.0,16.5,1
+CUST02597,30,Female,Basic,20.99,3,0,E-Wallet,8.0,28.6,1
+CUST02598,43,Female,Basic,16.4,1,2,Debit Card,2.0,10.8,1
+CUST02599,45,Male,Premium,88.33,1,4,PayPal,5.0,10.8,1
+CUST02600,45,Female,Premium,83.51,14,2,Debit Card,8.0,11.8,1
+CUST02601,27,Male,Basic,19.27,45,4,Debit Card,3.0,14.6,0
+CUST02602,18,Male,Standard,55.43,1,1,Credit Card,1.0,14.0,1
+CUST02603,43,Female,Standard,51.41,16,1,Bank Transfer,7.0,5.0,0
+CUST02604,33,Female,Standard,38.4,51,1,E-Wallet,6.0,10.1,1
+CUST02605,63,Male,Basic,14.78,31,1,Debit Card,9.0,22.5,0
+CUST02606,64,Female,Basic,24.49,6,2,PayPal,6.0,4.1,1
+CUST02607,65,Female,Standard,36.73,28,1,Credit Card,6.0,11.8,0
+CUST02608,27,Male,Basic,28.14,4,0,PayPal,8.0,14.4,0
+CUST02609,47,Male,Standard,54.97,52,4,Debit Card,8.0,14.4,0
+CUST02610,51,Female,Basic,15.04,0,1,PayPal,4.0,2.4,1
+CUST02611,49,Female,Premium,108.08,11,0,Credit Card,8.0,4.0,0
+CUST02612,35,Male,Premium,71.47,4,0,PayPal,5.0,22.0,1
+CUST02613,56,Male,Standard,30.74,14,3,Credit Card,6.0,21.7,1
+CUST02614,40,Male,Standard,58.82,0,0,PayPal,7.0,10.5,0
+CUST02615,41,Female,Basic,25.22,7,4,PayPal,8.0,13.0,0
+CUST02616,20,Female,Standard,44.66,21,2,Credit Card,7.0,4.4,1
+CUST02617,48,Female,Basic,26.85,1,2,Debit Card,4.0,3.1,1
+CUST02618,36,Male,Premium,64.54,72,4,Bank Transfer,2.0,1.7,0
+CUST02619,46,Male,Premium,104.37,14,1,PayPal,6.0,3.0,1
+CUST02620,43,Male,Premium,117.37,1,1,Credit Card,8.0,13.0,1
+CUST02621,42,Male,Premium,109.11,5,3,Debit Card,7.0,9.3,1
+CUST02622,39,Male,Premium,85.89,27,3,Credit Card,7.0,11.3,1
+CUST02623,50,Female,Basic,16.92,1,1,PayPal,6.0,11.2,1
+CUST02624,37,Male,Premium,113.53,23,2,PayPal,7.0,3.9,0
+CUST02625,21,Male,Standard,38.74,18,2,Credit Card,4.0,13.6,1
+CUST02626,47,Male,Basic,28.74,2,1,PayPal,8.0,24.0,1
+CUST02627,29,Female,Standard,39.59,35,2,PayPal,8.0,3.9,0
+CUST02628,22,Female,Basic,12.49,34,0,Bank Transfer,5.0,9.9,1
+CUST02629,26,Male,Basic,14.71,5,2,Credit Card,7.0,17.0,0
+CUST02630,43,Male,Basic,20.38,16,2,Credit Card,2.0,21.7,0
+CUST02631,38,Female,Basic,12.61,18,5,Debit Card,6.0,14.8,0
+CUST02632,18,Male,Standard,41.39,8,4,Credit Card,6.0,4.4,1
+CUST02633,35,Female,Premium,114.34,1,1,Debit Card,9.0,1.5,1
+CUST02634,55,Female,Standard,32.81,15,2,Credit Card,6.0,7.9,0
+CUST02635,34,Male,Standard,48.43,11,3,Credit Card,8.0,9.0,0
+CUST02636,37,Female,Basic,18.07,11,3,PayPal,5.0,21.7,0
+CUST02637,53,Male,Standard,49.41,5,4,Credit Card,1.0,7.3,1
+CUST02638,50,Male,Basic,19.78,0,2,PayPal,6.0,3.8,1
+CUST02639,53,Female,Premium,112.59,28,2,Credit Card,6.0,5.4,0
+CUST02640,18,Male,Basic,18.04,32,2,PayPal,6.0,14.7,1
+CUST02641,62,Male,Standard,45.24,22,2,Debit Card,6.0,10.4,1
+CUST02642,48,Male,Standard,33.89,12,4,Bank Transfer,5.0,9.1,1
+CUST02643,71,Female,Standard,44.7,12,2,Bank Transfer,5.0,22.1,0
+CUST02644,29,Male,Premium,66.87,8,2,Debit Card,4.0,0.8,1
+CUST02645,18,Male,Basic,21.65,2,0,PayPal,2.0,19.4,0
+CUST02646,40,Male,Premium,85.63,51,0,Credit Card,6.0,0.2,0
+CUST02647,36,Female,Standard,53.49,4,3,,4.0,18.6,0
+CUST02648,48,Female,Standard,42.54,1,5,Credit Card,8.0,11.7,0
+CUST02649,53,Female,Standard,48.91,4,4,Debit Card,1.0,11.1,1
+CUST02650,38,Female,Premium,63.53,7,4,Credit Card,7.0,11.3,1
+CUST02651,36,Female,Premium,102.59,8,3,Bank Transfer,10.0,18.6,0
+CUST02652,46,Male,Basic,29.14,10,0,Debit Card,6.0,3.7,1
+CUST02653,36,Male,Premium,86.86,27,2,PayPal,6.0,15.8,1
+CUST02654,35,Female,Standard,30.29,61,4,Debit Card,7.0,19.0,0
+CUST02655,53,Male,Standard,48.1,19,1,Credit Card,7.0,9.5,0
+CUST02656,56,Male,Premium,68.7,57,1,Credit Card,5.0,6.1,1
+CUST02657,54,Male,Basic,19.35,4,0,E-Wallet,4.0,1.9,1
+CUST02658,37,Male,Standard,30.96,19,3,Bank Transfer,7.0,40.0,0
+CUST02659,18,Female,Basic,18.85,3,4,Credit Card,2.0,11.3,0
+CUST02660,38,Male,Basic,27.48,20,1,PayPal,8.0,1.6,0
+CUST02661,30,Female,Premium,68.11,2,6,Debit Card,5.0,4.2,1
+CUST02662,38,Male,Basic,19.96,3,2,Credit Card,6.0,6.4,1
+CUST02663,31,Male,Basic,15.07,3,1,Debit Card,5.0,19.3,0
+CUST02664,39,Female,Basic,15.21,10,3,Credit Card,9.0,4.2,1
+CUST02665,26,Male,Standard,49.29,23,2,Credit Card,7.0,6.1,0
+CUST02666,23,Male,Premium,104.89,0,2,PayPal,5.0,17.1,1
+CUST02667,55,Male,Premium,112.39,37,1,Credit Card,5.0,7.6,0
+CUST02668,27,Female,Basic,15.55,2,4,Bank Transfer,6.0,10.9,1
+CUST02669,40,Female,Standard,32.11,18,3,PayPal,10.0,2.8,0
+CUST02670,52,Male,Standard,43.26,6,1,Bank Transfer,3.0,3.4,0
+CUST02671,51,Female,Standard,47.53,1,1,PayPal,8.0,3.8,0
+CUST02672,50,Female,Basic,24.78,5,1,Bank Transfer,7.0,9.8,1
+CUST02673,43,Male,Basic,25.11,2,0,Debit Card,9.0,10.8,1
+CUST02674,49,Female,Standard,55.9,5,2,Debit Card,7.0,11.7,0
+CUST02675,57,Female,Standard,30.92,0,3,Debit Card,6.0,22.0,0
+CUST02676,45,Male,Standard,59.42,25,5,E-Wallet,8.0,6.0,0
+CUST02677,18,Male,Standard,58.99,25,5,Credit Card,7.0,2.2,1
+CUST02678,33,Male,Premium,62.12,37,0,PayPal,8.0,17.5,0
+CUST02679,49,Female,Standard,39.39,25,1,Bank Transfer,9.0,12.1,0
+CUST02680,31,Female,Basic,25.3,72,2,Debit Card,6.0,16.7,0
+CUST02681,61,Male,Premium,88.7,0,1,Bank Transfer,5.0,12.1,1
+CUST02682,39,Female,Premium,60.27,0,2,Debit Card,5.0,6.6,1
+CUST02683,41,Male,Basic,17.08,2,4,Credit Card,7.0,6.6,1
+CUST02684,54,Male,Standard,47.36,8,2,PayPal,4.0,5.5,1
+CUST02685,37,Female,Basic,27.58,18,3,Debit Card,5.0,24.5,1
+CUST02686,42,Female,Standard,54.87,1,4,Credit Card,4.0,39.6,1
+CUST02687,51,Male,Basic,28.92,13,2,Credit Card,7.0,15.3,0
+CUST02688,20,Male,Standard,44.03,30,4,Credit Card,4.0,8.4,0
+CUST02689,36,Male,Basic,25.96,44,2,Bank Transfer,3.0,5.8,0
+CUST02690,50,Male,Standard,33.01,5,4,Bank Transfer,4.0,13.6,0
+CUST02691,40,Female,Premium,91.1,31,2,Debit Card,5.0,2.8,1
+CUST02692,59,Female,Basic,28.32,10,5,Credit Card,5.0,14.9,1
+CUST02693,19,Male,Premium,110.32,1,0,Debit Card,7.0,5.5,0
+CUST02694,18,Male,Premium,99.33,2,2,Bank Transfer,6.0,0.4,1
+CUST02695,50,Female,Premium,68.94,6,1,PayPal,7.0,28.8,0
+CUST02696,51,Male,Basic,13.63,7,1,Credit Card,,17.8,0
+CUST02697,37,Female,Premium,100.71,3,1,Credit Card,8.0,2.5,1
+CUST02698,45,Male,Basic,16.5,12,4,E-Wallet,2.0,19.9,1
+CUST02699,49,Male,Basic,16.58,15,0,Bank Transfer,4.0,5.5,0
+CUST02700,29,Male,Premium,110.85,27,2,Credit Card,7.0,19.6,0
+CUST02701,30,Male,Standard,30.6,3,2,Bank Transfer,6.0,9.7,1
+CUST02702,42,Male,Standard,41.77,22,3,Credit Card,8.0,10.2,0
+CUST02703,51,Female,Basic,14.75,11,1,Credit Card,3.0,10.8,0
+CUST02704,24,Male,Premium,61.62,17,3,Bank Transfer,5.0,9.7,0
+CUST02705,37,Female,Standard,36.49,14,2,Debit Card,5.0,4.1,1
+CUST02706,36,Female,Standard,35.52,16,1,Debit Card,6.0,28.8,0
+CUST02707,45,Female,Premium,90.26,15,1,E-Wallet,6.0,15.2,0
+CUST02708,39,Female,Basic,18.69,51,3,Bank Transfer,7.0,3.2,0
+CUST02709,32,Male,Basic,19.42,8,1,Credit Card,6.0,6.2,1
+CUST02710,56,Male,Standard,56.33,2,4,PayPal,9.0,29.0,0
+CUST02711,32,Female,Premium,89.66,2,1,Bank Transfer,10.0,2.4,1
+CUST02712,36,Male,Basic,22.77,12,2,PayPal,4.0,14.8,0
+CUST02713,19,Female,Basic,22.94,5,3,E-Wallet,6.0,3.8,1
+CUST02714,30,Female,Basic,20.33,6,3,PayPal,8.0,5.3,1
+CUST02715,46,Male,Premium,78.28,0,0,Credit Card,7.0,9.7,1
+CUST02716,44,Male,Basic,28.05,10,1,Credit Card,5.0,13.9,1
+CUST02717,47,Male,Standard,43.14,27,2,Bank Transfer,7.0,11.1,0
+CUST02718,47,Male,Premium,94.26,7,1,E-Wallet,3.0,3.5,1
+CUST02719,67,Male,Basic,21.17,6,1,Credit Card,6.0,28.2,0
+CUST02720,30,Female,Standard,54.82,5,2,Credit Card,3.0,16.5,1
+CUST02721,18,Female,Standard,46.03,7,1,Bank Transfer,7.0,23.0,0
+CUST02722,26,Male,Premium,87.4,55,0,Credit Card,4.0,9.3,1
+CUST02723,30,Female,Basic,19.19,6,1,Credit Card,6.0,17.3,1
+CUST02724,27,Female,Basic,25.59,0,3,Bank Transfer,7.0,23.1,1
+CUST02725,41,Female,Basic,16.59,23,1,Bank Transfer,6.0,13.0,1
+CUST02726,56,Female,Standard,58.04,0,1,Bank Transfer,5.0,12.7,1
+CUST02727,60,Male,Standard,55.39,19,0,PayPal,6.0,14.6,0
+CUST02728,46,Female,Basic,12.76,18,0,Credit Card,9.0,14.6,0
+CUST02729,67,Male,Basic,16.33,35,0,E-Wallet,5.0,13.2,1
+CUST02730,35,Male,Premium,114.33,2,1,Credit Card,6.0,18.9,0
+CUST02731,18,Male,Basic,15.56,8,2,Credit Card,5.0,9.2,1
+CUST02732,53,Male,Basic,16.34,52,2,Bank Transfer,8.0,26.9,0
+CUST02733,18,Female,Standard,36.51,7,2,PayPal,6.0,1.1,1
+CUST02734,30,Male,Basic,11.08,3,0,Bank Transfer,4.0,17.0,1
+CUST02735,46,Female,Basic,19.56,41,4,Credit Card,6.0,25.8,0
+CUST02736,38,Female,Standard,52.64,7,3,E-Wallet,5.0,6.1,1
+CUST02737,37,Male,Basic,23.19,0,1,PayPal,9.0,7.5,0
+CUST02738,24,Female,Standard,30.82,12,1,PayPal,6.0,27.2,0
+CUST02739,39,Female,Standard,45.69,17,2,E-Wallet,3.0,16.9,0
+CUST02740,53,Female,Standard,39.9,4,0,Debit Card,7.0,17.8,0
+CUST02741,40,Male,Basic,22.83,9,0,PayPal,10.0,8.8,1
+CUST02742,29,Male,Premium,84.3,16,3,PayPal,9.0,8.2,0
+CUST02743,23,Male,Basic,29.6,17,1,Bank Transfer,4.0,8.8,1
+CUST02744,29,Female,Standard,54.84,13,3,Bank Transfer,5.0,8.1,1
+CUST02745,45,Female,Basic,24.0,1,3,PayPal,6.0,8.9,0
+CUST02746,44,Female,Standard,45.46,3,4,Credit Card,6.0,15.7,1
+CUST02747,29,Male,Basic,21.81,28,1,Credit Card,7.0,7.8,0
+CUST02748,18,Female,Basic,18.83,16,0,E-Wallet,5.0,3.9,0
+CUST02749,45,Male,Standard,53.83,13,1,E-Wallet,4.0,24.9,0
+CUST02750,28,Female,Basic,28.15,36,1,E-Wallet,8.0,6.0,0
+CUST02751,48,Female,Basic,29.97,9,4,Credit Card,4.0,7.4,0
+CUST02752,30,Male,Standard,47.95,10,2,Debit Card,4.0,2.7,1
+CUST02753,27,Male,Premium,100.9,3,5,Bank Transfer,4.0,12.8,1
+CUST02754,41,Male,Basic,17.99,9,1,Bank Transfer,7.0,5.9,1
+CUST02755,70,Female,Premium,60.5,10,4,Credit Card,6.0,3.7,1
+CUST02756,49,Female,Standard,51.09,1,1,PayPal,8.0,20.1,1
+CUST02757,41,Male,Premium,116.03,13,0,Credit Card,4.0,32.5,1
+CUST02758,44,Male,Standard,55.78,3,5,Debit Card,,,1
+CUST02759,18,Male,Standard,56.35,29,3,Credit Card,5.0,17.1,0
+CUST02760,25,Male,Standard,42.05,7,2,Credit Card,6.0,13.5,0
+CUST02761,18,Female,Standard,51.4,11,2,Credit Card,6.0,11.8,0
+CUST02762,62,Male,Premium,98.3,14,2,,2.0,3.6,1
+CUST02763,59,Female,Basic,20.81,1,5,,7.0,12.6,0
+CUST02764,45,Male,Basic,13.02,22,2,E-Wallet,4.0,17.6,0
+CUST02765,41,Female,Basic,21.5,30,1,Debit Card,5.0,38.6,0
+CUST02766,19,Female,Premium,77.91,6,2,Debit Card,9.0,1.3,1
+CUST02767,37,Male,Basic,24.06,12,2,Debit Card,1.0,16.9,1
+CUST02768,63,Male,Standard,58.34,10,4,PayPal,7.0,11.8,1
+CUST02769,41,Female,Premium,103.65,7,2,Debit Card,7.0,9.0,1
+CUST02770,32,Male,Premium,75.56,11,4,PayPal,4.0,25.1,0
+CUST02771,18,Male,Basic,19.29,20,2,,5.0,6.5,1
+CUST02772,57,Female,Standard,46.94,6,1,Bank Transfer,9.0,32.1,0
+CUST02773,39,Male,Premium,103.56,6,0,Credit Card,10.0,1.1,1
+CUST02774,18,Female,Basic,12.95,34,3,Debit Card,8.0,8.0,0
+CUST02775,27,Female,Standard,45.76,1,2,Credit Card,10.0,20.4,1
+CUST02776,23,Male,Basic,27.19,11,1,Credit Card,4.0,12.2,1
+CUST02777,38,Male,Standard,30.82,16,1,PayPal,3.0,5.9,0
+CUST02778,42,Male,Standard,51.82,30,2,Debit Card,6.0,6.9,0
+CUST02779,33,Male,Basic,27.6,33,4,PayPal,8.0,15.0,0
+CUST02780,50,Male,Basic,25.91,3,1,Credit Card,2.0,5.2,1
+CUST02781,41,Female,Basic,28.63,34,4,E-Wallet,4.0,27.7,0
+CUST02782,53,Male,Basic,25.64,27,2,E-Wallet,4.0,10.0,1
+CUST02783,35,Male,Standard,45.53,1,0,Debit Card,7.0,9.2,0
+CUST02784,75,Male,Basic,19.53,19,1,Bank Transfer,7.0,13.8,0
+CUST02785,32,Male,Basic,10.63,6,1,Credit Card,4.0,2.7,1
+CUST02786,28,Male,Standard,30.55,14,1,PayPal,6.0,12.3,0
+CUST02787,26,Male,Standard,49.17,12,2,Bank Transfer,3.0,40.0,0
+CUST02788,37,Female,Standard,38.25,30,5,Bank Transfer,5.0,9.7,0
+CUST02789,18,Female,Premium,78.42,5,1,Bank Transfer,3.0,12.0,1
+CUST02790,43,Female,Basic,26.13,9,0,Debit Card,6.0,18.4,0
+CUST02791,18,Female,Premium,66.67,5,0,Bank Transfer,4.0,27.2,1
+CUST02792,42,Female,Basic,15.67,58,1,PayPal,8.0,12.2,1
+CUST02793,22,Male,Standard,50.54,0,1,Credit Card,6.0,8.9,0
+CUST02794,35,Male,Premium,61.82,19,3,Credit Card,6.0,19.9,0
+CUST02795,47,Female,Premium,91.18,72,1,Bank Transfer,10.0,5.1,0
+CUST02796,69,Male,Standard,32.55,13,1,PayPal,7.0,26.7,0
+CUST02797,25,Female,Standard,52.84,20,2,Debit Card,5.0,21.8,0
+CUST02798,38,Female,Basic,22.68,41,1,E-Wallet,5.0,19.5,0
+CUST02799,30,Male,Standard,48.25,5,0,PayPal,3.0,14.2,1
+CUST02800,28,Female,Standard,36.63,1,0,Debit Card,6.0,16.7,0
+CUST02801,30,Female,Premium,103.47,3,2,Debit Card,7.0,16.7,1
+CUST02802,50,Female,Standard,39.04,12,0,PayPal,2.0,13.1,1
+CUST02803,33,Male,Basic,21.41,11,3,Bank Transfer,3.0,6.6,0
+CUST02804,69,Male,Standard,32.75,22,1,PayPal,5.0,17.1,0
+CUST02805,45,Male,Basic,11.91,5,3,Debit Card,4.0,3.5,1
+CUST02806,26,Male,Basic,13.87,28,3,PayPal,6.0,4.2,1
+CUST02807,35,Female,Basic,14.31,2,1,PayPal,6.0,27.7,1
+CUST02808,29,Female,Standard,33.78,4,3,Bank Transfer,6.0,4.1,1
+CUST02809,50,Male,Basic,12.35,8,1,Credit Card,7.0,23.6,1
+CUST02810,18,Female,Basic,27.57,17,1,Bank Transfer,5.0,4.0,0
+CUST02811,22,Female,Basic,21.08,3,0,Debit Card,6.0,9.3,1
+CUST02812,32,Male,Premium,97.32,39,1,Credit Card,4.0,10.1,0
+CUST02813,48,Male,Standard,38.62,19,1,PayPal,7.0,2.5,0
+CUST02814,56,Female,Basic,11.1,12,0,PayPal,6.0,15.6,0
+CUST02815,57,Female,Basic,29.36,10,5,Debit Card,3.0,3.0,1
+CUST02816,46,Female,Standard,31.61,4,2,Bank Transfer,6.0,3.2,0
+CUST02817,38,Female,Basic,26.44,3,1,Credit Card,6.0,2.9,1
+CUST02818,50,Female,Standard,49.94,16,2,Credit Card,7.0,1.1,0
+CUST02819,25,Female,Basic,18.14,4,2,Debit Card,7.0,19.2,0
+CUST02820,18,Male,Premium,104.79,5,0,Debit Card,4.0,6.8,1
+CUST02821,45,Female,Basic,25.28,44,3,PayPal,8.0,8.3,1
+CUST02822,26,Female,Standard,56.34,6,6,Bank Transfer,7.0,9.2,0
+CUST02823,39,Male,Basic,20.89,2,0,PayPal,4.0,7.1,1
+CUST02824,41,Female,Premium,72.81,2,0,Credit Card,3.0,3.8,1
+CUST02825,43,Female,Premium,94.34,8,6,Debit Card,5.0,6.5,1
+CUST02826,52,Male,Standard,32.97,10,1,Credit Card,3.0,9.2,1
+CUST02827,50,Male,Standard,41.28,3,1,PayPal,6.0,3.6,0
+CUST02828,42,Female,Basic,22.2,30,1,Credit Card,9.0,6.7,1
+CUST02829,34,Female,Premium,75.1,15,1,Debit Card,9.0,21.1,0
+CUST02830,41,Female,Standard,55.94,8,3,Bank Transfer,4.0,6.4,1
+CUST02831,32,Male,Basic,29.51,13,5,PayPal,8.0,13.9,1
+CUST02832,37,Female,Standard,32.27,3,2,Credit Card,6.0,15.4,0
+CUST02833,74,Male,Standard,36.17,24,0,Credit Card,1.0,1.9,0
+CUST02834,42,Male,Premium,88.37,7,1,PayPal,5.0,15.6,1
+CUST02835,45,Male,Standard,31.13,11,2,Debit Card,5.0,19.3,0
+CUST02836,30,Female,Standard,32.78,20,2,Credit Card,9.0,14.3,1
+CUST02837,53,Female,Standard,57.01,3,2,Bank Transfer,4.0,7.6,1
+CUST02838,49,Male,Basic,10.9,0,1,Debit Card,7.0,2.8,0
+CUST02839,49,Male,Basic,14.94,5,0,Debit Card,6.0,14.8,0
+CUST02840,42,Male,Basic,18.46,34,2,Credit Card,3.0,6.7,1
+CUST02841,53,Male,Standard,30.6,4,0,Debit Card,5.0,8.5,0
+CUST02842,56,Male,Basic,26.2,14,7,Credit Card,9.0,5.0,0
+CUST02843,43,Female,Basic,26.59,21,2,,6.0,9.3,0
+CUST02844,38,Male,Basic,17.88,4,3,PayPal,8.0,8.9,0
+CUST02845,51,Male,Basic,14.03,22,1,Debit Card,8.0,4.0,0
+CUST02846,28,Male,Standard,56.76,44,6,Bank Transfer,5.0,13.4,1
+CUST02847,30,Female,Basic,23.56,1,2,E-Wallet,3.0,27.7,1
+CUST02848,39,Male,Basic,20.47,7,2,Credit Card,3.0,20.4,0
+CUST02849,18,Male,Standard,41.76,1,1,Credit Card,9.0,29.2,0
+CUST02850,50,Female,Basic,20.78,30,1,Bank Transfer,6.0,6.4,0
+CUST02851,27,Male,Basic,14.98,21,1,E-Wallet,2.0,4.5,1
+CUST02852,33,Male,Basic,18.98,3,3,Bank Transfer,8.0,1.5,1
+CUST02853,37,Female,Premium,101.14,14,3,Credit Card,2.0,7.9,0
+CUST02854,40,Female,Basic,18.22,7,4,Credit Card,4.0,8.8,1
+CUST02855,35,Female,Standard,50.54,4,3,Credit Card,6.0,10.3,0
+CUST02856,39,Male,Premium,104.31,17,2,Bank Transfer,10.0,3.8,1
+CUST02857,39,Male,Standard,52.6,4,3,PayPal,8.0,11.8,0
+CUST02858,34,Female,Basic,21.37,7,0,Debit Card,5.0,9.8,1
+CUST02859,29,Female,Standard,35.52,4,2,PayPal,6.0,11.9,0
+CUST02860,54,Female,Standard,51.01,16,0,Credit Card,8.0,13.9,0
+CUST02861,18,Female,Basic,26.38,4,1,PayPal,9.0,10.7,0
+CUST02862,37,Female,Standard,32.82,7,2,Credit Card,5.0,20.0,1
+CUST02863,33,Female,Basic,27.91,11,3,PayPal,6.0,13.2,0
+CUST02864,45,Female,Basic,28.82,5,1,PayPal,4.0,10.0,1
+CUST02865,21,Female,Basic,23.35,8,2,PayPal,7.0,5.6,1
+CUST02866,33,Female,Basic,12.21,67,2,Credit Card,8.0,8.1,0
+CUST02867,38,Female,Basic,23.06,9,3,Bank Transfer,2.0,2.7,1
+CUST02868,53,Male,Standard,40.67,7,1,PayPal,5.0,17.3,0
+CUST02869,44,Female,Premium,78.21,14,1,Credit Card,3.0,5.6,1
+CUST02870,24,Male,Basic,10.73,24,2,Credit Card,6.0,4.4,1
+CUST02871,33,Male,Standard,51.74,16,3,PayPal,3.0,3.1,0
+CUST02872,51,Male,Standard,46.99,34,4,Credit Card,3.0,5.3,0
+CUST02873,24,Female,Basic,19.01,21,3,Credit Card,8.0,6.6,0
+CUST02874,38,Male,Basic,17.76,5,3,Credit Card,6.0,22.8,1
+CUST02875,39,Male,Basic,18.23,6,1,Credit Card,6.0,5.5,1
+CUST02876,34,Male,Basic,19.05,1,0,Debit Card,7.0,26.3,1
+CUST02877,75,Male,Basic,19.54,24,2,PayPal,8.0,22.9,1
+CUST02878,34,Male,Basic,11.94,1,6,Credit Card,5.0,22.3,0
+CUST02879,45,Male,Standard,41.4,27,4,PayPal,5.0,14.9,1
+CUST02880,30,Female,Basic,11.27,7,1,Credit Card,5.0,2.1,1
+CUST02881,46,Male,Basic,25.51,17,0,Credit Card,8.0,20.6,0
+CUST02882,51,Female,Basic,20.43,2,0,Credit Card,6.0,2.3,1
+CUST02883,32,Female,Standard,53.98,3,1,Bank Transfer,5.0,4.0,1
+CUST02884,39,Female,Basic,18.58,45,4,E-Wallet,7.0,6.6,0
+CUST02885,28,Female,Standard,34.58,21,2,Debit Card,10.0,5.7,0
+CUST02886,25,Female,Basic,15.98,3,2,Credit Card,6.0,17.9,1
+CUST02887,53,Female,Basic,14.67,3,0,Credit Card,5.0,16.4,0
+CUST02888,32,Male,Premium,86.38,24,1,Credit Card,10.0,8.9,0
+CUST02889,18,Female,Basic,25.77,6,1,Bank Transfer,9.0,14.8,0
+CUST02890,62,Male,Basic,12.32,70,1,Credit Card,9.0,11.0,0
+CUST02891,29,Female,Basic,17.99,9,5,E-Wallet,5.0,9.7,1
+CUST02892,36,Female,Premium,65.5,56,2,PayPal,5.0,7.2,0
+CUST02893,61,Female,Standard,41.73,6,0,Debit Card,2.0,5.0,0
+CUST02894,38,Female,Standard,47.47,31,1,Bank Transfer,8.0,0.5,1
+CUST02895,37,Male,Premium,64.13,3,1,Credit Card,6.0,17.6,0
+CUST02896,24,Male,Basic,11.32,21,1,Bank Transfer,2.0,5.4,0
+CUST02897,18,Female,Premium,103.82,45,3,Credit Card,9.0,5.8,0
+CUST02898,37,Male,Basic,18.14,11,3,Bank Transfer,5.0,5.1,1
+CUST02899,44,Male,Standard,40.53,5,2,Debit Card,6.0,11.9,0
+CUST02900,43,Male,Basic,23.72,10,0,Credit Card,3.0,14.1,0
+CUST02901,33,Female,Basic,11.69,4,4,Bank Transfer,7.0,6.1,1
+CUST02902,40,Male,Premium,111.57,25,5,Credit Card,7.0,10.0,0
+CUST02903,18,Female,Basic,25.5,1,2,Credit Card,6.0,6.4,1
+CUST02904,45,Male,Premium,83.37,2,1,Bank Transfer,5.0,17.6,1
+CUST02905,42,Male,Basic,19.36,2,3,Debit Card,10.0,12.7,0
+CUST02906,65,Male,Standard,41.92,10,5,Bank Transfer,3.0,1.2,1
+CUST02907,40,Male,Premium,107.1,2,2,PayPal,4.0,13.7,1
+CUST02908,27,Female,Basic,10.57,1,2,PayPal,8.0,10.5,0
+CUST02909,39,Female,Premium,100.27,22,1,Credit Card,4.0,4.7,1
+CUST02910,35,Female,Standard,39.07,1,2,Credit Card,4.0,4.1,0
+CUST02911,45,Male,Standard,53.38,17,4,E-Wallet,8.0,16.3,1
+CUST02912,40,Female,Basic,29.67,3,2,Credit Card,7.0,17.0,0
+CUST02913,23,Female,Standard,38.36,0,1,Debit Card,7.0,10.9,1
+CUST02914,18,Female,Standard,43.37,5,3,Credit Card,6.0,6.2,1
+CUST02915,43,Female,Standard,46.42,16,4,Credit Card,4.0,4.8,1
+CUST02916,57,Female,Basic,21.01,6,1,PayPal,5.0,5.0,1
+CUST02917,41,Female,Basic,13.12,1,2,Bank Transfer,,7.4,1
+CUST02918,50,Male,Premium,94.98,11,4,Bank Transfer,8.0,19.7,1
+CUST02919,53,Male,Basic,24.47,21,1,Bank Transfer,7.0,1.8,0
+CUST02920,43,Female,Standard,58.31,9,3,Credit Card,4.0,9.8,0
+CUST02921,29,Female,Premium,103.51,69,4,Debit Card,8.0,7.4,1
+CUST02922,42,Male,Basic,22.06,15,1,Credit Card,2.0,12.9,0
+CUST02923,55,Male,Basic,14.66,11,1,PayPal,5.0,3.9,1
+CUST02924,46,Female,Standard,32.93,6,3,Credit Card,3.0,8.1,1
+CUST02925,49,Female,Basic,22.68,9,1,PayPal,4.0,16.8,1
+CUST02926,33,Male,Standard,48.75,8,4,Credit Card,10.0,11.0,0
+CUST02927,37,Female,Standard,55.17,29,1,Bank Transfer,3.0,6.5,1
+CUST02928,38,Female,Standard,43.37,3,3,Bank Transfer,4.0,4.6,1
+CUST02929,39,Female,Basic,13.43,37,3,Bank Transfer,7.0,23.0,1
+CUST02930,55,Female,Standard,36.73,13,1,Credit Card,5.0,2.8,1
+CUST02931,18,Male,Standard,44.28,20,1,E-Wallet,6.0,25.1,0
+CUST02932,40,Male,Basic,16.23,28,2,Credit Card,9.0,10.8,1
+CUST02933,38,Female,Standard,35.4,20,0,Credit Card,7.0,8.8,0
+CUST02934,22,Male,Premium,66.46,9,5,Credit Card,5.0,19.4,0
+CUST02935,48,Male,Standard,42.36,0,2,Credit Card,6.0,20.0,1
+CUST02936,30,Male,Standard,40.12,69,2,PayPal,7.0,10.2,0
+CUST02937,35,Female,Basic,29.3,3,2,Credit Card,7.0,13.2,1
+CUST02938,64,Female,Basic,27.12,2,4,Debit Card,6.0,3.5,1
+CUST02939,53,Male,Basic,13.66,18,1,PayPal,7.0,8.2,1
+CUST02940,47,Female,Basic,25.06,17,2,Bank Transfer,7.0,5.5,1
+CUST02941,44,Male,Premium,88.8,2,1,PayPal,6.0,23.2,0
+CUST02942,37,Male,Basic,28.51,54,1,PayPal,5.0,21.7,0
+CUST02943,65,Female,Premium,96.48,22,2,Credit Card,8.0,3.5,1
+CUST02944,50,Female,Basic,14.07,29,1,Bank Transfer,7.0,3.3,1
+CUST02945,30,Male,Basic,13.91,2,2,Credit Card,1.0,8.5,1
+CUST02946,21,Male,Basic,29.34,1,1,Credit Card,4.0,25.7,1
+CUST02947,47,Female,Basic,28.36,17,2,Credit Card,5.0,6.8,0
+CUST02948,39,Male,Standard,44.48,3,3,PayPal,6.0,37.8,1
+CUST02949,21,Male,Premium,93.83,5,4,Debit Card,9.0,,1
+CUST02950,45,Male,Premium,92.82,38,1,PayPal,10.0,5.4,1
+CUST02951,36,Male,Basic,25.26,0,3,,1.0,3.4,1
+CUST02952,46,Female,Standard,44.22,30,2,Debit Card,7.0,10.4,0
+CUST02953,45,Male,Basic,12.44,6,3,Debit Card,6.0,6.7,1
+CUST02954,32,Male,Premium,79.45,11,3,Credit Card,6.0,24.2,1
+CUST02955,48,Male,Standard,47.04,28,4,Debit Card,7.0,6.2,1
+CUST02956,33,Male,Basic,17.01,24,2,PayPal,6.0,17.2,1
+CUST02957,34,Male,Basic,26.26,65,2,Debit Card,5.0,3.7,0
+CUST02958,33,Male,Basic,28.95,68,2,Credit Card,6.0,7.8,0
+CUST02959,54,Male,Basic,14.83,9,3,PayPal,7.0,1.5,1
+CUST02960,36,Female,Premium,113.34,4,1,Credit Card,7.0,26.0,0
+CUST02961,57,Female,Standard,51.46,4,3,Credit Card,6.0,8.4,0
+CUST02962,63,Female,Premium,95.21,21,4,Credit Card,5.0,17.1,0
+CUST02963,30,Male,Basic,12.6,8,3,Debit Card,10.0,2.2,0
+CUST02964,18,Female,Standard,42.32,9,2,Credit Card,7.0,2.6,1
+CUST02965,53,Male,Basic,29.9,19,1,PayPal,8.0,3.7,1
+CUST02966,35,Female,Standard,49.44,21,4,Credit Card,5.0,5.7,0
+CUST02967,28,Male,Basic,21.82,10,0,Bank Transfer,6.0,19.9,1
+CUST02968,32,Female,Basic,10.7,22,3,Credit Card,6.0,6.5,1
+CUST02969,34,Male,Standard,39.62,13,3,PayPal,2.0,13.8,1
+CUST02970,56,Male,Basic,19.75,4,1,Bank Transfer,4.0,30.2,0
+CUST02971,42,Male,Standard,49.24,6,2,Debit Card,4.0,7.5,1
+CUST02972,56,Female,Standard,55.7,23,1,Credit Card,5.0,2.4,0
+CUST02973,46,Male,Basic,19.15,1,2,Debit Card,4.0,3.8,1
+CUST02974,35,Male,Premium,76.46,26,3,E-Wallet,6.0,14.7,0
+CUST02975,34,Female,Standard,38.43,6,2,E-Wallet,9.0,5.6,0
+CUST02976,47,Male,Premium,68.26,1,3,Credit Card,6.0,2.1,1
+CUST02977,50,Male,Standard,34.36,55,0,Bank Transfer,3.0,40.0,1
+CUST02978,52,Male,Standard,39.15,17,2,Credit Card,4.0,20.9,0
+CUST02979,36,Male,Standard,52.99,0,5,Credit Card,5.0,4.5,1
+CUST02980,42,Male,Premium,84.78,2,1,PayPal,3.0,35.9,1
+CUST02981,47,Male,Standard,55.78,13,3,Debit Card,7.0,40.0,0
+CUST02982,35,Female,Basic,28.97,0,1,Debit Card,9.0,31.4,0
+CUST02983,25,Male,Basic,11.5,5,3,Bank Transfer,5.0,7.7,0
+CUST02984,29,Female,Standard,51.31,9,4,Credit Card,6.0,9.2,0
+CUST02985,36,Male,Basic,11.7,30,5,PayPal,5.0,14.2,1
+CUST02986,48,Female,Basic,11.42,6,0,Debit Card,5.0,5.0,1
+CUST02987,56,Male,Basic,15.51,14,1,Credit Card,6.0,19.8,0
+CUST02988,22,Male,Standard,33.04,19,2,Debit Card,5.0,12.3,1
+CUST02989,32,Male,Basic,23.25,2,1,E-Wallet,4.0,19.4,1
+CUST02990,35,Female,Standard,51.47,14,1,Debit Card,2.0,6.5,0
+CUST02991,50,Female,Standard,49.17,11,0,Credit Card,6.0,11.6,0
+CUST02992,33,Female,Premium,94.51,12,1,PayPal,8.0,3.1,1
+CUST02993,34,Female,Basic,25.61,2,2,E-Wallet,8.0,6.0,1
+CUST02994,21,Male,Standard,53.17,12,3,E-Wallet,9.0,7.1,0
+CUST02995,46,Female,Standard,56.1,2,1,PayPal,5.0,14.7,0
+CUST02996,37,Female,Standard,50.79,10,1,Debit Card,8.0,18.5,1
+CUST02997,31,Female,Standard,40.67,59,0,PayPal,4.0,3.6,0
+CUST02998,36,Female,Basic,20.48,4,3,Bank Transfer,8.0,23.0,0
+CUST02999,54,Male,Premium,89.43,28,2,Bank Transfer,10.0,13.4,0
+CUST03000,26,Male,Basic,12.15,4,2,Bank Transfer,7.0,,0
+CUST01802,22,Male,Standard,50.67,61,4,Credit Card,6.0,5.5,1
+CUST01191,40,Female,Basic,24.0,41,4,Credit Card,6.0,8.4,0
+CUST01818,34,Female,Standard,32.0,25,5,Debit Card,4.0,2.2,1
+CUST00252,31,Male,Premium,88.73,48,1,PayPal,6.0,25.5,0
+CUST02506,34,Female,Basic,21.73,9,3,Debit Card,7.0,40.0,0
+CUST01118,30,Female,Standard,45.18,15,2,Bank Transfer,5.0,4.6,0
+CUST01412,57,Male,Premium,117.14,13,6,Credit Card,8.0,8.4,1
+CUST02114,24,Female,Standard,44.66,8,1,E-Wallet,4.0,15.7,0
+CUST00409,18,Male,Basic,18.72,5,2,Debit Card,7.0,8.7,0
+CUST02580,47,Male,Premium,68.25,56,2,Bank Transfer,9.0,14.0,0

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Churn Signal — Customer Retention Predictor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F2; --panel:#FFFFFF; --ink:#16231F; --sub:#54635D;
+  --line:#DCE3DD; --teal:#0F5257; --teal-soft:#E4F0EE; --coral:#C8432F; --coral-soft:#FBE8E3;
+  --track:#E7ECE6;
+}
+:root:not([data-theme="light"]){ }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121715; --panel:#1A201D; --ink:#EDEFEC; --sub:#9BA69F;
+    --line:#2B332F; --teal:#5FC2B8; --teal-soft:#1D2E2B; --coral:#E8755F; --coral-soft:#302220;
+    --track:#242B27;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121715; --panel:#1A201D; --ink:#EDEFEC; --sub:#9BA69F;
+  --line:#2B332F; --teal:#5FC2B8; --teal-soft:#1D2E2B; --coral:#E8755F; --coral-soft:#302220;
+  --track:#242B27;
+}
+*{box-sizing:border-box;}
+html{scroll-padding-top:env(safe-area-inset-top,0px);}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:'IBM Plex Sans',Arial,sans-serif;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  min-height:100%;
+}
+.wrap{max-width:1040px; margin:0 auto; padding:40px 24px 64px;}
+.masthead{display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:32px; flex-wrap:wrap;}
+.masthead h1{font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em;}
+.masthead p{margin:4px 0 0; color:var(--sub); font-size:14px; max-width:480px;}
+.stat{font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--sub); text-align:right;}
+.stat b{color:var(--ink); font-size:15px;}
+
+.grid{display:grid; grid-template-columns:1.1fr 1fr; gap:20px;}
+@media (max-width:760px){ .grid{grid-template-columns:1fr;} }
+
+.panel{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:26px;}
+.panel h2{font-family:'Space Grotesk',sans-serif; font-size:16px; margin:0 0 18px; font-weight:600;}
+
+.field{margin-bottom:16px;}
+.field label{display:block; font-size:12.5px; color:var(--sub); margin-bottom:6px;}
+.field .row{display:flex; justify-content:space-between; font-size:12.5px; color:var(--sub); margin-bottom:6px;}
+.field .row span.val{font-family:'IBM Plex Mono',monospace; color:var(--ink); font-weight:600;}
+input[type=range]{width:100%; accent-color:var(--teal); height:4px;}
+select{
+  width:100%; padding:10px 12px; border-radius:8px; border:1px solid var(--line);
+  background:var(--bg); color:var(--ink); font-family:'IBM Plex Sans',sans-serif; font-size:14px;
+}
+.two-col{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+
+.readout{display:flex; flex-direction:column; align-items:center; padding-top:6px;}
+.readout svg{width:100%; max-width:260px; height:auto;}
+.readout .pct{font-family:'Space Grotesk',sans-serif; font-size:46px; font-weight:700; margin-top:-64px;}
+.readout .pct-label{font-size:12.5px; color:var(--sub); margin-top:2px;}
+.badge{
+  margin-top:14px; padding:7px 16px; border-radius:999px; font-size:13px; font-weight:600;
+  font-family:'IBM Plex Sans',sans-serif;
+}
+.badge.churn{background:var(--coral-soft); color:var(--coral);}
+.badge.stay{background:var(--teal-soft); color:var(--teal);}
+
+.factors{margin-top:22px; width:100%;}
+.factors .f-title{font-size:12.5px; color:var(--sub); margin-bottom:10px;}
+.f-row{display:grid; grid-template-columns:110px 1fr; align-items:center; gap:10px; margin-bottom:9px; font-size:12.5px;}
+.f-track{position:relative; height:8px; background:var(--track); border-radius:4px; overflow:hidden;}
+.f-fill{position:absolute; top:0; bottom:0; border-radius:4px;}
+
+.insight{margin-top:20px; display:grid; grid-template-columns:repeat(3,1fr); gap:14px;}
+.insight .card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:18px 20px;}
+.insight .card .k{font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:700;}
+.insight .card .l{font-size:12px; color:var(--sub); margin-top:2px;}
+@media (max-width:760px){ .insight{grid-template-columns:1fr;} }
+
+.tierbars{margin-top:20px; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px 24px;}
+.tierbars h2{font-family:'Space Grotesk',sans-serif; font-size:16px; margin:0 0 16px; font-weight:600;}
+.tb-row{display:grid; grid-template-columns:90px 1fr 48px; align-items:center; gap:12px; margin-bottom:12px; font-size:13px;}
+.tb-track{height:10px; background:var(--track); border-radius:5px; overflow:hidden;}
+.tb-fill{height:100%; background:var(--coral); border-radius:5px;}
+.tb-val{font-family:'IBM Plex Mono',monospace; text-align:right; color:var(--sub);}
+footer{margin-top:28px; font-size:12px; color:var(--sub); text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="masthead">
+    <div>
+      <h1>Churn Signal</h1>
+      <p>Enter a customer's profile and the model reads their retention risk in real time.</p>
+    </div>
+    <div class="stat">trained on <b id="dsize">—</b> customers<br>model: <b id="modelname">—</b></div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>Customer profile</h2>
+      <div class="two-col">
+        <div class="field">
+          <div class="row"><span>Age</span><span class="val" id="ageVal"></span></div>
+          <input type="range" id="age" min="18" max="75" value="39">
+        </div>
+        <div class="field">
+          <label>Gender</label>
+          <select id="gender"><option>Female</option><option>Male</option></select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Subscription tier</label>
+        <select id="sub"><option>Basic</option><option>Standard</option><option>Premium</option></select>
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <div class="row"><span>Monthly charges</span><span class="val" id="chgVal"></span></div>
+          <input type="range" id="charges" min="9.99" max="119.99" step="0.5" value="40">
+        </div>
+        <div class="field">
+          <div class="row"><span>Tenure (months)</span><span class="val" id="tenVal"></span></div>
+          <input type="range" id="tenure" min="0" max="72" value="17">
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <div class="row"><span>Support tickets</span><span class="val" id="tickVal"></span></div>
+          <input type="range" id="tickets" min="0" max="12" value="2">
+        </div>
+        <div class="field">
+          <div class="row"><span>Satisfaction (1–10)</span><span class="val" id="satVal"></span></div>
+          <input type="range" id="sat" min="1" max="10" value="6">
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <div class="row"><span>Usage hrs/week</span><span class="val" id="useVal"></span></div>
+          <input type="range" id="usage" min="0" max="40" value="12">
+        </div>
+        <div class="field">
+          <label>Payment method</label>
+          <select id="pay"><option>Credit Card</option><option>Debit Card</option><option>PayPal</option><option>Bank Transfer</option><option>E-Wallet</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel readout">
+      <h2 style="align-self:flex-start;">Retention readout</h2>
+      <svg viewBox="0 0 300 170">
+        <defs>
+          <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="var(--teal)"/>
+            <stop offset="100%" stop-color="var(--coral)"/>
+          </linearGradient>
+        </defs>
+        <path d="M 40 150 A 110 110 0 0 1 260 150" fill="none" stroke="var(--track)" stroke-width="20" stroke-linecap="round"/>
+        <path id="arc" d="M 40 150 A 110 110 0 0 1 260 150" fill="none" stroke="url(#arcGrad)" stroke-width="20" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+      </svg>
+      <div class="pct" id="pctLabel">—</div>
+      <div class="pct-label">probability of churn</div>
+      <div class="badge" id="badge">—</div>
+
+      <div class="factors">
+        <div class="f-title">What's driving this</div>
+        <div id="factorList"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="card"><div class="k" id="overallChurn">—</div><div class="l">overall churn rate in training data</div></div>
+    <div class="card"><div class="k" id="rocauc">—</div><div class="l">model ROC-AUC on held-out test set</div></div>
+    <div class="card"><div class="k" id="f1">—</div><div class="l">F1 score, best of 3 models compared</div></div>
+  </div>
+
+  <div class="tierbars">
+    <h2>Churn rate by subscription tier</h2>
+    <div id="tierRows"></div>
+  </div>
+
+  <footer>All figures come from a synthetic training dataset generated for this demo. Prediction runs entirely in your browser.</footer>
+</div>
+
+<script>
+const D = {"feature_cols": ["Age", "MonthlyCharges", "TenureMonths", "SupportTickets", "SatisfactionScore", "UsageHoursPerWeek", "Gender_enc", "Sub_enc", "Pay_Bank Transfer", "Pay_Credit Card", "Pay_Debit Card", "Pay_E-Wallet", "Pay_PayPal"], "numeric_cols": ["Age", "MonthlyCharges", "TenureMonths", "SupportTickets", "SatisfactionScore", "UsageHoursPerWeek"], "coef": [-0.028922, 0.19682, -0.428564, 0.150893, -0.530882, -0.313993, -0.129267, -0.384948, -0.050083, 0.080993, 0.136709, 0.112276, 0.001813], "intercept": 0.29334077664660363, "scaler_mean": [39.351333, 42.50909, 17.206, 2.048667, 6.050333, 11.9962], "scaler_scale": [12.501916, 27.763266, 16.575229, 1.43305, 2.096775, 8.298463], "gender_classes": ["Female", "Male"], "sub_classes": ["Basic", "Premium", "Standard"], "onehot_cols": ["Pay_Bank Transfer", "Pay_Credit Card", "Pay_Debit Card", "Pay_E-Wallet", "Pay_PayPal"], "metrics": {"Logistic Regression": {"Accuracy": 0.673, "Precision": 0.667, "Recall": 0.667, "F1": 0.667, "ROC_AUC": 0.732}, "Decision Tree": {"Accuracy": 0.593, "Precision": 0.577, "Recall": 0.636, "F1": 0.605, "ROC_AUC": 0.623}, "Random Forest": {"Accuracy": 0.642, "Precision": 0.637, "Recall": 0.626, "F1": 0.631, "ROC_AUC": 0.698}}, "best_model": "Logistic Regression", "churn_rate_overall": 0.49, "churn_by_sub": {"Basic": 0.527, "Premium": 0.547, "Standard": 0.408}, "dataset_size": 3000};
+
+const FRIENDLY = {
+  Age:"Age", MonthlyCharges:"Monthly charges", TenureMonths:"Tenure", SupportTickets:"Support tickets",
+  SatisfactionScore:"Satisfaction", UsageHoursPerWeek:"Usage hours", Gender_enc:"Gender", Sub_enc:"Subscription tier",
+  "Pay_Bank Transfer":"Pays by bank transfer", "Pay_Credit Card":"Pays by credit card", "Pay_Debit Card":"Pays by debit card",
+  "Pay_E-Wallet":"Pays by e-wallet", "Pay_PayPal":"Pays by PayPal"
+};
+
+const $ = id => document.getElementById(id);
+const sigmoid = x => 1/(1+Math.exp(-x));
+
+function readInputs(){
+  return {
+    Age: +$('age').value, Gender: $('gender').value, SubscriptionType: $('sub').value,
+    MonthlyCharges: +$('charges').value, TenureMonths: +$('tenure').value, SupportTickets: +$('tickets').value,
+    PaymentMethod: $('pay').value, SatisfactionScore: +$('sat').value, UsageHoursPerWeek: +$('usage').value
+  };
+}
+
+function predict(rec){
+  const numVals = {
+    Age: rec.Age, MonthlyCharges: rec.MonthlyCharges, TenureMonths: rec.TenureMonths,
+    SupportTickets: rec.SupportTickets, SatisfactionScore: rec.SatisfactionScore, UsageHoursPerWeek: rec.UsageHoursPerWeek
+  };
+  const encoded = {};
+  D.numeric_cols.forEach((c,i)=>{ encoded[c] = (numVals[c]-D.scaler_mean[i])/D.scaler_scale[i]; });
+  encoded.Gender_enc = D.gender_classes.indexOf(rec.Gender);
+  encoded.Sub_enc = D.sub_classes.indexOf(rec.SubscriptionType);
+  D.onehot_cols.forEach(c=>{ encoded[c] = (c === "Pay_"+rec.PaymentMethod) ? 1 : 0; });
+
+  let logit = D.intercept;
+  const contributions = [];
+  D.feature_cols.forEach((c,i)=>{
+    const contrib = D.coef[i]*encoded[c];
+    logit += contrib;
+    contributions.push({name:c, contrib});
+  });
+  const prob = sigmoid(logit);
+  contributions.sort((a,b)=>Math.abs(b.contrib)-Math.abs(a.contrib));
+  return {prob, top: contributions.slice(0,4)};
+}
+
+function render(){
+  const rec = readInputs();
+  $('ageVal').textContent = rec.Age;
+  $('chgVal').textContent = '$'+rec.MonthlyCharges.toFixed(2);
+  $('tenVal').textContent = rec.TenureMonths+'mo';
+  $('tickVal').textContent = rec.SupportTickets;
+  $('satVal').textContent = rec.SatisfactionScore;
+  $('useVal').textContent = rec.UsageHoursPerWeek+'h';
+
+  const {prob, top} = predict(rec);
+  const pct = Math.round(prob*100);
+  $('arc').style.strokeDashoffset = 100-pct;
+  $('pctLabel').textContent = pct+'%';
+  const badge = $('badge');
+  if(prob >= 0.5){ badge.textContent='Likely to churn'; badge.className='badge churn'; }
+  else{ badge.textContent='Likely to stay'; badge.className='badge stay'; }
+
+  const list = $('factorList');
+  list.innerHTML = '';
+  const maxAbs = Math.max(...top.map(t=>Math.abs(t.contrib)), 0.01);
+  top.forEach(t=>{
+    const pctW = Math.abs(t.contrib)/maxAbs*50;
+    const isRisk = t.contrib > 0;
+    const row = document.createElement('div');
+    row.className = 'f-row';
+    row.innerHTML = `<span>${FRIENDLY[t.name]||t.name}</span>
+      <div class="f-track">
+        <div class="f-fill" style="left:50%; width:${isRisk?pctW:0}%; background:var(--coral);"></div>
+        <div class="f-fill" style="right:50%; width:${isRisk?0:pctW}%; background:var(--teal);"></div>
+      </div>`;
+    list.appendChild(row);
+  });
+}
+
+['age','gender','sub','charges','tenure','tickets','sat','usage','pay'].forEach(id=>{
+  $(id).addEventListener('input', render);
+  $(id).addEventListener('change', render);
+});
+
+$('dsize').textContent = D.dataset_size.toLocaleString();
+$('modelname').textContent = D.best_model;
+$('overallChurn').textContent = Math.round(D.churn_rate_overall*100)+'%';
+$('rocauc').textContent = D.metrics[D.best_model].ROC_AUC.toFixed(2);
+$('f1').textContent = D.metrics[D.best_model].F1.toFixed(2);
+
+const tierRows = $('tierRows');
+Object.entries(D.churn_by_sub).sort((a,b)=>b[1]-a[1]).forEach(([tier,rate])=>{
+  const row = document.createElement('div');
+  row.className = 'tb-row';
+  row.innerHTML = `<span>${tier}</span><div class="tb-track"><div class="tb-fill" style="width:${rate*100}%;"></div></div><span class="tb-val">${Math.round(rate*100)}%</span>`;
+  tierRows.appendChild(row);
+});
+
+render();
+</script>
+</body>
+</html>
